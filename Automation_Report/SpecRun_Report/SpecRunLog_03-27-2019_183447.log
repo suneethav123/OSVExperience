@@ -1,0 +1,80 @@
+﻿2019-03-27T18:34:57.3618511+05:30;Thread#1;Info;starting test run
+2019-03-27T18:34:57.4200383+05:30;Thread#1;Info;Discovering target: Default
+2019-03-27T18:34:57.4200383+05:30;Thread#1;Info;Discovering tests from assembly: D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#3: LoginHomeMyAccountTax - 
+#4: Verification of UI elements of Login page - TestAssembly:OneAtmosphere/Feature:LoginHomeMyAccountTax/Scenario:Verification+of+UI+elements+of+Login+page
+#5: Login and Logout verification in OneAtmos site - TestAssembly:OneAtmosphere/Feature:LoginHomeMyAccountTax/Scenario:Login+and+Logout+verification+in+OneAtmos+site
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verification of UI elements of Login page in Feature:LoginHomeMyAccountTax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (13.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verified UI elements of Login Page
+Thread#0:T:error:   'OSV Employee? Click Here' link does not exists in 'Login' page
+Thread#0:T:  Expected: True
+Thread#0:T:  But was:  False
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Cancelling because configured number of failures reached
+Thread#0:T:Hello!! I am in After Scenario ...
+Thread#0:T:An error ocurred:  'OSV Employee? Click Here' link does not exists in 'Login' page
+Thread#0:T:  Expected: True
+Thread#0:T:  But was:  False
+Thread#0:T:It was of type:AssertionException
+Thread#0:T:Hello!! I am in After Scenario End ##...
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\OutPut\Log\log_27-03-2019.log
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 26.1627436 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#-1:Scheduler: considering testitem #5 for thread -1
+Thread#-1:Scheduler: using testitem #5 for thread -1
+Thread#-1:Scheduler: Test #5 is scheduled for thread
+Thread#-1: Test #5/0 is started on thread #-1
+Thread#-1: Test #5/0 is finished on thread #-1 as Skipped within 0 seconds
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-27T18:35:24.2795733+05:30;Thread#1;Info;test run finished
+2019-03-27T18:35:24.2800744+05:30;Thread#1;Info;publishing test results
+2019-03-27T18:35:24.2966192+05:30;Thread#1;Info;test results published
+2019-03-27T18:35:24.2966192+05:30;Thread#1;Info;generating reports
+2019-03-27T18:35:24.3081508+05:30;Thread#1;Info;creating 1 report(s)
+2019-03-27T18:35:24.3081508+05:30;Thread#1;Info;generate Report ReportTemplate.cshtml
+2019-03-27T18:35:25.1452713+05:30;Thread#1;Info;reports generated
+Total: 2
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 1
+Failed: 1

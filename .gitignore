@@ -1,7 +1,4 @@
 *.suo
 
-Automation_Report/CustomReport/*
-Automation_Report/OutPut/*
-Automation_Report/SpecRun_Report/*
 OneAtmosphere\TestResults/*
 OneAtmosphere/obj/Debug/*

@@ -1,0 +1,27 @@
+﻿2019-03-27T16:46:50.1931599+05:30;Thread#1;Info;starting test run
+2019-03-27T16:46:50.2468647+05:30;Thread#1;Info;Discovering target: Default
+2019-03-27T16:46:50.2468647+05:30;Thread#1;Info;Discovering tests from assembly: D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-27T16:46:50.9580552+05:30;Thread#1;Info;test run finished
+2019-03-27T16:46:50.9585578+05:30;Thread#1;Info;publishing test results
+2019-03-27T16:46:50.9626006+05:30;Thread#1;Info;test results published
+2019-03-27T16:46:50.9626006+05:30;Thread#1;Info;generating reports
+2019-03-27T16:46:50.9756021+05:30;Thread#1;Info;creating 1 report(s)
+2019-03-27T16:46:50.9756021+05:30;Thread#1;Info;generate Report ReportTemplate.cshtml
+2019-03-27T16:46:52.9181172+05:30;Thread#1;Info;reports generated
+Total: 0
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

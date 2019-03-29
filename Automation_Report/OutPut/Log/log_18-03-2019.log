@@ -1,0 +1,177 @@
+ZENQ\rupesh.barnawal  [ INFO]  08:27:21 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  08:27:22 18-03-19   GetAutomationReportsFolder   – ==========> Automation Reports folder directory is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report
+ZENQ\rupesh.barnawal  [ INFO]  08:27:22 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  08:27:22 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  08:27:22 18-03-19   CreateReportsDirectory   – ===>Created the customer reports path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\CustomReport\Reports_On_03-18-19
+ZENQ\rupesh.barnawal  [ INFO]  08:27:22 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  08:27:22 18-03-19   CreateScreenShotsFolder   – screenshots folder path:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\OutPut\screenshots
+ZENQ\rupesh.barnawal  [ INFO]  08:27:22 18-03-19   CreateScreenShotsFolder   – ===>Directory created:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\OutPut\screenshots\screenshots_On_03-18-19
+ZENQ\rupesh.barnawal  [ INFO]  08:27:22 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  08:27:23 18-03-19   SetUpTest   – Starting Execution of Scenario:=>Login and Logout verification in OneAtmos site in Feature:LoginHomeMyAccountTax
+ZENQ\rupesh.barnawal  [ INFO]  08:27:23 18-03-19   InitChromeDriver   – Launching google chrome with new profile..
+ZENQ\rupesh.barnawal  [ INFO]  08:27:23 18-03-19   InitChromeDriver   – chrome driver initialized..
+ZENQ\rupesh.barnawal  [ INFO]  08:27:23 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  08:27:56 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  08:27:56 18-03-19   LoginIntoOneAtmos   – this is login page
+ZENQ\rupesh.barnawal  [ INFO]  08:27:56 18-03-19   EnterUserName   – type text in username field
+ZENQ\rupesh.barnawal  [ INFO]  08:27:56 18-03-19   FindElement   – Waiting for element: By.XPath: //input[@type='text'] for 30 seconds
+ZENQ\rupesh.barnawal  [ INFO]  08:27:57 18-03-19   SafeType   – Entered text testatmosuser@gmail.com in the field By.XPath: //input[@type='text']
+ZENQ\rupesh.barnawal  [ INFO]  08:27:57 18-03-19   EnterUserName   – Entered the UserName as OneAtmos username
+ZENQ\rupesh.barnawal  [ INFO]  08:27:57 18-03-19   EnterPassword   – Type password in password field
+ZENQ\rupesh.barnawal  [ INFO]  08:27:57 18-03-19   FindElement   – Waiting for element: By.XPath: //input[@type='password'] for 30 seconds
+ZENQ\rupesh.barnawal  [ INFO]  08:27:57 18-03-19   SafeType   – Entered text Second@123! in the field By.XPath: //input[@type='password']
+ZENQ\rupesh.barnawal  [ INFO]  08:27:57 18-03-19   EnterPassword   – Entered the password in password field
+ZENQ\rupesh.barnawal  [ INFO]  08:27:57 18-03-19   ClickSIGNINButton   – click on SIGN IN button
+ZENQ\rupesh.barnawal  [ INFO]  08:27:57 18-03-19   FindElement   – Waiting for element: By.XPath: //button[.='SIGN IN'] for 60 seconds
+ZENQ\rupesh.barnawal  [ INFO]  08:27:57 18-03-19   SafeNormalClick   – Clicked on element By.XPath: //button[.='SIGN IN']
+ZENQ\rupesh.barnawal  [ INFO]  08:27:57 18-03-19   ClickSIGNINButton   – clicked on SIGN IN button
+ZENQ\rupesh.barnawal  [ INFO]  08:27:57 18-03-19   WaitForPageToLoad   – Waiting until page load is complete..
+ZENQ\rupesh.barnawal  [ INFO]  08:28:01 18-03-19   ClickSIGNINButton   – Login Successful. Navigated to Home Page ..
+ZENQ\rupesh.barnawal  [ INFO]  08:28:01 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  08:28:01 18-03-19   LoginIntoOneAtmos   – Logged in to OneAtmos site.
+ZENQ\rupesh.barnawal  [ INFO]  08:28:01 18-03-19   WaitForPageToLoad   – Waiting until page load is complete..
+ZENQ\rupesh.barnawal  [ INFO]  08:28:01 18-03-19   FindElement   – Waiting for element: By.XPath: //i[@class='fa fa-chevron-down dropdownIcon'] for 10 seconds
+ZENQ\rupesh.barnawal  [ INFO]  08:28:01 18-03-19   SafeNormalClick   – Clicked on element By.XPath: //i[@class='fa fa-chevron-down dropdownIcon']
+ZENQ\rupesh.barnawal  [ INFO]  08:28:02 18-03-19   FindElement   – Waiting for element: By.XPath: //a[@title='LOGOUT'] for 5 seconds
+ZENQ\rupesh.barnawal  [ INFO]  08:28:02 18-03-19   SafeNormalClick   – Clicked on element By.XPath: //a[@title='LOGOUT']
+ZENQ\rupesh.barnawal  [ INFO]  08:28:02 18-03-19   WaitForJQueryProcessing   – Waiting ajax processing to complete..
+ZENQ\rupesh.barnawal  [ INFO]  08:28:10 18-03-19   WaitForJQueryProcessing   – Waiting stopped due to exception..unknown error: jQuery is not defined
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.10240 x86_64)
+ZENQ\rupesh.barnawal  [ INFO]  08:28:10 18-03-19   WaitForPageToLoad   – Waiting until page load is complete..
+ZENQ\rupesh.barnawal  [ INFO]  08:28:10 18-03-19   LogOut   – Logged Out ..
+ZENQ\rupesh.barnawal  [ INFO]  08:28:10 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  08:28:14 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  08:28:14 18-03-19   GetAutomationReportsFolder   – ==========> Automation Reports folder directory is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report
+ZENQ\rupesh.barnawal  [ INFO]  08:30:42 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  08:30:42 18-03-19   GetAutomationReportsFolder   – ==========> Automation Reports folder directory is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report
+ZENQ\rupesh.barnawal  [ INFO]  08:30:42 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  08:30:43 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  08:30:43 18-03-19   CreateReportsDirectory   – ===>Created the customer reports path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\CustomReport\Reports_On_03-18-19
+ZENQ\rupesh.barnawal  [ INFO]  08:30:43 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  08:30:43 18-03-19   CreateScreenShotsFolder   – screenshots folder path:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\OutPut\screenshots
+ZENQ\rupesh.barnawal  [ INFO]  08:30:43 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  08:30:43 18-03-19   SetUpTest   – Starting Execution of Scenario:=>Login and Logout verification in OneAtmos site in Feature:LoginHomeMyAccountTax
+ZENQ\rupesh.barnawal  [ INFO]  08:30:43 18-03-19   InitChromeDriver   – Launching google chrome with new profile..
+ZENQ\rupesh.barnawal  [ INFO]  08:30:43 18-03-19   InitChromeDriver   – chrome driver initialized..
+ZENQ\rupesh.barnawal  [ INFO]  08:30:43 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  08:30:57 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  08:30:57 18-03-19   LoginIntoOneAtmos   – this is login page
+ZENQ\rupesh.barnawal  [ INFO]  08:30:57 18-03-19   EnterUserName   – type text in username field
+ZENQ\rupesh.barnawal  [ INFO]  08:30:57 18-03-19   FindElement   – Waiting for element: By.XPath: //input[@type='text'] for 30 seconds
+ZENQ\rupesh.barnawal  [ INFO]  08:30:57 18-03-19   SafeType   – Entered text testatmosuser@gmail.com in the field By.XPath: //input[@type='text']
+ZENQ\rupesh.barnawal  [ INFO]  08:30:57 18-03-19   EnterUserName   – Entered the UserName as OneAtmos username
+ZENQ\rupesh.barnawal  [ INFO]  08:30:57 18-03-19   EnterPassword   – Type password in password field
+ZENQ\rupesh.barnawal  [ INFO]  08:30:57 18-03-19   FindElement   – Waiting for element: By.XPath: //input[@type='password'] for 30 seconds
+ZENQ\rupesh.barnawal  [ INFO]  08:30:58 18-03-19   SafeType   – Entered text Second@123! in the field By.XPath: //input[@type='password']
+ZENQ\rupesh.barnawal  [ INFO]  08:30:58 18-03-19   EnterPassword   – Entered the password in password field
+ZENQ\rupesh.barnawal  [ INFO]  08:30:58 18-03-19   ClickSIGNINButton   – click on SIGN IN button
+ZENQ\rupesh.barnawal  [ INFO]  08:30:58 18-03-19   FindElement   – Waiting for element: By.XPath: //button[.='SIGN IN'] for 60 seconds
+ZENQ\rupesh.barnawal  [ INFO]  08:30:58 18-03-19   SafeNormalClick   – Clicked on element By.XPath: //button[.='SIGN IN']
+ZENQ\rupesh.barnawal  [ INFO]  08:30:58 18-03-19   ClickSIGNINButton   – clicked on SIGN IN button
+ZENQ\rupesh.barnawal  [ INFO]  08:30:58 18-03-19   WaitForPageToLoad   – Waiting until page load is complete..
+ZENQ\rupesh.barnawal  [ INFO]  08:31:02 18-03-19   ClickSIGNINButton   – Login Successful. Navigated to Home Page ..
+ZENQ\rupesh.barnawal  [ INFO]  08:31:02 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  08:31:02 18-03-19   LoginIntoOneAtmos   – Logged in to OneAtmos site.
+ZENQ\rupesh.barnawal  [ INFO]  08:31:02 18-03-19   WaitForPageToLoad   – Waiting until page load is complete..
+ZENQ\rupesh.barnawal  [ INFO]  08:31:02 18-03-19   FindElement   – Waiting for element: By.XPath: //i[@class='fa fa-chevron-down dropdownIcon'] for 10 seconds
+ZENQ\rupesh.barnawal  [ INFO]  08:31:02 18-03-19   SafeNormalClick   – Clicked on element By.XPath: //i[@class='fa fa-chevron-down dropdownIcon']
+ZENQ\rupesh.barnawal  [ INFO]  08:31:03 18-03-19   FindElement   – Waiting for element: By.XPath: //a[@title='LOGOUT'] for 5 seconds
+ZENQ\rupesh.barnawal  [ INFO]  08:31:03 18-03-19   SafeNormalClick   – Clicked on element By.XPath: //a[@title='LOGOUT']
+ZENQ\rupesh.barnawal  [ INFO]  08:31:03 18-03-19   WaitForJQueryProcessing   – Waiting ajax processing to complete..
+ZENQ\rupesh.barnawal  [ INFO]  08:31:08 18-03-19   WaitForJQueryProcessing   – Waiting stopped due to exception..unknown error: jQuery is not defined
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.10240 x86_64)
+ZENQ\rupesh.barnawal  [ INFO]  08:31:08 18-03-19   WaitForPageToLoad   – Waiting until page load is complete..
+ZENQ\rupesh.barnawal  [ INFO]  08:31:08 18-03-19   LogOut   – Logged Out ..
+ZENQ\rupesh.barnawal  [ INFO]  08:31:08 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  08:31:12 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  08:31:12 18-03-19   GetAutomationReportsFolder   – ==========> Automation Reports folder directory is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report
+ZENQ\rupesh.barnawal  [ INFO]  09:06:25 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  09:06:25 18-03-19   GetAutomationReportsFolder   – ==========> Automation Reports folder directory is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report
+ZENQ\rupesh.barnawal  [ INFO]  09:06:25 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  09:06:25 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  09:06:25 18-03-19   CreateReportsDirectory   – ===>Created the customer reports path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\CustomReport\Reports_On_03-18-19
+ZENQ\rupesh.barnawal  [ INFO]  09:06:25 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  09:06:25 18-03-19   CreateScreenShotsFolder   – screenshots folder path:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\OutPut\screenshots
+ZENQ\rupesh.barnawal  [ INFO]  09:06:25 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  09:06:25 18-03-19   SetUpTest   – Starting Execution of Scenario:=>Login and Logout verification in OneAtmos site in Feature:LoginHomeMyAccountTax
+ZENQ\rupesh.barnawal  [ INFO]  09:06:25 18-03-19   InitChromeDriver   – Launching google chrome with new profile..
+ZENQ\rupesh.barnawal  [ INFO]  09:06:25 18-03-19   InitChromeDriver   – chrome driver initialized..
+ZENQ\rupesh.barnawal  [ INFO]  09:06:25 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  09:06:47 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  09:06:47 18-03-19   LoginIntoOneAtmos   – this is login page
+ZENQ\rupesh.barnawal  [ INFO]  09:06:47 18-03-19   EnterUserName   – type text in username field
+ZENQ\rupesh.barnawal  [ INFO]  09:06:47 18-03-19   FindElement   – Waiting for element: By.XPath: //input[@type='text'] for 30 seconds
+ZENQ\rupesh.barnawal  [ INFO]  09:06:48 18-03-19   SafeType   – Entered text testatmosuser@gmail.com in the field By.XPath: //input[@type='text']
+ZENQ\rupesh.barnawal  [ INFO]  09:06:48 18-03-19   EnterUserName   – Entered the UserName as OneAtmos username
+ZENQ\rupesh.barnawal  [ INFO]  09:06:48 18-03-19   EnterPassword   – Type password in password field
+ZENQ\rupesh.barnawal  [ INFO]  09:06:48 18-03-19   FindElement   – Waiting for element: By.XPath: //input[@type='password'] for 30 seconds
+ZENQ\rupesh.barnawal  [ INFO]  09:06:48 18-03-19   SafeType   – Entered text Second@123! in the field By.XPath: //input[@type='password']
+ZENQ\rupesh.barnawal  [ INFO]  09:06:48 18-03-19   EnterPassword   – Entered the password in password field
+ZENQ\rupesh.barnawal  [ INFO]  09:06:48 18-03-19   ClickSIGNINButton   – click on SIGN IN button
+ZENQ\rupesh.barnawal  [ INFO]  09:06:48 18-03-19   FindElement   – Waiting for element: By.XPath: //button[.='SIGN IN'] for 60 seconds
+ZENQ\rupesh.barnawal  [ INFO]  09:06:49 18-03-19   SafeNormalClick   – Clicked on element By.XPath: //button[.='SIGN IN']
+ZENQ\rupesh.barnawal  [ INFO]  09:06:49 18-03-19   ClickSIGNINButton   – clicked on SIGN IN button
+ZENQ\rupesh.barnawal  [ INFO]  09:06:49 18-03-19   WaitForPageToLoad   – Waiting until page load is complete..
+ZENQ\rupesh.barnawal  [ INFO]  09:06:56 18-03-19   ClickSIGNINButton   – Login Successful. Navigated to Home Page ..
+ZENQ\rupesh.barnawal  [ INFO]  09:06:56 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  09:06:56 18-03-19   LoginIntoOneAtmos   – Logged in to OneAtmos site.
+ZENQ\rupesh.barnawal  [ INFO]  09:06:56 18-03-19   WaitForPageToLoad   – Waiting until page load is complete..
+ZENQ\rupesh.barnawal  [ INFO]  09:06:57 18-03-19   FindElement   – Waiting for element: By.XPath: //i[@class='fa fa-chevron-down dropdownIcon'] for 10 seconds
+ZENQ\rupesh.barnawal  [ INFO]  09:06:58 18-03-19   SafeNormalClick   – Clicked on element By.XPath: //i[@class='fa fa-chevron-down dropdownIcon']
+ZENQ\rupesh.barnawal  [ INFO]  09:06:58 18-03-19   FindElement   – Waiting for element: By.XPath: //a[@title='LOGOUT'] for 5 seconds
+ZENQ\rupesh.barnawal  [ INFO]  09:06:59 18-03-19   SafeNormalClick   – Clicked on element By.XPath: //a[@title='LOGOUT']
+ZENQ\rupesh.barnawal  [ INFO]  09:06:59 18-03-19   WaitForJQueryProcessing   – Waiting ajax processing to complete..
+ZENQ\rupesh.barnawal  [ INFO]  09:07:09 18-03-19   WaitForJQueryProcessing   – Waiting stopped due to exception..unknown error: jQuery is not defined
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.10240 x86_64)
+ZENQ\rupesh.barnawal  [ INFO]  09:07:09 18-03-19   WaitForPageToLoad   – Waiting until page load is complete..
+ZENQ\rupesh.barnawal  [ INFO]  09:07:09 18-03-19   LogOut   – Logged Out ..
+ZENQ\rupesh.barnawal  [ INFO]  09:07:09 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  09:07:14 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  09:07:14 18-03-19   GetAutomationReportsFolder   – ==========> Automation Reports folder directory is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report
+ZENQ\rupesh.barnawal  [ INFO]  09:11:27 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  09:11:27 18-03-19   GetAutomationReportsFolder   – ==========> Automation Reports folder directory is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report
+ZENQ\rupesh.barnawal  [ INFO]  09:11:27 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  09:11:27 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  09:11:27 18-03-19   CreateReportsDirectory   – ===>Created the customer reports path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\CustomReport\Reports_On_03-18-19
+ZENQ\rupesh.barnawal  [ INFO]  09:11:27 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  09:11:27 18-03-19   CreateScreenShotsFolder   – screenshots folder path:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\OutPut\screenshots
+ZENQ\rupesh.barnawal  [ INFO]  09:11:27 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  09:11:27 18-03-19   SetUpTest   – Starting Execution of Scenario:=>Login and Logout verification in OneAtmos site in Feature:LoginHomeMyAccountTax
+ZENQ\rupesh.barnawal  [ INFO]  09:11:27 18-03-19   InitChromeDriver   – Launching google chrome with new profile..
+ZENQ\rupesh.barnawal  [ INFO]  09:11:27 18-03-19   InitChromeDriver   – chrome driver initialized..
+ZENQ\rupesh.barnawal  [ INFO]  09:11:27 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  09:11:43 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  09:11:43 18-03-19   LoginIntoOneAtmos   – this is login page
+ZENQ\rupesh.barnawal  [ INFO]  09:11:43 18-03-19   EnterUserName   – type text in username field
+ZENQ\rupesh.barnawal  [ INFO]  09:11:43 18-03-19   FindElement   – Waiting for element: By.XPath: //input[@type='text'] for 30 seconds
+ZENQ\rupesh.barnawal  [ INFO]  09:11:43 18-03-19   SafeType   – Entered text testatmosuser@gmail.com in the field By.XPath: //input[@type='text']
+ZENQ\rupesh.barnawal  [ INFO]  09:11:43 18-03-19   EnterUserName   – Entered the UserName as OneAtmos username
+ZENQ\rupesh.barnawal  [ INFO]  09:11:43 18-03-19   EnterPassword   – Type password in password field
+ZENQ\rupesh.barnawal  [ INFO]  09:11:44 18-03-19   FindElement   – Waiting for element: By.XPath: //input[@type='password'] for 30 seconds
+ZENQ\rupesh.barnawal  [ INFO]  09:11:44 18-03-19   SafeType   – Entered text Second@123! in the field By.XPath: //input[@type='password']
+ZENQ\rupesh.barnawal  [ INFO]  09:11:44 18-03-19   EnterPassword   – Entered the password in password field
+ZENQ\rupesh.barnawal  [ INFO]  09:11:44 18-03-19   ClickSIGNINButton   – click on SIGN IN button
+ZENQ\rupesh.barnawal  [ INFO]  09:11:44 18-03-19   FindElement   – Waiting for element: By.XPath: //button[.='SIGN IN'] for 60 seconds
+ZENQ\rupesh.barnawal  [ INFO]  09:11:44 18-03-19   SafeNormalClick   – Clicked on element By.XPath: //button[.='SIGN IN']
+ZENQ\rupesh.barnawal  [ INFO]  09:11:44 18-03-19   ClickSIGNINButton   – clicked on SIGN IN button
+ZENQ\rupesh.barnawal  [ INFO]  09:11:44 18-03-19   WaitForPageToLoad   – Waiting until page load is complete..
+ZENQ\rupesh.barnawal  [ INFO]  09:11:52 18-03-19   ClickSIGNINButton   – Login Successful. Navigated to Home Page ..
+ZENQ\rupesh.barnawal  [ INFO]  09:11:52 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  09:11:52 18-03-19   LoginIntoOneAtmos   – Logged in to OneAtmos site.
+ZENQ\rupesh.barnawal  [ INFO]  09:11:53 18-03-19   WaitForPageToLoad   – Waiting until page load is complete..
+ZENQ\rupesh.barnawal  [ INFO]  09:11:53 18-03-19   FindElement   – Waiting for element: By.XPath: //i[@class='fa fa-chevron-down dropdownIcon'] for 10 seconds
+ZENQ\rupesh.barnawal  [ INFO]  09:11:53 18-03-19   SafeNormalClick   – Clicked on element By.XPath: //i[@class='fa fa-chevron-down dropdownIcon']
+ZENQ\rupesh.barnawal  [ INFO]  09:11:54 18-03-19   FindElement   – Waiting for element: By.XPath: //a[@title='LOGOUT'] for 5 seconds
+ZENQ\rupesh.barnawal  [ INFO]  09:11:54 18-03-19   SafeNormalClick   – Clicked on element By.XPath: //a[@title='LOGOUT']
+ZENQ\rupesh.barnawal  [ INFO]  09:11:54 18-03-19   WaitForJQueryProcessing   – Waiting ajax processing to complete..
+ZENQ\rupesh.barnawal  [ INFO]  09:12:00 18-03-19   WaitForJQueryProcessing   – Waiting stopped due to exception..unknown error: jQuery is not defined
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.10240 x86_64)
+ZENQ\rupesh.barnawal  [ INFO]  09:12:00 18-03-19   WaitForPageToLoad   – Waiting until page load is complete..
+ZENQ\rupesh.barnawal  [ INFO]  09:12:00 18-03-19   LogOut   – Logged Out ..
+ZENQ\rupesh.barnawal  [ INFO]  09:12:00 18-03-19   .ctor   – Initializing waits..
+ZENQ\rupesh.barnawal  [ INFO]  09:12:05 18-03-19   GetProjectLocation   – path is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+ZENQ\rupesh.barnawal  [ INFO]  09:12:05 18-03-19   GetAutomationReportsFolder   – ==========> Automation Reports folder directory is:=>D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report
