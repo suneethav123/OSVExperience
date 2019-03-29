@@ -1,0 +1,220 @@
+﻿2019-03-29T11:19:56.9246437+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-03-29T11:19:56.9301549+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-29T11:19:57.3753483+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-29T11:19:57.3758508+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-03-29T11:19:57.3758508+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-03-29T11:20:08.7767386+05:30;Thread#13;Info;starting test run
+2019-03-29T11:20:08.7857641+05:30;Thread#13;Info;Discovering target: Default
+2019-03-29T11:20:08.7862682+05:30;Thread#13;Info;Discovering tests from assembly: D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#52: Tax - 
+#70: Verify 'Quarterly Balancing' screen of 'Federal Tab' - TestAssembly:OneAtmosphere/Feature:Tax/Scenario:Verify+%27Quarterly+Balancing%27+screen+of+%27Federal+Tab%27
+#76: Verify 'Quarterly Balancing' screen of 'Local Tab' - TestAssembly:OneAtmosphere/Feature:Tax/Scenario:Verify+%27Quarterly+Balancing%27+screen+of+%27Local+Tab%27
+#78: Verify Excel download icon under 'Quarterly Balancing' section for Tax service - TestAssembly:OneAtmosphere/Feature:Tax/Scenario:Verify+Excel+download+icon+under+%27Quarterly+Balancing%27+section+for+Tax+service
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #70 from normal test queue 
+Thread#0:Scheduler: considering testitem #70 for thread 0
+Thread#0:TestItem#70:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#70:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#70:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #70 for thread 0
+Thread#0:Scheduler: Test #70 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #70/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify 'Quarterly Balancing' screen of 'Federal Tab' in Feature:Tax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (8.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (6.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@123$
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (4.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on Ellipses icon under Tax section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickedOnEllipsesIconUnderTaxSection() (2.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Landed in Tax page and verified
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenLandedInTaxPageAndVerified() (0.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select any year  and quarter from the dropdowns in Quarterly Balancing section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenSelectAnyYearAndQuarterFromTheDropdownsInQuarterlyBalancingSection() (18.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Federal tab and verify results in Quarterly Balancing section
+Thread#0:T:Correct data is displayed under Quarterly Balancing section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnFederalTabAndVerifyResultsInQuarterlyBalancingSection() (4.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on any number link under Federal tab under Quarterly Balancing section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnAnyNumberLinkUnderFederalTabUnderQuarterlyBalancingSection() (5.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verified Quarterly Balancing Results screen of Federal tab
+Thread#0:T:Records are not available in Quarterly Balancing Page
+Thread#0:T:Records are not available in Quarterly Balancing Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenVerifiedQuarterlyBalancingResultsScreenOfFederalTab() (10.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.6s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #76 from normal test queue 
+Thread#0:Scheduler: considering testitem #76 for thread 0
+Thread#0:TestItem#76:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#76:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#76:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #76 for thread 0
+Thread#0:Scheduler: Test #76 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #70/0 is finished on thread #0 as Succeeded within 74.8448928 seconds
+Thread#0: Test #76/0 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify 'Quarterly Balancing' screen of 'Local Tab' in Feature:Tax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (7.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@123$
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (4.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on Ellipses icon under Tax section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickedOnEllipsesIconUnderTaxSection() (2.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Landed in Tax page and verified
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenLandedInTaxPageAndVerified() (0.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select any year  and quarter from the dropdowns in Quarterly Balancing section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenSelectAnyYearAndQuarterFromTheDropdownsInQuarterlyBalancingSection() (18.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Local tab and verify results in Quarterly Balancing section
+Thread#0:T:Correct data is displayed under Quarterly Balancing section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnLocalTabAndVerifyResultsInQuarterlyBalancingSection() (4.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on any number link under Local tab under Quarterly Balancing section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnAnyNumberLinkUnderLocalTabUnderQuarterlyBalancingSection() (5.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verified Quarterly Balancing Results screen of Local tab
+Thread#0:T:Page No is:1
+Thread#0:T:Current page number after button click is:2
+Thread#0:T:User is navigated to Next page of records in Quarterly Balancing screen of Local tab
+Thread#0:T:Page No is:2
+Thread#0:T:Current page number after button click is:1
+Thread#0:T:User is navigated to Previous page of records in Quarterly Balancing screen of Local tab
+Thread#0:T:Current page number after button click is:2
+Thread#0:T:No Of Pages: 2
+Thread#0:T:User is navigated to Last page of records in Quarterly Balancing screen of Local tab
+Thread#0:T:Current page number after button click is:1
+Thread#0:T:User is navigated to First page of records in Quarterly Balancing screen of Local tab
+Thread#0:T:Records are available in Quarterly Balancing Page
+Thread#0:T:Verified Records Per Page Dropdown with value 25 in Quarterly Balancing screen of Local tab
+Thread#0:T:Verified Records Per Page Dropdown with value 50 in Quarterly Balancing screen of Local tab
+Thread#0:T:Verified Records Per Page Dropdown with value 100 in Quarterly Balancing screen of Local tab
+Thread#0:T:Verified Records Per Page Dropdown with value 10 in Quarterly Balancing screen of Local tab
+Thread#0:T:Records are available in Quarterly Balancing Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenVerifiedQuarterlyBalancingResultsScreenOfLocalTab() (42.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.4s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #78 from normal test queue 
+Thread#0:Scheduler: considering testitem #78 for thread 0
+Thread#0:TestItem#78:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#78:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#78:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #78 for thread 0
+Thread#0:Scheduler: Test #78 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #76/0 is finished on thread #0 as Succeeded within 94.4377718 seconds
+Thread#0: Test #78/0 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify Excel download icon under 'Quarterly Balancing' section for Tax service in Feature:Tax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (5.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@123$
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (4.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Set location for downloaded 'Quarterly Balancing Detail Export' sheet
+Thread#0:T:Dtrectory C:\Users\rupesh.barnawal\Downloads\OSVDownloads created ...
+Thread#0:T:File Quarterly Balancing Detail Exportxls is deleted from Directory C:\Users\rupesh.barnawal\Downloads
+Thread#0:T:done: TreasurySteps.GivenSetLocationForDownloadedSheet("Quarterly Balanci...") (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on Ellipses icon under Tax section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickedOnEllipsesIconUnderTaxSection() (2.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Landed in Tax page and verified
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenLandedInTaxPageAndVerified() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select any year  and quarter from the dropdowns in Quarterly Balancing section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenSelectAnyYearAndQuarterFromTheDropdownsInQuarterlyBalancingSection() (18.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Excel download icon under Quarterly Balancing worklet
+Thread#0:T:Clicked on Excel download icon under Quarterly Balancing worklet
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnExcelDownloadIconUnderQuarterlyBalancingWorklet() (8.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.4s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\OutPut\Log\log_29-03-2019.log
+Thread#0: Test #78/0 is finished on thread #0 as Succeeded within 46.5055121 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-29T11:23:45.3559172+05:30;Thread#13;Info;test run finished
+2019-03-29T11:23:45.3574215+05:30;Thread#13;Info;publishing test results
+2019-03-29T11:23:45.3694537+05:30;Thread#13;Info;test results published
+2019-03-29T11:23:45.3704562+05:30;Thread#13;Info;generating reports
+2019-03-29T11:23:45.4366336+05:30;Thread#13;Info;creating 1 report(s)
+2019-03-29T11:23:45.4371347+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-03-29T11:23:47.6482402+05:30;Thread#13;Info;reports generated
+Total: 3
+Succeeded: 3
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-03-29T11:23:47.6512212+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-03-29T11:23:47.6512212+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-03-29T111957.html'
+2019-03-29T11:23:47.6853183+05:30;VSTestExecutionThread;Info;Log file: file:///D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-03-29T111957.log

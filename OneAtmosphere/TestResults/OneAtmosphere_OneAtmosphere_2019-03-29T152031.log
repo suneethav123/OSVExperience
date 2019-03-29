@@ -1,0 +1,540 @@
+﻿2019-03-29T15:20:30.8934770+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-03-29T15:20:30.8984903+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-29T15:20:31.3441865+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-29T15:20:31.3446880+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-03-29T15:20:31.3451883+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-03-29T15:20:37.6315408+05:30;Thread#13;Info;starting test run
+2019-03-29T15:20:37.6395624+05:30;Thread#13;Info;Discovering target: Default
+2019-03-29T15:20:37.6400638+05:30;Thread#13;Info;Discovering tests from assembly: D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#41: Salesforce - 
+#47: Tax Collection >> ACH Money Movement Type - Create Money transaction record in salesforce and validate in the OSVAtmosphere - TestAssembly:OneAtmosphere/Feature:Salesforce/Scenario:Tax+Collection+%3e%3e+ACH+Money+Movement+Type+-+Create+Money+transaction+record+in+salesforce+and+validate+in+the+OSVAtmosphere
+#48: DDP Collection >> ACH Money Movement Type - Create a new 'Money transaction' with 'Approved' Status for Future settlement date - TestAssembly:OneAtmosphere/Feature:Salesforce/Scenario:DDP+Collection+%3e%3e+ACH+Money+Movement+Type+-+Create+a+new+%27Money+transaction%27+with+%27Approved%27+Status+for+Future+settlement+date
+#49: Garnishment Collection >> ACH Money Movement Type - Create a new 'Money Transaction' with 'Approved' Status for Future Settlement date - TestAssembly:OneAtmosphere/Feature:Salesforce/Scenario:Garnishment+Collection+%3e%3e+ACH+Money+Movement+Type+-+Create+a+new+%27Money+Transaction%27+with+%27Approved%27+Status+for+Future+Settlement+date
+#50: DPP Refund >> ACH Money Movement Type - Create a new 'Money Transaction' with 'Approved' Status for current date - TestAssembly:OneAtmosphere/Feature:Salesforce/Scenario:DPP+Refund+%3e%3e+ACH+Money+Movement+Type+-+Create+a+new+%27Money+Transaction%27+with+%27Approved%27+Status+for+current+date
+#51: Tax Refund >> ACH Money Movement Type - Create a new 'Money Transaction' with 'Approved' Status for current date - TestAssembly:OneAtmosphere/Feature:Salesforce/Scenario:Tax+Refund+%3e%3e+ACH+Money+Movement+Type+-+Create+a+new+%27Money+Transaction%27+with+%27Approved%27+Status+for+current+date
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #47 from normal test queue 
+Thread#0:Scheduler: considering testitem #47 for thread 0
+Thread#0:TestItem#47:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#47:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#47:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #47 for thread 0
+Thread#0:Scheduler: Test #47 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #47/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Tax Collection >> ACH Money Movement Type - Create Money transaction record in salesforce and validate in the OSVAtmosphere in Feature:Salesforce
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate To SalesForce Url
+Thread#0:T:SalesForce URL: https://osv--qaprodcopy.cs24.my.salesforce.com/
+Thread#0:T:done: SalesforceOperationsSteps.ThenINavigateToSalesForceUrl() (7.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Login into Salesforce with valid credentials
+Thread#0:T:UserName: lakshmisravani.allarapu@zenq.qaprodcopy
+Thread#0:T:Password: Sravani@1826!
+Thread#0:T:done: SalesforceOperationsSteps.ThenLoginIntoSalesforceWithValidCredentials() (27.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Now click on Money Transcation Tab
+Thread#0:T:done: SalesforceOperationsSteps.ThenNowClickOnMoneyTranscationTab() (2.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on New button present in the Home page of Money Transaction
+Thread#0:T:done: SalesforceOperationsSteps.ThenClickOnNewButtonPresentInTheHomePageOfMoneyTransaction() (1.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Account details and Tenant Details in Money Transaction page
+Thread#0:T:Element Available
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAccountDetailsAndTenantDetailsInMoneyTransactionPage() (1.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Approved' status for the New Money Transation
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectStatusForTheNewMoneyTransation("Approved") (5.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Tax Collection' Transaction Type
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectTransactionType("Tax Collection") (5.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'ACH' Money Movement type
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectMoneyMovementType("ACH") (5.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Adjusted Total Dollar Ammount as '5000' and Total Dollar Amount as '5000'
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAdjustedTotalDollarAmmountAsAndTotalDollarAmountAs("5000", "5000") (1.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter '09/10/2018' as Settlement date
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAsSettlementDate("09/10/2018") (1.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Bank details Bank name as 'Bank of America', Bank ABN Num as '100235678', Bank Acc Num as '1111111111'
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterBankDetailsBankNameAsBankABNNumAsBankAccNumAs("Bank of America", "100235678", "1111111111") (2.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Wells Fargo' VRP Processing Bank
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectVRPProcessingBank("Wells Fargo") (5.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on save button
+Thread#0:T:Money Transaction ID is MNY-0004524666
+Thread#0:T:done: SalesforceOperationsSteps.ThenClickOnSaveButton() (9.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (9.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OSVAtmos site
+Thread#0:T:UserName: zenatmos1@gmail.com
+Thread#0:T:Password: Second@123!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenEnterUsernameAndPasswordAndLoginIntoOSVAtmosSite() (6.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Ellipses icon under Treasury section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnEllipsesIconUnderTreasurySection() (2.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:And Verify 'Tax Collection' record in Treasury section
+Thread#0:T:No Of Pages: 1
+Thread#0:T:No Of Records: 16
+Thread#0:T:Tax Collection record is created in OSVAtmos site
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenVerifyRecordInTreasurySection("Tax Collection") (13.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Logout from application
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenILogoutFromApplication() (3.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify the logout
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIVerifyTheLogout() (0.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Delete created transaction in Salesforce
+Thread#0:T:done: SalesforceOperationsSteps.ThenDeleteCreatedTransactionInSalesforce() (4.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Logout from Salesforce
+Thread#0:T:done: SalesforceOperationsSteps.ThenLogoutFromSalesforce() (4.5s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #48 from normal test queue 
+Thread#0:Scheduler: considering testitem #48 for thread 0
+Thread#0:TestItem#48:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#48:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#48:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #48 for thread 0
+Thread#0:Scheduler: Test #48 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #47/0 is finished on thread #0 as Succeeded within 133.0446227 seconds
+Thread#0: Test #48/0 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>DDP Collection >> ACH Money Movement Type - Create a new 'Money transaction' with 'Approved' Status for Future settlement date in Feature:Salesforce
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate To SalesForce Url
+Thread#0:T:SalesForce URL: https://osv--qaprodcopy.cs24.my.salesforce.com/
+Thread#0:T:done: SalesforceOperationsSteps.ThenINavigateToSalesForceUrl() (6.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Login into Salesforce with valid credentials
+Thread#0:T:UserName: lakshmisravani.allarapu@zenq.qaprodcopy
+Thread#0:T:Password: Sravani@1826!
+Thread#0:T:done: SalesforceOperationsSteps.ThenLoginIntoSalesforceWithValidCredentials() (28.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Now click on Money Transcation Tab
+Thread#0:T:done: SalesforceOperationsSteps.ThenNowClickOnMoneyTranscationTab() (1.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on New button present in the Home page of Money Transaction
+Thread#0:T:done: SalesforceOperationsSteps.ThenClickOnNewButtonPresentInTheHomePageOfMoneyTransaction() (1.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Account details and Tenant Details in Money Transaction page
+Thread#0:T:Element Available
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAccountDetailsAndTenantDetailsInMoneyTransactionPage() (1.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Approved' status for the New Money Transation
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectStatusForTheNewMoneyTransation("Approved") (5.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'DPP Collection' Transaction Type
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectTransactionType("DPP Collection") (0.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'ACH' Money Movement type
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectMoneyMovementType("ACH") (5.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Adjusted Total Dollar Ammount as '7000' and Total Dollar Amount as '7000'
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAdjustedTotalDollarAmmountAsAndTotalDollarAmountAs("7000", "7000") (1.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter '09/10/2018' as Settlement date
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAsSettlementDate("09/10/2018") (1.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Bank details Bank name as 'Bank of America', Bank ABN Num as '100235678', Bank Acc Num as '2222222222'
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterBankDetailsBankNameAsBankABNNumAsBankAccNumAs("Bank of America", "100235678", "2222222222") (2.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Wells Fargo' VRP Processing Bank
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectVRPProcessingBank("Wells Fargo") (5.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on save button
+Thread#0:T:Money Transaction ID is MNY-0004524667
+Thread#0:T:done: SalesforceOperationsSteps.ThenClickOnSaveButton() (9.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (6.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OSVAtmos site
+Thread#0:T:UserName: zenatmos1@gmail.com
+Thread#0:T:Password: Second@123!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenEnterUsernameAndPasswordAndLoginIntoOSVAtmosSite() (4.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Ellipses icon under Treasury section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnEllipsesIconUnderTreasurySection() (2.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:And Verify 'DPP Collection' record in Treasury section
+Thread#0:T:No Of Pages: 1
+Thread#0:T:No Of Records: 16
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenVerifyRecordInTreasurySection("DPP Collection") (12.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Logout from application
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenILogoutFromApplication() (3.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify the logout
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIVerifyTheLogout() (0.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Delete created transaction in Salesforce
+Thread#0:T:done: SalesforceOperationsSteps.ThenDeleteCreatedTransactionInSalesforce() (3.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Logout from Salesforce
+Thread#0:T:done: SalesforceOperationsSteps.ThenLogoutFromSalesforce() (4.2s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #49 from normal test queue 
+Thread#0:Scheduler: considering testitem #49 for thread 0
+Thread#0:TestItem#49:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#49:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#49:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #49 for thread 0
+Thread#0:Scheduler: Test #49 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #48/0 is finished on thread #0 as Succeeded within 116.0058847 seconds
+Thread#0: Test #49/0 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Garnishment Collection >> ACH Money Movement Type - Create a new 'Money Transaction' with 'Approved' Status for Future Settlement date in Feature:Salesforce
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate To SalesForce Url
+Thread#0:T:SalesForce URL: https://osv--qaprodcopy.cs24.my.salesforce.com/
+Thread#0:T:done: SalesforceOperationsSteps.ThenINavigateToSalesForceUrl() (6.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Login into Salesforce with valid credentials
+Thread#0:T:UserName: lakshmisravani.allarapu@zenq.qaprodcopy
+Thread#0:T:Password: Sravani@1826!
+Thread#0:T:done: SalesforceOperationsSteps.ThenLoginIntoSalesforceWithValidCredentials() (26.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Now click on Money Transcation Tab
+Thread#0:T:done: SalesforceOperationsSteps.ThenNowClickOnMoneyTranscationTab() (1.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on New button present in the Home page of Money Transaction
+Thread#0:T:done: SalesforceOperationsSteps.ThenClickOnNewButtonPresentInTheHomePageOfMoneyTransaction() (1.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Account details and Tenant Details in Money Transaction page
+Thread#0:T:Element Available
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAccountDetailsAndTenantDetailsInMoneyTransactionPage() (1.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Approved' status for the New Money Transation
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectStatusForTheNewMoneyTransation("Approved") (5.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Garnishment Collection' Transaction Type
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectTransactionType("Garnishment Colle...") (0.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'ACH' Money Movement type
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectMoneyMovementType("ACH") (5.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Adjusted Total Dollar Ammount as '7000' and Total Dollar Amount as '7000'
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAdjustedTotalDollarAmmountAsAndTotalDollarAmountAs("7000", "7000") (1.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter '09/10/2018' as Settlement date
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAsSettlementDate("09/10/2018") (1.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Bank details Bank name as 'Bank of America', Bank ABN Num as '100235678', Bank Acc Num as '3333333333'
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterBankDetailsBankNameAsBankABNNumAsBankAccNumAs("Bank of America", "100235678", "3333333333") (1.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Wells Fargo' VRP Processing Bank
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectVRPProcessingBank("Wells Fargo") (5.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on save button
+Thread#0:T:Money Transaction ID is MNY-0004524668
+Thread#0:T:done: SalesforceOperationsSteps.ThenClickOnSaveButton() (9.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (5.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OSVAtmos site
+Thread#0:T:UserName: zenatmos1@gmail.com
+Thread#0:T:Password: Second@123!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenEnterUsernameAndPasswordAndLoginIntoOSVAtmosSite() (4.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Ellipses icon under Treasury section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnEllipsesIconUnderTreasurySection() (2.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:And Verify 'Garnishment Collection' record in Treasury section
+Thread#0:T:No Of Pages: 1
+Thread#0:T:No Of Records: 16
+Thread#0:T:Garnishment Collection record is created in OSVAtmos site
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenVerifyRecordInTreasurySection("Garnishment Colle...") (13.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Logout from application
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenILogoutFromApplication() (3.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify the logout
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIVerifyTheLogout() (0.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Delete created transaction in Salesforce
+Thread#0:T:done: SalesforceOperationsSteps.ThenDeleteCreatedTransactionInSalesforce() (3.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Logout from Salesforce
+Thread#0:T:done: SalesforceOperationsSteps.ThenLogoutFromSalesforce() (4.5s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #50 from normal test queue 
+Thread#0:Scheduler: considering testitem #50 for thread 0
+Thread#0:TestItem#50:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#50:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#50:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #50 for thread 0
+Thread#0:Scheduler: Test #50 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #49/0 is finished on thread #0 as Succeeded within 114.9122736 seconds
+Thread#0: Test #50/0 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>DPP Refund >> ACH Money Movement Type - Create a new 'Money Transaction' with 'Approved' Status for current date in Feature:Salesforce
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate To SalesForce Url
+Thread#0:T:SalesForce URL: https://osv--qaprodcopy.cs24.my.salesforce.com/
+Thread#0:T:done: SalesforceOperationsSteps.ThenINavigateToSalesForceUrl() (7.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Login into Salesforce with valid credentials
+Thread#0:T:UserName: lakshmisravani.allarapu@zenq.qaprodcopy
+Thread#0:T:Password: Sravani@1826!
+Thread#0:T:done: SalesforceOperationsSteps.ThenLoginIntoSalesforceWithValidCredentials() (35.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Now click on Money Transcation Tab
+Thread#0:T:done: SalesforceOperationsSteps.ThenNowClickOnMoneyTranscationTab() (1.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on New button present in the Home page of Money Transaction
+Thread#0:T:done: SalesforceOperationsSteps.ThenClickOnNewButtonPresentInTheHomePageOfMoneyTransaction() (2.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Account details and Tenant Details in Money Transaction page
+Thread#0:T:Element Available
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAccountDetailsAndTenantDetailsInMoneyTransactionPage() (1.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Approved' status for the New Money Transation
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectStatusForTheNewMoneyTransation("Approved") (5.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'DDP Refund' Transaction Type
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectTransactionType("DDP Refund") (5.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'ACH' Money Movement type
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectMoneyMovementType("ACH") (5.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Adjusted Total Dollar Ammount as '7000' and Total Dollar Amount as '7000'
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAdjustedTotalDollarAmmountAsAndTotalDollarAmountAs("7000", "7000") (1.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Today date link for settlement date.
+Thread#0:T:done: SalesforceOperationsSteps.ThenClickOnTodayDateLinkForSettlementDate_() (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Bank details Bank name as 'Bank of America', Bank ABN Num as '100235678', Bank Acc Num as '4444444444'
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterBankDetailsBankNameAsBankABNNumAsBankAccNumAs("Bank of America", "100235678", "4444444444") (2.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Wells Fargo' VRP Processing Bank
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectVRPProcessingBank("Wells Fargo") (5.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on save button
+Thread#0:T:Money Transaction ID is MNY-0004524669
+Thread#0:T:done: SalesforceOperationsSteps.ThenClickOnSaveButton() (10.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (6.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OSVAtmos site
+Thread#0:T:UserName: zenatmos1@gmail.com
+Thread#0:T:Password: Second@123!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenEnterUsernameAndPasswordAndLoginIntoOSVAtmosSite() (6.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigates to Todays Transaction tab
+Thread#0:T:TodayTranxCount : 1
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenNavigatesToTodaysTransactionTab() (2.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:And Verify 'DDP Refund' record in Treasury section
+Thread#0:T:No Of Pages: 1
+Thread#0:T:No Of Records: 1
+Thread#0:T:DDP Refund record is created in OSVAtmos site
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenVerifyRecordInTreasurySection("DDP Refund") (12.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Logout from application
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenILogoutFromApplication() (3.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify the logout
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIVerifyTheLogout() (0.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Delete created transaction in Salesforce
+Thread#0:T:done: SalesforceOperationsSteps.ThenDeleteCreatedTransactionInSalesforce() (3.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Logout from Salesforce
+Thread#0:T:done: SalesforceOperationsSteps.ThenLogoutFromSalesforce() (4.8s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #51 from normal test queue 
+Thread#0:Scheduler: considering testitem #51 for thread 0
+Thread#0:TestItem#51:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#51:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#51:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #51 for thread 0
+Thread#0:Scheduler: Test #51 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #50/0 is finished on thread #0 as Succeeded within 136.5098909 seconds
+Thread#0: Test #51/0 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Tax Refund >> ACH Money Movement Type - Create a new 'Money Transaction' with 'Approved' Status for current date in Feature:Salesforce
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate To SalesForce Url
+Thread#0:T:SalesForce URL: https://osv--qaprodcopy.cs24.my.salesforce.com/
+Thread#0:T:done: SalesforceOperationsSteps.ThenINavigateToSalesForceUrl() (7.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Login into Salesforce with valid credentials
+Thread#0:T:UserName: lakshmisravani.allarapu@zenq.qaprodcopy
+Thread#0:T:Password: Sravani@1826!
+Thread#0:T:done: SalesforceOperationsSteps.ThenLoginIntoSalesforceWithValidCredentials() (29.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Now click on Money Transcation Tab
+Thread#0:T:done: SalesforceOperationsSteps.ThenNowClickOnMoneyTranscationTab() (2.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on New button present in the Home page of Money Transaction
+Thread#0:T:done: SalesforceOperationsSteps.ThenClickOnNewButtonPresentInTheHomePageOfMoneyTransaction() (1.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Account details and Tenant Details in Money Transaction page
+Thread#0:T:Element Available
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAccountDetailsAndTenantDetailsInMoneyTransactionPage() (1.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Approved' status for the New Money Transation
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectStatusForTheNewMoneyTransation("Approved") (5.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Tax Refund' Transaction Type
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectTransactionType("Tax Refund") (5.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'ACH' Money Movement type
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectMoneyMovementType("ACH") (5.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Adjusted Total Dollar Ammount as '7000' and Total Dollar Amount as '7000'
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterAdjustedTotalDollarAmmountAsAndTotalDollarAmountAs("7000", "7000") (1.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Today date link for settlement date.
+Thread#0:T:done: SalesforceOperationsSteps.ThenClickOnTodayDateLinkForSettlementDate_() (2.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter Bank details Bank name as 'Bank of America', Bank ABN Num as '100235678', Bank Acc Num as '5555555555'
+Thread#0:T:done: SalesforceOperationsSteps.ThenEnterBankDetailsBankNameAsBankABNNumAsBankAccNumAs("Bank of America", "100235678", "5555555555") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select 'Wells Fargo' VRP Processing Bank
+Thread#0:T:done: SalesforceOperationsSteps.ThenSelectVRPProcessingBank("Wells Fargo") (5.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on save button
+Thread#0:T:Money Transaction ID is MNY-0004524670
+Thread#0:T:done: SalesforceOperationsSteps.ThenClickOnSaveButton() (10.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (15.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OSVAtmos site
+Thread#0:T:UserName: zenatmos1@gmail.com
+Thread#0:T:Password: Second@123!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenEnterUsernameAndPasswordAndLoginIntoOSVAtmosSite() (6.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigates to Todays Transaction tab
+Thread#0:T:TodayTranxCount : 1
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenNavigatesToTodaysTransactionTab() (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:And Verify 'Tax Refund' record in Treasury section
+Thread#0:T:No Of Pages: 1
+Thread#0:T:No Of Records: 1
+Thread#0:T:Tax Refund record is created in OSVAtmos site
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenVerifyRecordInTreasurySection("Tax Refund") (10.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Logout from application
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenILogoutFromApplication() (3.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify the logout
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIVerifyTheLogout() (0.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Delete created transaction in Salesforce
+Thread#0:T:done: SalesforceOperationsSteps.ThenDeleteCreatedTransactionInSalesforce() (3.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Logout from Salesforce
+Thread#0:T:done: SalesforceOperationsSteps.ThenLogoutFromSalesforce() (6.4s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\OutPut\Log\log_29-03-2019.log
+Thread#0: Test #51/0 is finished on thread #0 as Succeeded within 138.3196994 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-29T15:31:17.2505671+05:30;Thread#13;Info;test run finished
+2019-03-29T15:31:17.2510689+05:30;Thread#13;Info;publishing test results
+2019-03-29T15:31:17.2590904+05:30;Thread#13;Info;test results published
+2019-03-29T15:31:17.2595915+05:30;Thread#13;Info;generating reports
+2019-03-29T15:31:17.2716234+05:30;Thread#13;Info;creating 1 report(s)
+2019-03-29T15:31:17.2721248+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-03-29T15:31:18.8207775+05:30;Thread#13;Info;reports generated
+Total: 5
+Succeeded: 5
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-03-29T15:31:18.8237850+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-03-29T15:31:18.8237850+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-03-29T152031.html'
+2019-03-29T15:31:18.8623886+05:30;VSTestExecutionThread;Info;Log file: file:///D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-03-29T152031.log

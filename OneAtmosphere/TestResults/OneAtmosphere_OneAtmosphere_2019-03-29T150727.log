@@ -1,0 +1,114 @@
+﻿2019-03-29T15:07:27.4932432+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-03-29T15:07:27.4987583+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-29T15:07:27.9425572+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-29T15:07:27.9425572+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-03-29T15:07:27.9425572+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-03-29T15:07:38.3110909+05:30;Thread#13;Info;starting test run
+2019-03-29T15:07:38.3171391+05:30;Thread#13;Info;Discovering target: Default
+2019-03-29T15:07:38.3176092+05:30;Thread#13;Info;Discovering tests from assembly: D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#41: Salesforce - 
+#44: Verify that assigning 'Tax Access' permission to a demo user is accessible - TestAssembly:OneAtmosphere/Feature:Salesforce/Scenario:Verify+that+assigning+%27Tax+Access%27+permission+to+a+demo+user+is+accessible
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #44 from normal test queue 
+Thread#0:Scheduler: considering testitem #44 for thread 0
+Thread#0:TestItem#44:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#44:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#44:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #44 for thread 0
+Thread#0:Scheduler: Test #44 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #44/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify that assigning 'Tax Access' permission to a demo user is accessible in Feature:Salesforce
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate To SalesForce Url
+Thread#0:T:SalesForce URL: https://osv--qaprodcopy.cs24.my.salesforce.com/
+Thread#0:T:done: SalesforceOperationsSteps.ThenINavigateToSalesForceUrl() (6.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Login into Salesforce with valid credentials
+Thread#0:T:UserName: lakshmisravani.allarapu@zenq.qaprodcopy
+Thread#0:T:Password: Sravani@1826!
+Thread#0:T:done: SalesforceOperationsSteps.ThenLoginIntoSalesforceWithValidCredentials() (28.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Remove 'Tax' permission from Demo user
+Thread#0:T:zenatmos1@gmail.com
+Thread#0:T:done: SalesforceOperationsSteps.ThenRemovePermissionFromDemoUser("Tax") (24.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (7.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OSVAtmos site
+Thread#0:T:UserName: zenatmos1@gmail.com
+Thread#0:T:Password: Second@123!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenEnterUsernameAndPasswordAndLoginIntoOSVAtmosSite() (9.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Verify Tax in OneAtmos after removing permission
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenVerifyTaxInOneAtmosAfterRemovingPermission() (7.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Assign 'Tax' permission to Demo User
+Thread#0:T:zenatmos1@gmail.com
+Thread#0:T:done: SalesforceOperationsSteps.ThenAssignPermissionToDemoUser("Tax") (18.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Logout from Salesforce
+Thread#0:T:done: SalesforceOperationsSteps.ThenLogoutFromSalesforce() (6.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Verify Tax in OneAtmos after assigning permission
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenVerifyTaxInOneAtmosAfterAssigningPermission() (6.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Logout from application
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenILogoutFromApplication() (3.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify the logout
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIVerifyTheLogout() (0.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.3s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\osvsatmosphere\OSVAtmosQAAutomation\Automation_Report\OutPut\Log\log_29-03-2019.log
+Thread#0: Test #44/0 is finished on thread #0 as Succeeded within 131.7987088 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-29T15:09:50.8868813+05:30;Thread#13;Info;test run finished
+2019-03-29T15:09:50.8933992+05:30;Thread#13;Info;publishing test results
+2019-03-29T15:09:50.9119487+05:30;Thread#13;Info;test results published
+2019-03-29T15:09:50.9134530+05:30;Thread#13;Info;generating reports
+2019-03-29T15:09:50.9264881+05:30;Thread#13;Info;creating 1 report(s)
+2019-03-29T15:09:50.9269892+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-03-29T15:09:52.3110686+05:30;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-03-29T15:09:52.3140761+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-03-29T15:09:52.3145783+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-03-29T150727.html'
+2019-03-29T15:09:52.3291200+05:30;VSTestExecutionThread;Info;Log file: file:///D:\osvsatmosphere\OSVAtmosQAAutomation\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-03-29T150727.log
