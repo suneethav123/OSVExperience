@@ -1462,23 +1462,23 @@ namespace OneAtmos.Pages.PageParts
 
         public void ClickonPieChartofPayrollCollection()
          {
-             WaitUntilElementIsDisplayed(OneAtmosHomePageLocators.Pie_PayrollCollections, 10);
-             SafeNormalClick(OneAtmosHomePageLocators.Pie_PayrollCollections, 10);
+             WaitUntilElementIsDisplayed(OneAtmosHomePageLocators.PayrollCollections, 10);
+             SafeNormalClick(OneAtmosHomePageLocators.PayrollCollections, 10);
              WaitForPageToLoad();
              waitForTime(3);
          }
         public void ClickonPieChartofTaxCollection()
         {
-            WaitUntilElementIsDisplayed(OneAtmosHomePageLocators.Pie_TaxCollections, 10);
-            SafeNormalClick(OneAtmosHomePageLocators.Pie_TaxCollections, 10);
+            WaitUntilElementIsDisplayed(OneAtmosHomePageLocators.TaxCollections, 10);
+            SafeNormalClick(OneAtmosHomePageLocators.TaxCollections, 10);
             WaitForPageToLoad();
             waitForTime(3);
         }
 
         public void ClickonPieChartofGarnCollection()
         {
-            WaitUntilElementIsDisplayed(OneAtmosHomePageLocators.Pie_GarnCollections, 10);
-            SafeNormalClick(OneAtmosHomePageLocators.Pie_GarnCollections, 10);
+            WaitUntilElementIsDisplayed(OneAtmosHomePageLocators.GarnCollections, 10);
+            SafeNormalClick(OneAtmosHomePageLocators.GarnCollections, 10);
             WaitForPageToLoad();
             waitForTime(3);
         }

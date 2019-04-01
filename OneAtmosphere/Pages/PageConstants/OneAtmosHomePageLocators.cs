@@ -22,10 +22,11 @@ namespace OneAtmos.Pages.PageConstants
         public static By Tax_Worklet = By.XPath("//div[contains(@class, 'cAtmos_Tax_HomeWorklet')]");
         public static By Treasury_Worklet = By.XPath("//div[contains(@class,'cAtmos_Treasury_HomeWorklet')]");
 
-        //Treasury sections elements
-        public static By Pie_PayrollCollections = By.XPath("//div/div[4]/div[2]//div//div[4]/div/div[1]");
-        public static By Pie_TaxCollections = By.XPath("//div[4]//div[4]/div/div[2]");
-        public static By Pie_GarnCollections = By.XPath("//div[4]//div[4]/div/div[3]");
+        //Treasury sections elements       
+        public static By GarnCollections = By.XPath("//p[text()='Garn Collections']");
+        public static By TaxCollections = By.XPath("//p[text()='Tax Collections']");
+        public static By PayrollCollections = By.XPath("//p[text()='Payroll Collections']");
+
         public static By Ellipse_Menu_Icon = By.XPath("//*[@data-aura-class='cAtmos_Treasury_HomeWorklet']/div[2]/div[@class='slds-float--right']");
         public static By FullyFunded_Link = By.XPath("//a[text()='Fully Funded']");
         public static By Today_Transaction_Link = By.CssSelector("div[class=slds-float--left] a[title$='Transactions']");
