@@ -1,0 +1,99 @@
+﻿2019-04-02T16:56:21.9517176+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-02T16:56:21.9577188+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-02T16:56:22.0897452+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-02T16:56:22.0897452+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-02T16:56:22.0897452+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-02T16:56:33.1669602+05:30;Thread#13;Info;starting test run
+2019-04-02T16:56:33.1729614+05:30;Thread#13;Info;Discovering target: Default
+2019-04-02T16:56:33.1729614+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#173: Treasury - 
+#183: Verify the 'Search Box' functionality with 'Detail Id' under 'Fully Funded' tab - TestAssembly:OneAtmosphere/Feature:Treasury/Scenario:Verify+the+%27Search+Box%27+functionality+with+%27Detail+Id%27+under+%27Fully+Funded%27+tab
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #183 from normal test queue 
+Thread#0:Scheduler: considering testitem #183 for thread 0
+Thread#0:TestItem#183:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#183:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#183:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #183 for thread 0
+Thread#0:Scheduler: Test #183 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #183/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify the 'Search Box' functionality with 'Detail Id' under 'Fully Funded' tab in Feature:Treasury
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (3.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (13.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (4.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Ellipses Menu available at Treasury section
+Thread#0:T:done: TreasurySteps.ThenClickOnEllipsesMenuAvailableAtTreasurySection() (3.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Navigate to Fully Funded Tab
+Thread#0:T:Fully Funded tab Clickedd
+Thread#0:T:done: TreasurySteps.GivenNavigateToFullyFundedTab() (3.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '07/31/2019' on Fully Funded tab
+Thread#0:T:done: TreasurySteps.ThenSelectFromDateAndToDateOnFullyFundedTab("06/29/2017", "07/31/2019") (7.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify Search Box functionality with Detail Id
+Thread#0:T:No Of Pages: 1
+Thread#0:T:No Of Records: 2
+Thread#0:T:2
+Thread#0:T:Test Settlement
+Thread#0:T:Test Settlement
+Thread#0:T:done: TreasurySteps.ThenVerifySearchBoxFunctionalityWithDetailId() (5.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.2s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\OSVAtmosphereVSTS\OSVExperience\Automation_Report\OutPut\Log\log_02-04-2019.log
+Thread#0: Test #183/0 is finished on thread #0 as Succeeded within 56.6133204 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-02T16:57:30.2993844+05:30;Thread#13;Info;test run finished
+2019-04-02T16:57:30.3003846+05:30;Thread#13;Info;publishing test results
+2019-04-02T16:57:30.3153876+05:30;Thread#13;Info;test results published
+2019-04-02T16:57:30.3153876+05:30;Thread#13;Info;generating reports
+2019-04-02T16:57:30.3293904+05:30;Thread#13;Info;creating 1 report(s)
+2019-04-02T16:57:30.3303906+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-04-02T16:57:32.9499144+05:30;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-04-02T16:57:32.9539152+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-02T16:57:32.9539152+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-02T165622.html'
+2019-04-02T16:57:32.9619168+05:30;VSTestExecutionThread;Info;Log file: file:///D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-02T165622.log

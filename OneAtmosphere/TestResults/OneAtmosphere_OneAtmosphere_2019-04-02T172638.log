@@ -1,0 +1,212 @@
+﻿2019-04-02T17:26:38.6705563+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-02T17:26:38.6745563+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-02T17:26:38.7535563+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-02T17:26:38.7545563+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-02T17:26:38.7545563+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-02T17:26:52.8295563+05:30;Thread#13;Info;starting test run
+2019-04-02T17:26:52.8355563+05:30;Thread#13;Info;Discovering target: Default
+2019-04-02T17:26:52.8355563+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#173: Treasury - 
+#185: Verify Currency checkboxes with different selections in Fully Funded tab - TestAssembly:OneAtmosphere/Feature:Treasury/Scenario:Verify+Currency+checkboxes+with+different+selections+in+Fully+Funded+tab
+#187: Verify records by selecting both 'Dates' and 'Currencies' under 'Fully Funded' tab - TestAssembly:OneAtmosphere/Feature:Treasury/Scenario:Verify+records+by+selecting+both+%27Dates%27+and+%27Currencies%27+under+%27Fully+Funded%27+tab
+#188: Verify the functionality of 'From' and 'To' calendars in 'Fully Funded' tab - TestAssembly:OneAtmosphere/Feature:Treasury/Scenario:Verify+the+functionality+of+%27From%27+and+%27To%27+calendars+in+%27Fully+Funded%27+tab
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #185 from normal test queue 
+Thread#0:Scheduler: considering testitem #185 for thread 0
+Thread#0:TestItem#185:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#185:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#185:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #185 for thread 0
+Thread#0:Scheduler: Test #185 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #185/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify Currency checkboxes with different selections in Fully Funded tab in Feature:Treasury
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (19.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (3.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Ellipses Menu available at Treasury section
+Thread#0:T:done: TreasurySteps.ThenClickOnEllipsesMenuAvailableAtTreasurySection() (2.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Navigate to Fully Funded Tab
+Thread#0:T:Fully Funded tab Clickedd
+Thread#0:T:done: TreasurySteps.GivenNavigateToFullyFundedTab() (2.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '07/31/2019' on Fully Funded tab
+Thread#0:T:done: TreasurySteps.ThenSelectFromDateAndToDateOnFullyFundedTab("06/29/2017", "07/31/2019") (7.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify all currency checkboxes with different selections
+Thread#0:T:Both USD and CAD are selected
+Thread#0:T:No Of Pages: 4
+Thread#0:T:No Of Records: 40
+Thread#0:T:Count of Both USD and CAD records:40
+Thread#0:T:Records are displayed as per selected currencies
+Thread#0:T:No Of Pages: 4
+Thread#0:T:No Of Records: 39
+Thread#0:T:Only USD records are displayed upon selecting USD checkbox in Currencies
+Thread#0:T:Count of USD Records:39
+Thread#0:T:No Of Pages: 1
+Thread#0:T:No Of Records: 1
+Thread#0:T:Only CAD records are displayed upon selecting CAD checkbox in Currencies
+Thread#0:T:Count of CAD Records:1
+Thread#0:T:done: TreasurySteps.ThenVerifyAllCurrencyCheckboxesWithDifferentSelections() (51.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.1s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #187 from normal test queue 
+Thread#0:Scheduler: considering testitem #187 for thread 0
+Thread#0:TestItem#187:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#187:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#187:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #187 for thread 0
+Thread#0:Scheduler: Test #187 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #185/0 is finished on thread #0 as Succeeded within 96.0911576 seconds
+Thread#0: Test #187/0 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify records by selecting both 'Dates' and 'Currencies' under 'Fully Funded' tab in Feature:Treasury
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (17.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (4.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Ellipses Menu available at Treasury section
+Thread#0:T:done: TreasurySteps.ThenClickOnEllipsesMenuAvailableAtTreasurySection() (2.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Navigate to Fully Funded Tab
+Thread#0:T:Fully Funded tab Clickedd
+Thread#0:T:done: TreasurySteps.GivenNavigateToFullyFundedTab() (2.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '07/31/2019' on Fully Funded tab
+Thread#0:T:done: TreasurySteps.ThenSelectFromDateAndToDateOnFullyFundedTab("06/29/2017", "07/31/2019") (7.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify Fully Funded records lies between From Date '06/29/2017' and To Date '07/31/2019'
+Thread#0:T:Records count: of 1, 1 Record(s)
+Thread#0:T:No Of Pages: 1
+Thread#0:T:No Of Records: 1
+Thread#0:T:Date: 4/1/2019 12:00:00 AM
+Thread#0:T:USD
+Thread#0:T:Date: 4/1/2019 12:00:00 AM in row: 1lies between 6/29/2017 12:00:00 AM & 7/31/2019 12:00:00 AM and correct currency type records are displayed
+Thread#0:T:done: TreasurySteps.ThenVerifyFullyFundedRecordsLiesBetweenFromDateAndToDate("06/29/2017", "07/31/2019") (10.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.2s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #188 from normal test queue 
+Thread#0:Scheduler: considering testitem #188 for thread 0
+Thread#0:TestItem#188:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#188:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#188:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #188 for thread 0
+Thread#0:Scheduler: Test #188 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #187/0 is finished on thread #0 as Succeeded within 52.0596132 seconds
+Thread#0: Test #188/0 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify the functionality of 'From' and 'To' calendars in 'Fully Funded' tab in Feature:Treasury
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/atmosphere/s/login
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (16.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (4.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Ellipses Menu available at Treasury section
+Thread#0:T:done: TreasurySteps.ThenClickOnEllipsesMenuAvailableAtTreasurySection() (2.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Navigate to Fully Funded Tab
+Thread#0:T:Fully Funded tab Clickedd
+Thread#0:T:done: TreasurySteps.GivenNavigateToFullyFundedTab() (3.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify by selecting Today link in From and To calendars
+Thread#0:T:done: TreasurySteps.ThenVerifyBySelectingTodayLinkInFromAndToCalendars() (7.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '07/31/2019' on Fully Funded tab
+Thread#0:T:done: TreasurySteps.ThenSelectFromDateAndToDateOnFullyFundedTab("06/29/2017", "07/31/2019") (6.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify Fully Funded records lies between From Date '06/29/2017' and To Date '07/31/2019'
+Thread#0:T:Records count: of 1, 1 Record(s)
+Thread#0:T:No Of Pages: 1
+Thread#0:T:No Of Records: 1
+Thread#0:T:Date: 4/1/2019 12:00:00 AM
+Thread#0:T:USD
+Thread#0:T:Date: 4/1/2019 12:00:00 AM in row: 1lies between 6/29/2017 12:00:00 AM & 7/31/2019 12:00:00 AM and correct currency type records are displayed
+Thread#0:T:done: TreasurySteps.ThenVerifyFullyFundedRecordsLiesBetweenFromDateAndToDate("06/29/2017", "07/31/2019") (10.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.1s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\OSVAtmosphereVSTS\OSVExperience\Automation_Report\OutPut\Log\log_02-04-2019.log
+Thread#0: Test #188/0 is finished on thread #0 as Succeeded within 57.6182803 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-02T17:30:19.0766344+05:30;Thread#13;Info;test run finished
+2019-04-02T17:30:19.0776347+05:30;Thread#13;Info;publishing test results
+2019-04-02T17:30:19.0906386+05:30;Thread#13;Info;test results published
+2019-04-02T17:30:19.0916389+05:30;Thread#13;Info;generating reports
+2019-04-02T17:30:19.1016419+05:30;Thread#13;Info;creating 1 report(s)
+2019-04-02T17:30:19.1016419+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-04-02T17:30:20.3020019+05:30;Thread#13;Info;reports generated
+Total: 3
+Succeeded: 3
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-04-02T17:30:20.3060031+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-02T17:30:20.3060031+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-02T172638.html'
+2019-04-02T17:30:20.3120049+05:30;VSTestExecutionThread;Info;Log file: file:///D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-02T172638.log

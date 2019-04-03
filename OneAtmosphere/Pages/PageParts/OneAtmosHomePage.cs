@@ -153,7 +153,7 @@ namespace OneAtmos.Pages.PageParts
         public void ClickOnTodaysTransactionTab()
         {
 
-            SafeNormalClick(OneAtmosTreasuryPageLocators.TT_Tab_Loc, 5);
+            SafeNormalClick(OneAtmosTreasuryPageLocators.TT_Tab_Loc, 10);
             log.Info("Navigated to Today's Tranaction tab");
             WaitForPageToLoad();
         }
@@ -161,7 +161,7 @@ namespace OneAtmos.Pages.PageParts
         //Method for clicking on Fully Funded Tab
         public void ClickOnFullyFundedTab()
         {
-            SafeNormalClick(OneAtmosTreasuryPageLocators.FF_Tab_Loc, 5);
+            JavaScriptSafeClick(OneAtmosTreasuryPageLocators.FF_Tab_Loc, 10);
             Console.WriteLine("Fully Funded tab Clickedd");
             WaitForPageToLoad();
             waitForTime(2);
