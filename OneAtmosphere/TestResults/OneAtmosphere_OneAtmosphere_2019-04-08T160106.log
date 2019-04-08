@@ -1,0 +1,97 @@
+﻿2019-04-08T16:01:06.4045348+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-08T16:01:06.4085352+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-08T16:01:06.4945438+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-08T16:01:06.4955439+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-08T16:01:06.4955439+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-08T16:01:11.5950538+05:30;Thread#13;Info;starting test run
+2019-04-08T16:01:11.6000543+05:30;Thread#13;Info;Discovering target: Default
+2019-04-08T16:01:11.6010544+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#3: LoginHomeMyAccountTax - 
+#34: Verify 'Total Amount Due' and 'Past Amount Due' values in 'Invoicing' - TestAssembly:OneAtmosphere/Feature:LoginHomeMyAccountTax/Scenario:Verify+%27Total+Amount+Due%27+and+%27Past+Amount+Due%27+values+in+%27Invoicing%27
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #34 from normal test queue 
+Thread#0:Scheduler: considering testitem #34 for thread 0
+Thread#0:TestItem#34:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#34:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#34:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #34 for thread 0
+Thread#0:Scheduler: Test #34 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #34/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify 'Total Amount Due' and 'Past Amount Due' values in 'Invoicing' in Feature:LoginHomeMyAccountTax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (11.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (3.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (16.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (1.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on My Account Link in Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIClickedOnMyAccountLinkInHomePage() (7.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:And Verify page navigation to Invoicing tab
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIVerifyPageNavigationToInvoicingTab() (1.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '09/30/2019' on Invoicing tab
+Thread#0:T:6/29/2017 12:00:00 AM
+Thread#0:T:9/30/2019 12:00:00 AM
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenSelectFromDateAndToDateOnInvoicingTab("06/29/2017", "09/30/2019") (27.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify Total Amount Due in Invoicing tab
+Thread#0:T:error: Input string was not in a correct format.
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Verify Past Due Amount in invoicing tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:An error ocurred:Input string was not in a correct format.
+Thread#0:T:It was of type:FormatException
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\OSVAtmosphereVSTS\OSVExperience\Automation_Report\OutPut\Log\log_08-04-2019.log
+Thread#0: Test #34/0 is finished on thread #0 as Failed within 78.0548047 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-08T16:02:30.0729008+05:30;Thread#13;Info;test run finished
+2019-04-08T16:02:30.0739009+05:30;Thread#13;Info;publishing test results
+2019-04-08T16:02:30.0789014+05:30;Thread#13;Info;test results published
+2019-04-08T16:02:30.0789014+05:30;Thread#13;Info;generating reports
+2019-04-08T16:02:30.0839019+05:30;Thread#13;Info;creating 1 report(s)
+2019-04-08T16:02:30.0839019+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-04-08T16:02:31.0529988+05:30;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-04-08T16:02:31.0559991+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-08T16:02:31.0559991+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-08T160106.html'
+2019-04-08T16:02:31.0629998+05:30;VSTestExecutionThread;Info;Log file: file:///D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-08T160106.log

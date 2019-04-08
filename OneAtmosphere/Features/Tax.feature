@@ -186,7 +186,7 @@ Scenario: Verify the Data under 'All tab' for 'Quarterly Balancing' section as p
 	Then Verify results of All tab in Quarterly Balancing section
 	Then Quit browser
 
-	# updated
+	# Safari
 @mytagP1Tax @yyy
 Scenario: Verify 'Quarterly Balancing' screen of 'All Tab'
 	Given Open browser 'chrome'
@@ -303,6 +303,7 @@ Scenario: Verify 'Excel Download' icon in 'Quarterly Balancing' screen Navigated
 	Then Verify 'QuarterlyBalancing_State' sheet after downloading 'Quarterly Balancing Detail Export' in Tax Page
 	Then Quit browser
 
+	# Safari
 @mytagP2Tax @yyy
 Scenario: Verify 'Local' tab in 'Quarterly Balancing' under 'Tax' section
 	Given Open browser 'chrome'
@@ -630,7 +631,7 @@ Scenario: Verify 'Daily Processing Results' details screen for 'Filings'_All tab
 	Given Landed on OneAtmos Home Page
 	Then Clicked on Ellipses icon under Tax section
 	Then Landed in Tax page and verified
-	Then Click on any number link flor Filings in All tab under Daily Processing Results section
+	Then Click on any number link for Filings in All tab under Daily Processing Results section
 	Then Verified Daily Processing Results details screen for Filings_All tab
 	Then Quit browser
 

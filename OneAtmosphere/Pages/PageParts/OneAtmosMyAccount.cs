@@ -592,7 +592,8 @@ namespace OneAtmos.Pages.PageParts
         // Method for verifying Documents Tab
         public void ClickandVerifyDocumentsTab()
         {
-            SafeNormalClick(OneAtmosMyAccountLocators.Documents_Tab, 7);
+            waitForTime(1);
+            JavaScriptSafeClick(OneAtmosMyAccountLocators.Documents_Tab, 10);
             WaitForJQueryProcessing();
             WaitForPageToLoad(5);
             log.Info("Clicked on 'Documents' tab");
@@ -977,7 +978,7 @@ namespace OneAtmos.Pages.PageParts
         //Method to enter From Date on Invoicing tab .. 
         public void EnterToDateInInvoicingTab(string toDate)
         {
-            Driver.FindElement(OneAtmosMyAccountLocators.To_Calendar_Invoicing, 5).Clear();
+            Driver.FindElement(OneAtmosMyAccountLocators.To_Calendar_Invoicing, 10).Clear();
             SafeType(OneAtmosMyAccountLocators.To_Calendar_Invoicing, toDate, false, 10);
             Driver.FindElement(By.TagName("Body")).Click();
             WaitForJQueryProcessing();
@@ -1378,6 +1379,9 @@ namespace OneAtmos.Pages.PageParts
             string Records = (recordsText.Split(',')[1]).Trim();
             Records = Records.Split(' ')[0];
             int NoOfRecords = Convert.ToInt32(Records);
+            //int NoOfRecords = Int32.Parse(Records);
+            //int NoOfRecords = int.Parse(Records);
+            //int NoOfRecord = Convert.ToInt32(string.Parse(Records));
             Console.WriteLine("No Of Records: " + NoOfRecords);
             for (int i = 1; i <= NoOfPages; i++)
             {

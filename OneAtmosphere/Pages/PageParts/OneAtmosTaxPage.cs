@@ -1732,7 +1732,7 @@ namespace OneAtmos.Pages.PageParts
        //Clicking on 'Local' tab in 'Quarterly Balancing' section
        public void VerifyLocalTab_QB()
        {
-           SafeNormalClick(OneAtmosTaxPageLocators.QB_Local_Tab, 10);
+           JavaScriptSafeClick(OneAtmosTaxPageLocators.QB_Local_Tab, 10);
            waitForTime(2);
            log.Info("Clicked on 'Local' tab in 'Quarterly Balancing' section");
            IsNavigatedtoLocalTab();
