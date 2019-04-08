@@ -81,7 +81,24 @@ namespace SeleniumAutomation.Base
                     this.Driver.Manage().Cookies.DeleteAllCookies();
 
                 }
-                else   /// execute the test using saucelabs
+                //Running on Browser Stack ....
+                else if (executionMode.Equals("remote") && _autoutilities.GetKeyValue("REMOTE", "IP").Contains("browserstack"))
+                {
+                    DesiredCapabilities capability = new DesiredCapabilities();
+                    capability.SetCapability("os", "OS X");
+                    capability.SetCapability("os_version", "Mojave");
+                    capability.SetCapability("browser", "Safari");
+                    capability.SetCapability("browser_version", "12.0");
+                    capability.SetCapability("resolution", "1920x1080");
+                    capability.SetCapability("project", "Mac_Safari12");
+                    capability.SetCapability("build", "Build_Test");
+                    capability.SetCapability("browserstack.user", "silpavajja2");
+                    capability.SetCapability("browserstack.key", "3BqtD3z8zqJn4ZEqyZy7");
+
+                    this.Driver = new RemoteWebDriver(new Uri("http://" + ip + "/wd/hub"), capability, TimeSpan.FromSeconds(300));
+                }
+                // execute the test using saucelabs
+                else if (executionMode.Equals("remote") && _autoutilities.GetKeyValue("REMOTE", "IP").Contains("saucelabs"))
                 {
                     string SAUCE_LABS_ACCOUNT_NAME = _autoutilities.GetKeyValue("REMOTE", "SAUCE_LABS_ACCOUNT_NAME");
                     string SAUCE_LABS_ACCOUNT_KEY = _autoutilities.GetKeyValue("REMOTE", "SAUCE_LABS_ACCOUNT_KEY");

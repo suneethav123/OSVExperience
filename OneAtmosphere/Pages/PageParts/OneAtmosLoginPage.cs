@@ -41,7 +41,9 @@ namespace OneAtmos.Pages.PageParts
 
             log.Info("this is login page");
             EnterUserName(Username);
+            waitForTime(1);
             EnterPassword(Password);
+            waitForTime(1);
             _oneAtmosHomePage = ClickSIGNINButton();
             log.Info("Logged in to OneAtmos site.");
             return _oneAtmosHomePage;
@@ -104,11 +106,11 @@ namespace OneAtmos.Pages.PageParts
         public OneAtmosHomePage ClickSIGNINButton()
         {
             log.Info("click on SIGN IN button");
-            SafeNormalClick(OneAtmosLoginPageLocators.SIGNIN_BTN);
+            SafeNormalClick(OneAtmosLoginPageLocators.SIGNIN_BTN, 10);
             log.Info("clicked on SIGN IN button");
-            WaitForPageToLoad(3);
+            WaitForPageToLoad(10);
 
-            if (IsElementDisplayed(OneAtmosHomePageLocators.User_Dropdown, 10))
+            if (IsElementPresent(OneAtmosHomePageLocators.User_Dropdown, 10))
             {
                 log.Info("Login Successful. Navigated to Home Page ..");
                 return new OneAtmosHomePage(Driver);

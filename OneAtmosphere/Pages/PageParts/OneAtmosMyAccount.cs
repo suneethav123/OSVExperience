@@ -968,7 +968,7 @@ namespace OneAtmos.Pages.PageParts
         public void EnterFromDateInInvoicingTab(string fromDate)
         {
             Driver.FindElement(OneAtmosMyAccountLocators.From_Calendar_Invoicing, 5).Clear();
-            SafeSendKeys(OneAtmosMyAccountLocators.From_Calendar_Invoicing, fromDate, 10);
+            SafeType(OneAtmosMyAccountLocators.From_Calendar_Invoicing, fromDate, false, 10);
             Driver.FindElement(By.TagName("Body")).Click();
             WaitForJQueryProcessing();
             WaitForPageToLoad(30);
@@ -978,7 +978,7 @@ namespace OneAtmos.Pages.PageParts
         public void EnterToDateInInvoicingTab(string toDate)
         {
             Driver.FindElement(OneAtmosMyAccountLocators.To_Calendar_Invoicing, 5).Clear();
-            SafeSendKeys(OneAtmosMyAccountLocators.To_Calendar_Invoicing, toDate, 10);
+            SafeType(OneAtmosMyAccountLocators.To_Calendar_Invoicing, toDate, false, 10);
             Driver.FindElement(By.TagName("Body")).Click();
             WaitForJQueryProcessing();
             WaitForPageToLoad(30);
