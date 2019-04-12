@@ -153,36 +153,36 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verification of UI Elements under \'Not Fully Funded\' tab, \'Today\'s Transaction\' t" +
             "ab and \'Fully Funded\' tab of Treasury page", new string[] {
-                "mytagP2P3"}, SourceLine=33)]
+                "mytagP2P3"}, SourceLine=34)]
         public virtual void VerificationOfUIElementsUnderNotFullyFundedTabTodaysTransactionTabAndFullyFundedTabOfTreasuryPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verification of UI Elements under \'Not Fully Funded\' tab, \'Today\'s Transaction\' t" +
                     "ab and \'Fully Funded\' tab of Treasury page", null, new string[] {
                         "mytagP2P3"});
-#line 34
+#line 35
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 35
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 36
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 37
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 38
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 39
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 40
- testRunner.Then("Verify UI Elements available in the Not Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 41
- testRunner.Given("Navigate to Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Verify UI Elements available in the Not Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 42
- testRunner.Then("Verify UI Elements available in the Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Navigate to Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 43
- testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Verify UI Elements available in the Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 44
- testRunner.Then("Verify UI Elements available in the Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 45
+ testRunner.Then("Verify UI Elements available in the Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 46
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -190,28 +190,28 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify page navigation to \'Dashboard\' page from \'Not Fully Funded\' by clicking on" +
             " \'Browser Back\' button", new string[] {
-                "mytagP2"}, SourceLine=47)]
+                "mytagP2"}, SourceLine=48)]
         public virtual void VerifyPageNavigationToDashboardPageFromNotFullyFundedByClickingOnBrowserBackButton()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify page navigation to \'Dashboard\' page from \'Not Fully Funded\' by clicking on" +
                     " \'Browser Back\' button", null, new string[] {
                         "mytagP2"});
-#line 48
+#line 49
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 49
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 50
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 51
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 52
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 53
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 54
-    testRunner.Then("Navigate back to Home Page using browser back", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 55
+    testRunner.Then("Navigate back to Home Page using browser back", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 56
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -219,29 +219,29 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \"First\",\"Previous\",\"Next\" &\"Past\" buttons are disabled state when \"Not Ful" +
             "ly funded\" tab has less than 10 records", new string[] {
-                "mytagP2"}, SourceLine=57)]
+                "mytagP2"}, SourceLine=58)]
         public virtual void VerifyFirstPreviousNextPastButtonsAreDisabledStateWhenNotFullyFundedTabHasLessThan10Records()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \"First\",\"Previous\",\"Next\" &\"Past\" buttons are disabled state when \"Not Ful" +
                     "ly funded\" tab has less than 10 records", null, new string[] {
                         "mytagP2"});
-#line 58
+#line 59
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 59
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 60
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 61
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 62
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 63
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 64
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 65
  testRunner.Then("Verify footer buttons in Not Fully Funded tab when there are less than 10 records" +
                     "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 65
+#line 66
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -249,117 +249,117 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verification of Today\'s Transaction count available in Home page is Matching with" +
             " Records displayed in \'Today\'s Transaction\' tab of Treasury page", new string[] {
-                "mytagP1"}, SourceLine=80)]
+                "mytagP1"}, SourceLine=82)]
         public virtual void VerificationOfTodaysTransactionCountAvailableInHomePageIsMatchingWithRecordsDisplayedInTodaysTransactionTabOfTreasuryPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verification of Today\'s Transaction count available in Home page is Matching with" +
                     " Records displayed in \'Today\'s Transaction\' tab of Treasury page", null, new string[] {
                         "mytagP1"});
-#line 81
+#line 83
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 82
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 83
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 84
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 85
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 86
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 87
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 88
  testRunner.Then("Get the count of Todays Transaction present in Home page under Treasury section a" +
                     "nd Click on Todays Transaction link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 87
+#line 89
  testRunner.Then("Verify the Number of records displayed Today\'s Transaction Tab with number of rec" +
                     "ords displayed in Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 88
+#line 90
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Fully Funded\' tab", new string[] {
-                "mytagP2"}, SourceLine=90)]
+                "mytagP2"}, SourceLine=92)]
         public virtual void VerifyFullyFundedTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Fully Funded\' tab", null, new string[] {
                         "mytagP2"});
-#line 91
+#line 93
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 92
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 93
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 94
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 95
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 96
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 97
- testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 98
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 99
+ testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 100
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Custom\' Dropdown with different values in \'Fully Funded\' tab", new string[] {
-                "mytagP1"}, SourceLine=101)]
+                "mytagP1"}, SourceLine=103)]
         public virtual void VerifyCustomDropdownWithDifferentValuesInFullyFundedTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Custom\' Dropdown with different values in \'Fully Funded\' tab", null, new string[] {
                         "mytagP1"});
-#line 102
+#line 104
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 103
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 104
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 105
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 106
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 107
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 108
- testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 109
- testRunner.Then("Verify Custom Dropdown with different values", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 110
+ testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 111
+ testRunner.Then("Verify Custom Dropdown with different values", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 112
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the \'Search Box\' functionality with \'Detail Id\' under \'Fully Funded\' tab", new string[] {
-                "mytagP1"}, SourceLine=112)]
+                "mytagP1"}, SourceLine=114)]
         public virtual void VerifyTheSearchBoxFunctionalityWithDetailIdUnderFullyFundedTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the \'Search Box\' functionality with \'Detail Id\' under \'Fully Funded\' tab", null, new string[] {
                         "mytagP1"});
-#line 113
+#line 115
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 114
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 115
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 116
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 117
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 118
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 119
- testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 120
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 121
- testRunner.Then("Verify Search Box functionality with Detail Id", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 122
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 123
+ testRunner.Then("Verify Search Box functionality with Detail Id", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 124
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -367,63 +367,63 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \"First\",\"Previous\",\"Next\" &\"Past\" buttons are Enabled state when user chan" +
             "ges page number count other than value \'1\' - Under \'Fully Funded\' tab", new string[] {
-                "mytagP1"}, SourceLine=124)]
+                "mytagP1"}, SourceLine=126)]
         public virtual void VerifyFirstPreviousNextPastButtonsAreEnabledStateWhenUserChangesPageNumberCountOtherThanValue1_UnderFullyFundedTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \"First\",\"Previous\",\"Next\" &\"Past\" buttons are Enabled state when user chan" +
                     "ges page number count other than value \'1\' - Under \'Fully Funded\' tab", null, new string[] {
                         "mytagP1"});
-#line 125
+#line 127
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 126
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 127
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 128
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 129
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 130
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 131
- testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 132
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 133
- testRunner.Then("Change Page Number count and verify state of footer buttons", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 134
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 135
+ testRunner.Then("Change Page Number count and verify state of footer buttons", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 136
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify Currency checkboxes with different selections in Fully Funded tab", new string[] {
-                "mytagP1"}, SourceLine=136)]
+                "mytagP1"}, SourceLine=138)]
         public virtual void VerifyCurrencyCheckboxesWithDifferentSelectionsInFullyFundedTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Currency checkboxes with different selections in Fully Funded tab", null, new string[] {
                         "mytagP1"});
-#line 137
+#line 139
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 138
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 139
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 140
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 141
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 142
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 143
- testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 144
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 145
- testRunner.Then("Verify all currency checkboxes with different selections", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 146
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 147
+ testRunner.Then("Verify all currency checkboxes with different selections", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 148
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -431,32 +431,32 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the correct number of records are displayed under \'Fully Funded\' tab when " +
             "user changes \"Records per page\" count value", new string[] {
-                "mytagP1"}, SourceLine=148)]
+                "mytagP1"}, SourceLine=150)]
         public virtual void VerifyTheCorrectNumberOfRecordsAreDisplayedUnderFullyFundedTabWhenUserChangesRecordsPerPageCountValue()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the correct number of records are displayed under \'Fully Funded\' tab when " +
                     "user changes \"Records per page\" count value", null, new string[] {
                         "mytagP1"});
-#line 149
+#line 151
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 150
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 151
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 152
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 153
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 154
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 155
- testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 156
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 157
- testRunner.Then("Verify the functionality of Records Per Page dropdown in Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 158
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 159
+ testRunner.Then("Verify the functionality of Records Per Page dropdown in Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 160
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -464,67 +464,67 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify records by selecting both \'Dates\' and \'Currencies\' under \'Fully Funded\' ta" +
             "b", new string[] {
-                "mytagP1"}, SourceLine=160)]
+                "mytagP1"}, SourceLine=162)]
         public virtual void VerifyRecordsBySelectingBothDatesAndCurrenciesUnderFullyFundedTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify records by selecting both \'Dates\' and \'Currencies\' under \'Fully Funded\' ta" +
                     "b", null, new string[] {
                         "mytagP1"});
-#line 161
+#line 163
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 162
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 163
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 164
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 165
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 166
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 167
- testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 168
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 169
+ testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 170
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 171
  testRunner.Then("Verify Fully Funded records lies between From Date \'06/29/2017\' and To Date \'07/3" +
                     "1/2019\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 170
+#line 172
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the functionality of \'From\' and \'To\' calendars in \'Fully Funded\' tab", new string[] {
-                "mytagP1"}, SourceLine=172)]
+                "mytagP1"}, SourceLine=174)]
         public virtual void VerifyTheFunctionalityOfFromAndToCalendarsInFullyFundedTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the functionality of \'From\' and \'To\' calendars in \'Fully Funded\' tab", null, new string[] {
                         "mytagP1"});
-#line 173
+#line 175
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 174
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 175
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 176
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 177
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 178
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 179
- testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 180
- testRunner.Then("Verify by selecting Today link in From and To calendars", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 181
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 182
+ testRunner.Then("Verify by selecting Today link in From and To calendars", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 183
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 184
  testRunner.Then("Verify Fully Funded records lies between From Date \'06/29/2017\' and To Date \'07/3" +
                     "1/2019\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 183
+#line 185
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -532,59 +532,59 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify footer buttons are Enabled state when user changes page number count other" +
             " than value \'1\' - Under \'Todays Transaction\' tab", new string[] {
-                "mytagP1"}, SourceLine=185)]
+                "mytagP1"}, SourceLine=187)]
         public virtual void VerifyFooterButtonsAreEnabledStateWhenUserChangesPageNumberCountOtherThanValue1_UnderTodaysTransactionTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify footer buttons are Enabled state when user changes page number count other" +
                     " than value \'1\' - Under \'Todays Transaction\' tab", null, new string[] {
                         "mytagP1"});
-#line 186
+#line 188
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 187
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 188
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 189
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 190
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 191
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 192
- testRunner.Given("Navigate to Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 193
- testRunner.Then("Change Page Number count and verify state of footer buttons", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 194
+ testRunner.Given("Navigate to Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 195
+ testRunner.Then("Change Page Number count and verify state of footer buttons", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 196
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the Records Per Page Dropdown functionality in Today\'s Transaction tab", new string[] {
-                "mytagP1"}, SourceLine=196)]
+                "mytagP1"}, SourceLine=198)]
         public virtual void VerifyTheRecordsPerPageDropdownFunctionalityInTodaysTransactionTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the Records Per Page Dropdown functionality in Today\'s Transaction tab", null, new string[] {
                         "mytagP1"});
-#line 197
+#line 199
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 198
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 199
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 200
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 201
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 202
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 203
- testRunner.Given("Navigate to Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 204
- testRunner.Then("Verify the functionality of Records Per Page Dropdown in Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 205
+ testRunner.Given("Navigate to Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 206
+ testRunner.Then("Verify the functionality of Records Per Page Dropdown in Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 207
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -592,31 +592,31 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \"First\",\"Previous\",\"Next\" &\"Past\" buttons are disabled state when \'Today\'s" +
             " Transactions\' tab has less than 10 records", new string[] {
-                "mytagP2"}, SourceLine=207)]
+                "mytagP2"}, SourceLine=209)]
         public virtual void VerifyFirstPreviousNextPastButtonsAreDisabledStateWhenTodaysTransactionsTabHasLessThan10Records()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \"First\",\"Previous\",\"Next\" &\"Past\" buttons are disabled state when \'Today\'s" +
                     " Transactions\' tab has less than 10 records", null, new string[] {
                         "mytagP2"});
-#line 208
+#line 210
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 209
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 210
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 211
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 212
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 213
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 214
- testRunner.Given("Navigate to Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 215
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 216
+ testRunner.Given("Navigate to Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 217
  testRunner.Then("Verify footer buttons in Todays Transactions tab when there are less than 10 reco" +
                     "rds", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 216
+#line 218
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -624,90 +624,90 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \"First\",\"Previous\",\"Next\" &\"Past\" buttons are disabled state when \'Fully F" +
             "unded\' tab has less than 10 records", new string[] {
-                "mytagP2"}, SourceLine=218)]
+                "mytagP2"}, SourceLine=220)]
         public virtual void VerifyFirstPreviousNextPastButtonsAreDisabledStateWhenFullyFundedTabHasLessThan10Records()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \"First\",\"Previous\",\"Next\" &\"Past\" buttons are disabled state when \'Fully F" +
                     "unded\' tab has less than 10 records", null, new string[] {
                         "mytagP2"});
-#line 219
+#line 221
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 220
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 221
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 222
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 223
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 224
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 225
- testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 226
- testRunner.Then("Verify by selecting Today link in From and To calendars", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 227
- testRunner.Then("Verify footer buttons in Fully Funded tab when there are less than 10 records", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Navigate to Fully Funded Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 228
+ testRunner.Then("Verify by selecting Today link in From and To calendars", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 229
+ testRunner.Then("Verify footer buttons in Fully Funded tab when there are less than 10 records", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 230
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the functionality of footer buttons in Fully Funded Page", new string[] {
-                "mytagP2"}, SourceLine=230)]
+                "mytagP2"}, SourceLine=232)]
         public virtual void VerifyTheFunctionalityOfFooterButtonsInFullyFundedPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the functionality of footer buttons in Fully Funded Page", null, new string[] {
                         "mytagP2"});
-#line 231
+#line 233
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 232
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 233
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 234
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 235
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 236
- testRunner.Then("Click on Fully Funded link in Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 237
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 238
- testRunner.Then("Verify the functionality of footer buttons in Fully Funded page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click on Fully Funded link in Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 239
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 240
+ testRunner.Then("Verify the functionality of footer buttons in Fully Funded page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 241
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the functionality of footer buttons in Today\'s Transactions Page", new string[] {
-                "mytagP2"}, SourceLine=241)]
+                "mytagP2"}, SourceLine=244)]
         public virtual void VerifyTheFunctionalityOfFooterButtonsInTodaysTransactionsPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the functionality of footer buttons in Today\'s Transactions Page", null, new string[] {
                         "mytagP2"});
-#line 242
+#line 245
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 243
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 244
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 245
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 246
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 247
- testRunner.Then("Click on Fully Funded link in Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 248
- testRunner.Given("Navigate to Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 249
- testRunner.Then("Verify the functionality of footer buttons in Todays\' Transactions Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 250
+ testRunner.Then("Click on Fully Funded link in Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 251
+ testRunner.Given("Navigate to Todays Transaction tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 252
+ testRunner.Then("Verify the functionality of footer buttons in Todays\' Transactions Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 253
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -715,30 +715,30 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify that user is able to download \"ExcelReport\" by clicking on \'Download\' Butt" +
             "on available at right corner of Treasury page", new string[] {
-                "mytagP1"}, SourceLine=252)]
+                "mytagP1"}, SourceLine=256)]
         public virtual void VerifyThatUserIsAbleToDownloadExcelReportByClickingOnDownloadButtonAvailableAtRightCornerOfTreasuryPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify that user is able to download \"ExcelReport\" by clicking on \'Download\' Butt" +
                     "on available at right corner of Treasury page", null, new string[] {
                         "mytagP1"});
-#line 253
+#line 257
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 254
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 255
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 256
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 257
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 258
- testRunner.Given("Set location for downloaded \'ExcelReport\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 259
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 260
- testRunner.Then("Click on Excel download icon under Not Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 261
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 262
+ testRunner.Given("Set location for downloaded \'ExcelReport\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 263
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 264
+ testRunner.Then("Click on Excel download icon under Not Fully Funded tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 265
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

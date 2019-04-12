@@ -30,6 +30,7 @@ Scenario: Verify footer button functionality under Not Fully Funded Tab
 	Then Verify the functionality of Footer buttons in Not Fully Funded tab
 	Then Quit browser
 
+	#Safari
 @mytagP2P3
 Scenario: Verification of UI Elements under 'Not Fully Funded' tab, 'Today's Transaction' tab and 'Fully Funded' tab of Treasury page 
 	Given Open browser 'chrome'
@@ -77,6 +78,7 @@ Scenario: Verify "First","Previous","Next" &"Past" buttons are disabled state wh
 #	Then Quit browser
 
 
+#Safari
 @mytagP1
 Scenario: Verification of Today's Transaction count available in Home page is Matching with Records displayed in 'Today's Transaction' tab of Treasury page
 	Given Open browser 'chrome'
@@ -238,6 +240,7 @@ Scenario: Verify the functionality of footer buttons in Fully Funded Page
 	Then Verify the functionality of footer buttons in Fully Funded page
 	Then Quit browser
 
+	#Safari
 @mytagP2
 Scenario: Verify the functionality of footer buttons in Today's Transactions Page
 	Given Open browser 'chrome'
@@ -249,6 +252,7 @@ Scenario: Verify the functionality of footer buttons in Today's Transactions Pag
 	Then Verify the functionality of footer buttons in Todays' Transactions Page
 	Then Quit browser
 
+	#Safari
 @mytagP1
 Scenario: Verify that user is able to download "ExcelReport" by clicking on 'Download' Button available at right corner of Treasury page
 	Given Open browser 'chrome'

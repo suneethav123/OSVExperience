@@ -153,7 +153,7 @@ namespace OneAtmos.Pages.PageParts
         public void ClickOnTodaysTransactionTab()
         {
 
-            SafeNormalClick(OneAtmosTreasuryPageLocators.TT_Tab_Loc, 10);
+            JavaScriptSafeClick(OneAtmosTreasuryPageLocators.TT_Tab_Loc, 10);
             log.Info("Navigated to Today's Tranaction tab");
             WaitForPageToLoad();
         }
@@ -679,8 +679,9 @@ namespace OneAtmos.Pages.PageParts
         //Method to enter From Date on Fully Funded tab ..
         public void EnterFromDateInFullyFundedTab(string fromDate)
         {
-            Driver.FindElement(OneAtmosTreasuryPageLocators.FF_From_Cal_TXT_Field, 5).Clear();
-            SafeSendKeys(OneAtmosTreasuryPageLocators.FF_From_Cal_TXT_Field, fromDate, 5);
+            waitForTime(5);
+            Driver.FindElement(OneAtmosTreasuryPageLocators.FF_From_Cal_TXT_Field, 10).Clear();
+            SafeType(OneAtmosTreasuryPageLocators.FF_From_Cal_TXT_Field, fromDate,false, 5);
             Driver.FindElement(By.TagName("Body")).Click();
             WaitForJQueryProcessing();
             WaitForPageToLoad(30);
@@ -690,7 +691,7 @@ namespace OneAtmos.Pages.PageParts
         public void EnterToDateInFullyFundedTab(string toDate)
         {
             Driver.FindElement(OneAtmosTreasuryPageLocators.FF_TO_Cal_TXT_Field, 5).Clear();
-            SafeSendKeys(OneAtmosTreasuryPageLocators.FF_TO_Cal_TXT_Field, toDate, 5);
+            SafeType(OneAtmosTreasuryPageLocators.FF_TO_Cal_TXT_Field, toDate, false, 5);
             Driver.FindElement(By.TagName("Body")).Click();
             WaitForJQueryProcessing();
             WaitForPageToLoad(30);
@@ -700,6 +701,7 @@ namespace OneAtmos.Pages.PageParts
         //Method for verifying 'Search Box' with Detail Id in 'Fully Funded' tab
         public void VerifySearchBoxInFullyFundedPage()
         {
+            
             bool IsFirstBtnDisplayed = IsElementDisplayed(OneAtmosTreasuryPageLocators.First_Btn_Treasury, 5);
             if (IsFirstBtnDisplayed == true)
             {
@@ -711,6 +713,8 @@ namespace OneAtmos.Pages.PageParts
                 string Pages = (recordsText.Split(',')[0]).Trim();
                 Pages = Pages.Split(' ')[1].Trim();
                 int NoOfPages = Convert.ToInt32(Pages);
+                
+                //Int32.TryParse(Pages,out NoOfPages);
                 Console.WriteLine("No Of Pages: " + NoOfPages);
                 string Records = (recordsText.Split(',')[1]).Trim();
                 Records = Records.Split(' ')[0];
@@ -837,15 +841,23 @@ namespace OneAtmos.Pages.PageParts
         }
         public void GettingRecordValues()
         {
+            int NoOfPages;
+            int NoOfRecords;
             fromTable.Clear();
             string recordsText = SafeGetText(OneAtmosTreasuryPageLocators.Records_Text_Treasury, 5);
             string Pages = (recordsText.Split(',')[0]).Trim();
-            Pages = Pages.Split(' ')[1].Trim();
-            int NoOfPages = Convert.ToInt32(Pages);
+            Console.WriteLine("Pages:" + Pages);
+            Pages = (Pages.Split(' ')[1]).Trim();
+            Int32.TryParse(Pages, out NoOfPages);
+            //int NoOfPage = integer.Parse();
+            //int NoOfPages = Int32.Parse(Pages);
+            //int NoOfPages = Convert.ToInt32(Pages);
             Console.WriteLine("No Of Pages: " + NoOfPages);
             string Records = (recordsText.Split(',')[1]).Trim();
             Records = Records.Split(' ')[0];
-            int NoOfRecords = Convert.ToInt32(Records);
+            Console.WriteLine("Records:" + Records);
+            Int32.TryParse(Records, out NoOfRecords);
+            //int NoOfRecords = Convert.ToInt32(Records);
             Console.WriteLine("No Of Records: " + NoOfRecords);
             for (i = 1; i <=NoOfPages; i++)
             {

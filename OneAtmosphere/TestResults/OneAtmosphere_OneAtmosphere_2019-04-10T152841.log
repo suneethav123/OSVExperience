@@ -1,0 +1,57 @@
+﻿2019-04-10T15:28:41.8194196+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-10T15:28:41.8234192+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-10T15:28:41.9114104+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-10T15:28:41.9114104+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-10T15:28:41.9124103+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-10T15:28:52.0153999+05:30;Thread#13;Info;starting test run
+2019-04-10T15:28:52.0213993+05:30;Thread#13;Info;Discovering target: Default
+2019-04-10T15:28:52.0213993+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#173: Treasury - 
+#185: Verify Currency checkboxes with different selections in Fully Funded tab - TestAssembly:OneAtmosphere/Feature:Treasury/Scenario:Verify+Currency+checkboxes+with+different+selections+in+Fully+Funded+tab
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #185 from normal test queue 
+Thread#0:Scheduler: considering testitem #185 for thread 0
+Thread#0:TestItem#185:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#185:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#185:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #185 for thread 0
+Thread#0:Scheduler: Test #185 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #185/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify Currency checkboxes with different selections in Fully Funded tab in Feature:Treasury
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (1.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (18.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (6.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Ellipses Menu available at Treasury section
+Thread#0:T:done: TreasurySteps.ThenClickOnEllipsesMenuAvailableAtTreasurySection() (2.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Navigate to Fully Funded Tab
+Thread#0:T:Fully Funded tab Clickedd
+Thre

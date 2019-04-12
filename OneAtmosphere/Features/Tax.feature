@@ -157,7 +157,7 @@ Scenario: Verify by selecting 'Company Setup' from 'Downloads' drop-down
 	Then Select Company Setup option from Downloads dropdown
 	Then Quit browser
 
-	
+	#Safari
 @mytagP1Tax @yyy
 Scenario: Verify by selecting 'Tax Setup' from 'Downloads' drop-down
 	Given Open browser 'chrome'
@@ -890,6 +890,7 @@ Scenario: Verify the Data under 'State' tab for 'Daily Processing Results' secti
 	Then  Verify results of Daily Processing Results worklet are loaded properly under State tab
 	Then  Quit browser
 
+	# Safari
 @mytagP1Tax @yyy
 Scenario: Verify 'Local' tab for 'Daily Processing Results' under 'Tax'
 	Given Open browser 'chrome'
@@ -1233,6 +1234,7 @@ Scenario: Verify 'State' tab for 'Quarterly End Results' under 'Tax' section
 	Then  Navigate to State tab of Quarterly End Results
 	Then  Quit browser
 
+	#Safari
 @mytagP1Tax @yyy
 Scenario: Verify the Data under 'State' tab for 'Quarterly End Results' section as per the selected values in drop-downs- 'Tax' section
 	Given Open browser 'chrome'
@@ -1246,6 +1248,7 @@ Scenario: Verify the Data under 'State' tab for 'Quarterly End Results' section 
 	Then  Verify results of Quarterly End Results worklet are loaded properly under State tab
 	Then  Quit browser
 
+	#Safari
 @mytagP1Tax @yyy
 Scenario: Verify the Data under 'All' tab for 'Quarterly End Results' section as per the selected values in drop-downs- 'Tax' section
 	Given Open browser 'chrome'

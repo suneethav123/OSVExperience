@@ -650,7 +650,7 @@ namespace OneAtmos.Pages.PageParts
        }
        public void LocalTab_DPR_Click()
        {
-           SafeNormalClick(OneAtmosTaxPageLocators.DPR_Local_Tab_Loc, 10);
+           JavaScriptSafeClick(OneAtmosTaxPageLocators.DPR_Local_Tab_Loc, 10);
            waitForTime(2);
            log.Info("Clicked on 'Local' tab in 'Daily Processing Results' section");
            waitForTime(3);
@@ -723,7 +723,7 @@ namespace OneAtmos.Pages.PageParts
            bool IsStateTabExists = IsElementDisplayed(OneAtmosTaxPageLocators.QER_State_Tab_Loc, 5);
            Assert.IsTrue(IsStateTabExists, "State Tab is not available");
 
-           SafeNormalClick(OneAtmosTaxPageLocators.QER_State_Tab_Loc, 10);
+           JavaScriptSafeClick(OneAtmosTaxPageLocators.QER_State_Tab_Loc, 10);
            waitForTime(3);
            IsNavigatedtoStateTab();
        }

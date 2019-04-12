@@ -1,0 +1,102 @@
+﻿2019-04-09T18:30:19.7951836+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-09T18:30:19.8011836+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-09T18:30:19.9041836+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-09T18:30:19.9041836+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-09T18:30:19.9041836+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-09T18:30:27.9971836+05:30;Thread#13;Info;starting test run
+2019-04-09T18:30:28.0031836+05:30;Thread#13;Info;Discovering target: Default
+2019-04-09T18:30:28.0031836+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#173: Treasury - 
+#185: Verify Currency checkboxes with different selections in Fully Funded tab - TestAssembly:OneAtmosphere/Feature:Treasury/Scenario:Verify+Currency+checkboxes+with+different+selections+in+Fully+Funded+tab
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #185 from normal test queue 
+Thread#0:Scheduler: considering testitem #185 for thread 0
+Thread#0:TestItem#185:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#185:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#185:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #185 for thread 0
+Thread#0:Scheduler: Test #185 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #185/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify Currency checkboxes with different selections in Fully Funded tab in Feature:Treasury
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (11.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (3.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (21.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (2.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Ellipses Menu available at Treasury section
+Thread#0:T:done: TreasurySteps.ThenClickOnEllipsesMenuAvailableAtTreasurySection() (9.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Navigate to Fully Funded Tab
+Thread#0:T:Fully Funded tab Clickedd
+Thread#0:T:done: TreasurySteps.GivenNavigateToFullyFundedTab() (9.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '07/31/2019' on Fully Funded tab
+Thread#0:T:done: TreasurySteps.ThenSelectFromDateAndToDateOnFullyFundedTab("06/29/2017", "07/31/2019") (24.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify all currency checkboxes with different selections
+Thread#0:T:Both USD and CAD are selected
+Thread#0:T:Pages:of  4
+Thread#0:T:Pages1:of
+Thread#0:T:No Of Pages: 0
+Thread#0:T:Records:34
+Thread#0:T:No Of Records: 34
+Thread#0:T:Count of Both USD and CAD records:0
+Thread#0:T:Records are displayed as per selected currencies
+Thread#0:T:error: 
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:An error ocurred:
+Thread#0:T:It was of type:InvalidOperationException
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\OSVAtmosphereVSTS\OSVExperience\Automation_Report\OutPut\Log\log_09-04-2019.log
+Thread#0: Test #185/0 is finished on thread #0 as Failed within 100.249 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-09T18:32:08.6771836+05:30;Thread#13;Info;test run finished
+2019-04-09T18:32:08.6791836+05:30;Thread#13;Info;publishing test results
+2019-04-09T18:32:08.6841836+05:30;Thread#13;Info;test results published
+2019-04-09T18:32:08.6841836+05:30;Thread#13;Info;generating reports
+2019-04-09T18:32:08.6891836+05:30;Thread#13;Info;creating 1 report(s)
+2019-04-09T18:32:08.6891836+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-04-09T18:32:09.7681836+05:30;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-04-09T18:32:09.7701836+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-09T18:32:09.7711836+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-09T183019.html'
+2019-04-09T18:32:09.7791836+05:30;VSTestExecutionThread;Info;Log file: file:///D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-09T183019.log

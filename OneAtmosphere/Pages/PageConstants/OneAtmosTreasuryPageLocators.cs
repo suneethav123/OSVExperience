@@ -50,9 +50,10 @@ namespace OneAtmos.Pages.PageConstants
         public static By TT_Download_Icon_Loc = By.CssSelector("div[class$=Treasury_TodaysTrans] div[class=downloadBtnClass] button");
 
         //Fully Funded tab locators
-        //public static By FF_From_Cal_TXT_Field = By.CssSelector("input[id='466:0']']");
-        public static By FF_From_Cal_TXT_Field = By.XPath("//div[@class='slds-col slds-grid slds-wrap']//div[1]//div[1]//div[1]//input[1]");
+        public static By FF_From_Cal_TXT_Field = By.XPath("(//div[@class='form-element']//input[@type='text'])[1]");
+        //public static By FF_From_Cal_TXT_Field = By.XPath("(//div[@class='form-element'])[1]");
         //public static By FF_TO_Cal_TXT_Field = By.CssSelector("input[id='140:106;a']");
+        //public static By FF_TO_Cal_TXT_Field = By.XPath("(//div[@class='form-element'])[2]");
         public static By FF_TO_Cal_TXT_Field = By.XPath("//div[contains(@class,'slds-col slds-size_3-of-3 slds-medium-size_3-of-3 slds-large-size_3-of-3')]//div[2]//div[1]//div[1]//input[1]");
         //public static By Search_By_Detail_ID = By.CssSelector("input[id='167:106;a']");
         public static By Search_By_Detail_ID = By.XPath("//input[contains(@placeholder,'Search by Detail Id')]");

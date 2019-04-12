@@ -2387,30 +2387,30 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Local\' tab for \'Daily Processing Results\' under \'Tax\'", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=893)]
+                "yyy"}, SourceLine=894)]
         public virtual void VerifyLocalTabForDailyProcessingResultsUnderTax()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Local\' tab for \'Daily Processing Results\' under \'Tax\'", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 894
+#line 895
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 895
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 896
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 897
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 898
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 899
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 900
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 901
- testRunner.Then("Click on Local tab in Daily Processing Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 902
+ testRunner.Then("Click on Local tab in Daily Processing Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 903
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2418,68 +2418,68 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the Data under \'Local\' tab for \'Daily Processing Results\' section as per t" +
             "he selected values in drop-downs- \'Tax\' section", new string[] {
-                "mytagP1Tax"}, SourceLine=905)]
+                "mytagP1Tax"}, SourceLine=906)]
         public virtual void VerifyTheDataUnderLocalTabForDailyProcessingResultsSectionAsPerTheSelectedValuesInDrop_Downs_TaxSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the Data under \'Local\' tab for \'Daily Processing Results\' section as per t" +
                     "he selected values in drop-downs- \'Tax\' section", null, new string[] {
                         "mytagP1Tax"});
-#line 906
+#line 907
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 907
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 908
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 909
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 910
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 911
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 912
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 913
- testRunner.Then("Select any Month from the dropdown in Daily Processing Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 914
- testRunner.Then("Click on Local tab in Daily Processing Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select any Month from the dropdown in Daily Processing Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 915
+ testRunner.Then("Click on Local tab in Daily Processing Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 916
  testRunner.Then("Verify results of Daily Processing Results worklet are loaded properly under loca" +
                     "l tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 916
+#line 917
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify Excel download icon under \'Daily Processing Results\' section", new string[] {
-                "mytagP1Tax"}, SourceLine=919)]
+                "mytagP1Tax"}, SourceLine=920)]
         public virtual void VerifyExcelDownloadIconUnderDailyProcessingResultsSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Excel download icon under \'Daily Processing Results\' section", null, new string[] {
                         "mytagP1Tax"});
-#line 920
+#line 921
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 921
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 922
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 923
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 924
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 925
- testRunner.Given("Set location for downloaded \'End Results Summary Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 926
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Summary Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 927
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 928
- testRunner.Then("Select any Month from the dropdown in Daily Processing Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 929
- testRunner.Then("Click on Excel download icon under Daily Processing Results worklet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select any Month from the dropdown in Daily Processing Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 930
+ testRunner.Then("Click on Excel download icon under Daily Processing Results worklet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 931
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2487,33 +2487,33 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'All\' tab for \'Quarterly End Results\' under \'Tax\' section", new string[] {
                 "mytagP2Tax",
-                "yyy"}, SourceLine=933)]
+                "yyy"}, SourceLine=934)]
         public virtual void VerifyAllTabForQuarterlyEndResultsUnderTaxSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'All\' tab for \'Quarterly End Results\' under \'Tax\' section", null, new string[] {
                         "mytagP2Tax",
                         "yyy"});
-#line 934
+#line 935
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 935
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 936
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 937
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 938
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 939
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 940
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 941
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 942
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 943
  testRunner.Then("Verify whether the All tab is selected default in Quarter End Results while navig" +
                     "ating to Tax page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 943
+#line 944
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2521,33 +2521,33 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Quarterly End Results\' details for \'Payments\'_All tab", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=945)]
+                "yyy"}, SourceLine=946)]
         public virtual void VerifyQuarterlyEndResultsDetailsForPayments_AllTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Quarterly End Results\' details for \'Payments\'_All tab", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 946
+#line 947
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 947
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 948
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 949
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 950
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 951
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 952
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 953
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 954
  testRunner.Then("Click on Scheduled link for Payments and verify user navigated to Quarterly End R" +
                     "esults details screen of Payments", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 954
- testRunner.Then("Verified Quarterly End Results details screen for Payments_All tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 955
+ testRunner.Then("Verified Quarterly End Results details screen for Payments_All tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 956
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2555,38 +2555,38 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Quarterly End Results\' details screen for \'Payme" +
             "nts\'_ All tab", new string[] {
-                "mytagP1Tax"}, SourceLine=957)]
+                "mytagP1Tax"}, SourceLine=958)]
         public virtual void VerifyExcelDownloadIconInQuarterlyEndResultsDetailsScreenForPayments_AllTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Quarterly End Results\' details screen for \'Payme" +
                     "nts\'_ All tab", null, new string[] {
                         "mytagP1Tax"});
-#line 958
+#line 959
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 959
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 960
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 961
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 962
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 963
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 964
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 965
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 966
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 967
  testRunner.Then("Click on Scheduled link for Payments and verify user navigated to Quarterly End R" +
                     "esults details screen of Payments", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 967
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 968
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 969
  testRunner.Then("Verify \'QuarterEndResults_Payments_All\' sheet after downloading \'End Results Deta" +
                     "il Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 969
+#line 970
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2594,35 +2594,35 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Quarterly End Results\' details screen for \'Filings\'_All tab", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=972)]
+                "yyy"}, SourceLine=973)]
         public virtual void VerifyQuarterlyEndResultsDetailsScreenForFilings_AllTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Quarterly End Results\' details screen for \'Filings\'_All tab", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 973
+#line 974
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 974
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 975
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 976
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 977
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 978
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 979
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 980
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 981
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 982
  testRunner.Then("Click on any number link for Filings in All tab under Quarter End Results section" +
                     "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 982
- testRunner.Then("Verify Quarter End Results screen for Filings_All tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 983
+ testRunner.Then("Verify Quarter End Results screen for Filings_All tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 984
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2630,40 +2630,40 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Quarterly End Results\' screen for \'Filings\'_All " +
             "tab", new string[] {
-                "mytagP1Tax"}, SourceLine=985)]
+                "mytagP1Tax"}, SourceLine=986)]
         public virtual void VerifyExcelDownloadIconInQuarterlyEndResultsScreenForFilings_AllTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Quarterly End Results\' screen for \'Filings\'_All " +
                     "tab", null, new string[] {
                         "mytagP1Tax"});
-#line 986
+#line 987
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 987
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 988
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 989
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 990
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 991
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 992
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 993
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 994
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 995
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 996
  testRunner.Then("Click on any number link for Filings in All tab under Quarter End Results section" +
                     "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 996
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 997
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 998
  testRunner.Then("Verify \'QuarterEndResults_Filings_All\' sheet after downloading \'End Results Detai" +
                     "l Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 998
+#line 999
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2671,35 +2671,35 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify Quarterly End Results details for \'Payments\'_Local tab", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=1000)]
+                "yyy"}, SourceLine=1001)]
         public virtual void VerifyQuarterlyEndResultsDetailsForPayments_LocalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Quarterly End Results details for \'Payments\'_Local tab", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 1001
+#line 1002
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1002
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1003
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1004
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1005
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1006
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1007
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1008
- testRunner.Then("Navigate to Local tab under Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1009
+ testRunner.Then("Navigate to Local tab under Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1010
  testRunner.Then("Click on Scheduled link for Payments under local tab and verify user navigated to" +
                     " Quarterly End Results  details screen of Payments", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1010
- testRunner.Then("Verified Quarterly End Results details screen for Payments_Local tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1011
+ testRunner.Then("Verified Quarterly End Results details screen for Payments_Local tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1012
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2707,42 +2707,42 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Quarterly End Results\' details screen for \'Payme" +
             "nts\'_ Local tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1013)]
+                "mytagP1Tax"}, SourceLine=1014)]
         public virtual void VerifyExcelDownloadIconInQuarterlyEndResultsDetailsScreenForPayments_LocalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Quarterly End Results\' details screen for \'Payme" +
                     "nts\'_ Local tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1014
+#line 1015
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1015
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1016
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1017
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1018
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1019
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1020
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1021
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1022
  testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1023
- testRunner.Then("Navigate to Local tab under Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1024
+ testRunner.Then("Navigate to Local tab under Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1025
  testRunner.Then("Click on Scheduled link for Payments under local tab and verify user navigated to" +
                     " Quarterly End Results  details screen of Payments", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1025
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1026
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1027
  testRunner.Then("Verify \'QuarterEndResults_Payments_Local\' sheet after downloading \'End Results De" +
                     "tail Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1027
+#line 1028
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2750,37 +2750,37 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify Quarterly End Results details for \'Payments\'_Federal tab", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=1029)]
+                "yyy"}, SourceLine=1030)]
         public virtual void VerifyQuarterlyEndResultsDetailsForPayments_FederalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Quarterly End Results details for \'Payments\'_Federal tab", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 1030
+#line 1031
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1031
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1032
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1033
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1034
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1035
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1036
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1037
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1038
- testRunner.Then("Navigate to Federal tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1039
+ testRunner.Then("Navigate to Federal tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1040
  testRunner.Then("Click on Scheduled link for Payments under Federal tab and verify user navigated " +
                     "to Quarterly End Results  details screen of Payments", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1040
- testRunner.Then("Verified Quarterly End Results details screen for Payments_Federal tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1041
+ testRunner.Then("Verified Quarterly End Results details screen for Payments_Federal tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1042
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2788,42 +2788,42 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Quarterly End Results\' details screen for \'Payme" +
             "nts\'_ Federal tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1043)]
+                "mytagP1Tax"}, SourceLine=1044)]
         public virtual void VerifyExcelDownloadIconInQuarterlyEndResultsDetailsScreenForPayments_FederalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Quarterly End Results\' details screen for \'Payme" +
                     "nts\'_ Federal tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1044
+#line 1045
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1045
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1046
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1047
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1048
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1049
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1050
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1051
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1052
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1053
- testRunner.Then("Navigate to Federal tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1054
+ testRunner.Then("Navigate to Federal tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1055
  testRunner.Then("Click on Scheduled link for Payments under Federal tab and verify user navigated " +
                     "to Quarterly End Results  details screen of Payments", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1055
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1056
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1057
  testRunner.Then("Verify \'QuarterEndResults_Payments_Federal\' sheet after downloading \'End Results " +
                     "Detail Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1057
+#line 1058
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2831,37 +2831,37 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify Quarterly End Results details for \'Payments\'_State tab", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=1059)]
+                "yyy"}, SourceLine=1060)]
         public virtual void VerifyQuarterlyEndResultsDetailsForPayments_StateTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Quarterly End Results details for \'Payments\'_State tab", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 1060
+#line 1061
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1061
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1062
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1063
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1064
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1065
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1066
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1067
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1068
- testRunner.Then("Navigate to State tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1069
+ testRunner.Then("Navigate to State tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1070
  testRunner.Then("Click on Scheduled link for Payments under State tab and verify user navigated to" +
                     " Quarterly End Results  details screen of Payments", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1070
- testRunner.Then("Verified Quarterly End Results details screen for Payments_State tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1071
+ testRunner.Then("Verified Quarterly End Results details screen for Payments_State tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1072
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2869,42 +2869,42 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Quarterly End Results\' details screen for \'Payme" +
             "nts\'_ State tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1073)]
+                "mytagP1Tax"}, SourceLine=1074)]
         public virtual void VerifyExcelDownloadIconInQuarterlyEndResultsDetailsScreenForPayments_StateTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Quarterly End Results\' details screen for \'Payme" +
                     "nts\'_ State tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1074
+#line 1075
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1075
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1076
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1077
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1078
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1079
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1080
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1081
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1082
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1083
- testRunner.Then("Navigate to State tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1084
+ testRunner.Then("Navigate to State tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1085
  testRunner.Then("Click on Scheduled link for Payments under State tab and verify user navigated to" +
                     " Quarterly End Results  details screen of Payments", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1085
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1086
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1087
  testRunner.Then("Verify \'QuarterEndResults_Payments_State\' sheet after downloading \'End Results De" +
                     "tail Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1087
+#line 1088
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2912,37 +2912,37 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify Quarterly End Results details for \'Filings\'_State tab", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=1089)]
+                "yyy"}, SourceLine=1090)]
         public virtual void VerifyQuarterlyEndResultsDetailsForFilings_StateTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Quarterly End Results details for \'Filings\'_State tab", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 1090
+#line 1091
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1091
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1092
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1093
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1094
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1095
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1096
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1097
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1098
- testRunner.Then("Navigate to State tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1099
+ testRunner.Then("Navigate to State tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1100
  testRunner.Then("Click on Scheduled link for Filings under State tab and verify user navigated to " +
                     "Quarterly End Results  details screen of Filings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1100
- testRunner.Then("Verified Quarterly End Results details screen for Filings_State tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1101
+ testRunner.Then("Verified Quarterly End Results details screen for Filings_State tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1102
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2950,42 +2950,42 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Quarterly End Results\' screen for \'Filings\'_Stat" +
             "e tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1103)]
+                "mytagP1Tax"}, SourceLine=1104)]
         public virtual void VerifyExcelDownloadIconInQuarterlyEndResultsScreenForFilings_StateTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Quarterly End Results\' screen for \'Filings\'_Stat" +
                     "e tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1104
+#line 1105
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1105
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1106
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1107
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1108
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1109
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1110
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1111
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1112
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1113
- testRunner.Then("Navigate to State tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1114
+ testRunner.Then("Navigate to State tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1115
  testRunner.Then("Click on Scheduled link for Filings under State tab and verify user navigated to " +
                     "Quarterly End Results  details screen of Filings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1115
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1116
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1117
  testRunner.Then("Verify \'QuarterEndResults_Filings_State\' sheet after downloading \'End Results Det" +
                     "ail Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1117
+#line 1118
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -2993,37 +2993,37 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify Quarterly End Results details for \'Filings\'_Federal tab", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=1119)]
+                "yyy"}, SourceLine=1120)]
         public virtual void VerifyQuarterlyEndResultsDetailsForFilings_FederalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Quarterly End Results details for \'Filings\'_Federal tab", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 1120
+#line 1121
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1121
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1122
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1123
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1124
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1125
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1126
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1127
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1128
- testRunner.Then("Navigate to Federal tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1129
+ testRunner.Then("Navigate to Federal tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1130
  testRunner.Then("Click on Scheduled link for Filings under State tab and verify user navigated to " +
                     "Quarterly End Results  details screen of Filings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1130
- testRunner.Then("Verified Quarterly End Results details screen for Filings_Federal tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1131
+ testRunner.Then("Verified Quarterly End Results details screen for Filings_Federal tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1132
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3031,42 +3031,42 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Quarterly End Results\' screen for \'Filings\'_Fede" +
             "ral tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1133)]
+                "mytagP1Tax"}, SourceLine=1134)]
         public virtual void VerifyExcelDownloadIconInQuarterlyEndResultsScreenForFilings_FederalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Quarterly End Results\' screen for \'Filings\'_Fede" +
                     "ral tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1134
+#line 1135
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1135
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1136
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1137
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1138
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1139
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1140
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1141
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1142
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1143
- testRunner.Then("Navigate to Federal tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1144
+ testRunner.Then("Navigate to Federal tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1145
  testRunner.Then("Click on Scheduled link for Filings under State tab and verify user navigated to " +
                     "Quarterly End Results  details screen of Filings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1145
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1146
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1147
  testRunner.Then("Verify \'QuarterEndResults_Filings_Federal\' sheet after downloading \'End Results D" +
                     "etail Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1147
+#line 1148
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3074,35 +3074,35 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify Quarterly End Results details for \'Filling\'_Local tab", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=1149)]
+                "yyy"}, SourceLine=1150)]
         public virtual void VerifyQuarterlyEndResultsDetailsForFilling_LocalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Quarterly End Results details for \'Filling\'_Local tab", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 1150
+#line 1151
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1151
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1152
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1153
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1154
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1155
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1156
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1157
- testRunner.Then("Navigate to Local tab under Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1158
+ testRunner.Then("Navigate to Local tab under Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1159
  testRunner.Then("Click on any number link for Filings in Local tab under Quarter End Results secti" +
                     "on", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1159
- testRunner.Then("Verify Quarter End Results screen for Filings_Local tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1160
+ testRunner.Then("Verify Quarter End Results screen for Filings_Local tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1161
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3110,40 +3110,40 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Quarterly End Results\' screen for \'Filings\'_Loca" +
             "l tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1163)]
+                "mytagP1Tax"}, SourceLine=1164)]
         public virtual void VerifyExcelDownloadIconInQuarterlyEndResultsScreenForFilings_LocalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Quarterly End Results\' screen for \'Filings\'_Loca" +
                     "l tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1164
+#line 1165
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1165
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1166
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1167
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1168
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1169
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1170
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1171
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1172
- testRunner.Then("Navigate to Local tab under Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1173
+ testRunner.Then("Navigate to Local tab under Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1174
  testRunner.Then("Click on any number link for Filings in Local tab under Quarter End Results secti" +
                     "on", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1174
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1175
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1176
  testRunner.Then("Verify \'QuarterEndResults_Filings_Local\' sheet after downloading \'End Results Det" +
                     "ail Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1176
+#line 1177
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3151,30 +3151,30 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Local\' tab for \'Quarterly End Results\' under \'Tax\' section", new string[] {
                 "mytagP2Tax",
-                "yyy"}, SourceLine=1178)]
+                "yyy"}, SourceLine=1179)]
         public virtual void VerifyLocalTabForQuarterlyEndResultsUnderTaxSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Local\' tab for \'Quarterly End Results\' under \'Tax\' section", null, new string[] {
                         "mytagP2Tax",
                         "yyy"});
-#line 1179
+#line 1180
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1180
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1181
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1182
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1183
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1184
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1185
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1186
- testRunner.Then("Navigate to Local tab under Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1187
+ testRunner.Then("Navigate to Local tab under Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1188
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3183,33 +3183,33 @@ this.ScenarioInitialize(scenarioInfo);
         [TechTalk.SpecRun.ScenarioAttribute("Verify the Data under \'Local\' tab for \'Quarterly End Results\' section as per the " +
             "selected values in drop-downs- \'Tax\' section", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=1189)]
+                "yyy"}, SourceLine=1190)]
         public virtual void VerifyTheDataUnderLocalTabForQuarterlyEndResultsSectionAsPerTheSelectedValuesInDrop_Downs_TaxSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the Data under \'Local\' tab for \'Quarterly End Results\' section as per the " +
                     "selected values in drop-downs- \'Tax\' section", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 1190
+#line 1191
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1191
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1192
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1193
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1194
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1195
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1196
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1197
- testRunner.Then("Navigate to Local tab under Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1198
- testRunner.Then("Verify results of Quarterly End Results worklet are loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to Local tab under Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1199
+ testRunner.Then("Verify results of Quarterly End Results worklet are loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1200
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3217,30 +3217,30 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Federal\' tab for \'Quarterly End Results\' under \'Tax\' section", new string[] {
                 "mytagP2Tax",
-                "yyy"}, SourceLine=1201)]
+                "yyy"}, SourceLine=1202)]
         public virtual void VerifyFederalTabForQuarterlyEndResultsUnderTaxSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Federal\' tab for \'Quarterly End Results\' under \'Tax\' section", null, new string[] {
                         "mytagP2Tax",
                         "yyy"});
-#line 1202
+#line 1203
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1203
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1204
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1205
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1206
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1207
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1208
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1209
- testRunner.Then("Navigate to Federal tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1210
+ testRunner.Then("Navigate to Federal tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1211
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3249,36 +3249,36 @@ this.ScenarioInitialize(scenarioInfo);
         [TechTalk.SpecRun.ScenarioAttribute("Verify the Data under \'Federal\' tab for \'Quarterly End Results\' section as per th" +
             "e selected values in drop-downs- \'Tax\' section", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=1212)]
+                "yyy"}, SourceLine=1213)]
         public virtual void VerifyTheDataUnderFederalTabForQuarterlyEndResultsSectionAsPerTheSelectedValuesInDrop_Downs_TaxSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the Data under \'Federal\' tab for \'Quarterly End Results\' section as per th" +
                     "e selected values in drop-downs- \'Tax\' section", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 1213
+#line 1214
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1214
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1215
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1216
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1217
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1218
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1219
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1220
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1221
- testRunner.Then("Navigate to Federal tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1222
+ testRunner.Then("Navigate to Federal tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1223
  testRunner.Then("Verify results of Quarterly End Results worklet are loaded properly under Federal" +
                     " tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1223
+#line 1224
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3286,30 +3286,30 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'State\' tab for \'Quarterly End Results\' under \'Tax\' section", new string[] {
                 "mytagP2Tax",
-                "yyy"}, SourceLine=1225)]
+                "yyy"}, SourceLine=1226)]
         public virtual void VerifyStateTabForQuarterlyEndResultsUnderTaxSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'State\' tab for \'Quarterly End Results\' under \'Tax\' section", null, new string[] {
                         "mytagP2Tax",
                         "yyy"});
-#line 1226
+#line 1227
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1227
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1228
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1229
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1230
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1231
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1232
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1233
- testRunner.Then("Navigate to State tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1234
+ testRunner.Then("Navigate to State tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1235
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3318,36 +3318,36 @@ this.ScenarioInitialize(scenarioInfo);
         [TechTalk.SpecRun.ScenarioAttribute("Verify the Data under \'State\' tab for \'Quarterly End Results\' section as per the " +
             "selected values in drop-downs- \'Tax\' section", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=1236)]
+                "yyy"}, SourceLine=1238)]
         public virtual void VerifyTheDataUnderStateTabForQuarterlyEndResultsSectionAsPerTheSelectedValuesInDrop_Downs_TaxSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the Data under \'State\' tab for \'Quarterly End Results\' section as per the " +
                     "selected values in drop-downs- \'Tax\' section", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 1237
+#line 1239
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1238
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1239
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1240
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1241
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1242
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1243
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1244
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1245
- testRunner.Then("Navigate to State tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1246
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1247
+ testRunner.Then("Navigate to State tab of Quarterly End Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1248
  testRunner.Then("Verify results of Quarterly End Results worklet are loaded properly under State t" +
                     "ab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1247
+#line 1249
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3356,34 +3356,34 @@ this.ScenarioInitialize(scenarioInfo);
         [TechTalk.SpecRun.ScenarioAttribute("Verify the Data under \'All\' tab for \'Quarterly End Results\' section as per the se" +
             "lected values in drop-downs- \'Tax\' section", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=1249)]
+                "yyy"}, SourceLine=1252)]
         public virtual void VerifyTheDataUnderAllTabForQuarterlyEndResultsSectionAsPerTheSelectedValuesInDrop_Downs_TaxSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the Data under \'All\' tab for \'Quarterly End Results\' section as per the se" +
                     "lected values in drop-downs- \'Tax\' section", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 1250
+#line 1253
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1251
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1252
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1253
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1254
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1255
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1256
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1257
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1258
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1259
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1260
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1261
  testRunner.Then("Verify results of Quarterly End Results worklet are loaded properly under All tab" +
                     "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1259
+#line 1262
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3391,34 +3391,34 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify Excel download icon under \'Quarterly End Results\' section", new string[] {
                 "mytagP1Tax",
-                "yyy"}, SourceLine=1262)]
+                "yyy"}, SourceLine=1265)]
         public virtual void VerifyExcelDownloadIconUnderQuarterlyEndResultsSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Excel download icon under \'Quarterly End Results\' section", null, new string[] {
                         "mytagP1Tax",
                         "yyy"});
-#line 1263
+#line 1266
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1264
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1265
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1266
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1267
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1268
- testRunner.Given("Set location for downloaded \'End Results Summary Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1269
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1270
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1271
- testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Summary Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1272
- testRunner.Then("Click on Excel download icon under Year End Results worklet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1273
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1274
+ testRunner.Then("Select year dropdown value under Quarter End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1275
+ testRunner.Then("Click on Excel download icon under Year End Results worklet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1276
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3426,134 +3426,134 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the Data under \'All\' tab for \'Year End Results\' section as per the selecte" +
             "d values in drop-downs", new string[] {
-                "mytagP1Tax"}, SourceLine=1276)]
+                "mytagP1Tax"}, SourceLine=1279)]
         public virtual void VerifyTheDataUnderAllTabForYearEndResultsSectionAsPerTheSelectedValuesInDrop_Downs()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the Data under \'All\' tab for \'Year End Results\' section as per the selecte" +
                     "d values in drop-downs", null, new string[] {
                         "mytagP1Tax"});
-#line 1277
+#line 1280
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1278
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1279
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1280
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1281
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1282
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1283
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1284
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1285
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1286
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1287
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1288
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Year End Results\' details screen for \'Filings\'_All tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1287)]
+                "mytagP1Tax"}, SourceLine=1290)]
         public virtual void VerifyYearEndResultsDetailsScreenForFilings_AllTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Year End Results\' details screen for \'Filings\'_All tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1288
+#line 1291
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1289
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1290
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1291
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1292
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1293
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1294
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1295
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1296
- testRunner.Then("Click on any number link for Filings in All tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1297
- testRunner.Then("Verify Year End Results screen for Filings_All tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1298
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1299
+ testRunner.Then("Click on any number link for Filings in All tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1300
+ testRunner.Then("Verify Year End Results screen for Filings_All tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1301
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'Filings\'_All tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1301)]
+                "mytagP1Tax"}, SourceLine=1304)]
         public virtual void VerifyExcelDownloadIconInYearEndResultsScreenForFilings_AllTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'Filings\'_All tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1302
+#line 1305
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1303
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1304
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1305
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1306
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1307
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1308
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1309
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1310
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1311
- testRunner.Then("Click on any number link for Filings in All tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1312
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1313
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1314
+ testRunner.Then("Click on any number link for Filings in All tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1315
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1316
  testRunner.Then("Verify \'YearEndResults_Filings_All\' sheet after downloading \'End Results Detail E" +
                     "xport\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1314
+#line 1317
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Year End Results\' details screen for \'Payments\'_All tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1317)]
+                "mytagP1Tax"}, SourceLine=1320)]
         public virtual void VerifyYearEndResultsDetailsScreenForPayments_AllTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Year End Results\' details screen for \'Payments\'_All tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1318
+#line 1321
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1319
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1320
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1321
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1322
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1323
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1324
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1325
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1326
- testRunner.Then("Click on any number link for Payments in All tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1327
- testRunner.Then("Verify Year End Results screen for Payments_All tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1328
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1329
+ testRunner.Then("Click on any number link for Payments in All tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1330
+ testRunner.Then("Verify Year End Results screen for Payments_All tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1331
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3561,75 +3561,75 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Year End Results\' details screen for \'Payments\'_" +
             " All tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1331)]
+                "mytagP1Tax"}, SourceLine=1334)]
         public virtual void VerifyExcelDownloadIconInYearEndResultsDetailsScreenForPayments_AllTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Year End Results\' details screen for \'Payments\'_" +
                     " All tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1332
+#line 1335
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1333
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1334
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1335
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1336
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1337
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1338
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1339
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1340
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1341
- testRunner.Then("Click on any number link for Payments in All tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1342
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1343
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1344
+ testRunner.Then("Click on any number link for Payments in All tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1345
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1346
  testRunner.Then("Verify \'YearEndResults_Payments_All\' sheet after downloading \'End Results Detail " +
                     "Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1344
+#line 1347
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Year End Results\' details screen for \'Filings\'_Federal tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1346)]
+                "mytagP1Tax"}, SourceLine=1349)]
         public virtual void VerifyYearEndResultsDetailsScreenForFilings_FederalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Year End Results\' details screen for \'Filings\'_Federal tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1347
+#line 1350
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1348
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1349
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1350
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1351
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1352
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1353
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1354
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1355
- testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1356
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1357
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1358
+ testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1359
  testRunner.Then("Click on any number link for Filings in Federal tab under Year End Results sectio" +
                     "n", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1357
+#line 1360
  testRunner.Then("Verify Year End Results screen for Filings_Federaltab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1358
+#line 1361
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3637,75 +3637,75 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'Filings\'_Federal t" +
             "ab", new string[] {
-                "mytagP1Tax"}, SourceLine=1360)]
+                "mytagP1Tax"}, SourceLine=1363)]
         public virtual void VerifyExcelDownloadIconInYearEndResultsScreenForFilings_FederalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'Filings\'_Federal t" +
                     "ab", null, new string[] {
                         "mytagP1Tax"});
-#line 1361
+#line 1364
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1362
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1363
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1364
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1365
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1366
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1367
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1368
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1369
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1370
- testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1371
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1372
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1373
+ testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1374
  testRunner.Then("Click on any number link for Filings in Federal tab under Year End Results sectio" +
                     "n", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1372
+#line 1375
  testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1373
+#line 1376
  testRunner.Then("Verify \'YearEndResults_Filings_Federal\' sheet after downloading \'End Results Deta" +
                     "il Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1374
+#line 1377
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Year End Results\' details screen for \'W2Filings\'_All tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1376)]
+                "mytagP1Tax"}, SourceLine=1379)]
         public virtual void VerifyYearEndResultsDetailsScreenForW2Filings_AllTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Year End Results\' details screen for \'W2Filings\'_All tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1377
+#line 1380
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1378
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1379
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1380
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1381
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1382
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1383
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1384
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1385
- testRunner.Then("Click on any number link for W2Filings in All tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1386
- testRunner.Then("Verify Year End Results screen for W2Filings_Alltab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1387
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1388
+ testRunner.Then("Click on any number link for W2Filings in All tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1389
+ testRunner.Then("Verify Year End Results screen for W2Filings_Alltab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1390
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3713,75 +3713,75 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'W2 Filings\'_All ta" +
             "b", new string[] {
-                "mytagP1Tax"}, SourceLine=1390)]
+                "mytagP1Tax"}, SourceLine=1393)]
         public virtual void VerifyExcelDownloadIconInYearEndResultsScreenForW2Filings_AllTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'W2 Filings\'_All ta" +
                     "b", null, new string[] {
                         "mytagP1Tax"});
-#line 1391
+#line 1394
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1392
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1393
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1394
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1395
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1396
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1397
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1398
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1399
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1400
- testRunner.Then("Click on any number link for W2Filings in All tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1401
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1402
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1403
+ testRunner.Then("Click on any number link for W2Filings in All tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1404
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1405
  testRunner.Then("Verify \'YearEndResults_W2Filings_All\' sheet after downloading \'End Results Detail" +
                     " Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1403
+#line 1406
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Year End Results\' details screen for \'Payments\'_Federal tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1405)]
+                "mytagP1Tax"}, SourceLine=1408)]
         public virtual void VerifyYearEndResultsDetailsScreenForPayments_FederalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Year End Results\' details screen for \'Payments\'_Federal tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1406
+#line 1409
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1407
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1408
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1409
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1410
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1411
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1412
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1413
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1414
- testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1415
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1416
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1417
+ testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1418
  testRunner.Then("Click on any number link for Payments in Federal tab under Year End Results secti" +
                     "on", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1416
+#line 1419
  testRunner.Then("Verify Year End Results screen for Payments_ Federaltab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1417
+#line 1420
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3789,78 +3789,78 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Year End Results\' details screen for \'Payments\'_" +
             " Federal tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1419)]
+                "mytagP1Tax"}, SourceLine=1422)]
         public virtual void VerifyExcelDownloadIconInYearEndResultsDetailsScreenForPayments_FederalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Year End Results\' details screen for \'Payments\'_" +
                     " Federal tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1420
+#line 1423
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1421
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1422
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1423
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1424
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1425
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1426
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1427
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1428
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1429
- testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1430
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1431
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1432
+ testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1433
  testRunner.Then("Click on any number link for Payments in Federal tab under Year End Results secti" +
                     "on", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1431
+#line 1434
  testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1432
+#line 1435
  testRunner.Then("Verify \'YearEndResults_Payments_Federal\' sheet after downloading \'End Results Det" +
                     "ail Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1433
+#line 1436
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Year End Results\' details screen for \'W2 Filings_Federal tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1435)]
+                "mytagP1Tax"}, SourceLine=1438)]
         public virtual void VerifyYearEndResultsDetailsScreenForW2Filings_FederalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Year End Results\' details screen for \'W2 Filings_Federal tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1436
+#line 1439
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1437
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1438
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1439
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1440
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1441
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1442
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1443
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1444
- testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1445
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1446
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1447
+ testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1448
  testRunner.Then("Click on any number link for W2Filings in Federal tab under Year End Results sect" +
                     "ion", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1446
+#line 1449
  testRunner.Then("Verify Year End Results screen for W2Filings_ Federaltab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1447
+#line 1450
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3868,42 +3868,42 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'W2 Filings\'_Federa" +
             "l tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1449)]
+                "mytagP1Tax"}, SourceLine=1452)]
         public virtual void VerifyExcelDownloadIconInYearEndResultsScreenForW2Filings_FederalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'W2 Filings\'_Federa" +
                     "l tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1450
+#line 1453
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1451
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1452
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1453
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1454
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1455
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1456
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1457
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1458
- testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1459
- testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1460
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1461
+ testRunner.Then("Select any year from the dropdown and verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1462
+ testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1463
  testRunner.Then("Click on any number link for W2Filings in Federal tab under Year End Results sect" +
                     "ion", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1461
+#line 1464
  testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1462
+#line 1465
  testRunner.Then("Verify \'YearEndResults_W2Filings_Federal\' sheet after downloading \'End Results De" +
                     "tail Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1463
+#line 1466
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3911,32 +3911,32 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the Data under \'Federal\' tab for \'Year End Results\' section as per the sel" +
             "ected values in drop-downs", new string[] {
-                "mytagP1Tax"}, SourceLine=1465)]
+                "mytagP1Tax"}, SourceLine=1468)]
         public virtual void VerifyTheDataUnderFederalTabForYearEndResultsSectionAsPerTheSelectedValuesInDrop_Downs()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the Data under \'Federal\' tab for \'Year End Results\' section as per the sel" +
                     "ected values in drop-downs", null, new string[] {
                         "mytagP1Tax"});
-#line 1466
+#line 1469
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1467
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1468
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1469
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1470
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1471
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1472
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1473
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1474
- testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1475
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1476
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1477
+ testRunner.Then("Click on Federal tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1478
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -3944,67 +3944,67 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the Data under \'State\' tab for \'Year End Results\' section as per the selec" +
             "ted values in drop-downs- \'Tax\' section", new string[] {
-                "mytagP1Tax"}, SourceLine=1477)]
+                "mytagP1Tax"}, SourceLine=1480)]
         public virtual void VerifyTheDataUnderStateTabForYearEndResultsSectionAsPerTheSelectedValuesInDrop_Downs_TaxSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the Data under \'State\' tab for \'Year End Results\' section as per the selec" +
                     "ted values in drop-downs- \'Tax\' section", null, new string[] {
                         "mytagP1Tax"});
-#line 1478
+#line 1481
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1479
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1480
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1481
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1482
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1483
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1484
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1485
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1486
- testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1487
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1488
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1489
+ testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1490
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Year End Results\' details screen for \'Filings\'_State tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1489)]
+                "mytagP1Tax"}, SourceLine=1492)]
         public virtual void VerifyYearEndResultsDetailsScreenForFilings_StateTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Year End Results\' details screen for \'Filings\'_State tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1490
+#line 1493
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1491
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1492
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1493
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1494
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1495
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1496
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1497
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1498
- testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1499
- testRunner.Then("Click on any number link for Filings in State tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1500
- testRunner.Then("Verify Year End Results screen for Filings_State tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1501
+ testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1502
+ testRunner.Then("Click on any number link for Filings in State tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1503
+ testRunner.Then("Verify Year End Results screen for Filings_State tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1504
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -4012,104 +4012,104 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'Filings\'_State tab" +
             "", new string[] {
-                "mytagP1Tax"}, SourceLine=1503)]
+                "mytagP1Tax"}, SourceLine=1506)]
         public virtual void VerifyExcelDownloadIconInYearEndResultsScreenForFilings_StateTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'Filings\'_State tab" +
                     "", null, new string[] {
                         "mytagP1Tax"});
-#line 1504
+#line 1507
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1505
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1506
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1507
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1508
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1509
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1510
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1511
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1512
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1513
- testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1514
- testRunner.Then("Click on any number link for Filings in State tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1515
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1516
+ testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1517
+ testRunner.Then("Click on any number link for Filings in State tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1518
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1519
  testRunner.Then("Verify \'YearEndResults_Filings_State\' sheet after downloading \'End Results Detail" +
                     " Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1517
+#line 1520
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'State\' tab for \'Year End Results\' under \'Tax\' section", new string[] {
-                "mytagP1Tax"}, SourceLine=1519)]
+                "mytagP1Tax"}, SourceLine=1522)]
         public virtual void VerifyStateTabForYearEndResultsUnderTaxSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'State\' tab for \'Year End Results\' under \'Tax\' section", null, new string[] {
                         "mytagP1Tax"});
-#line 1520
+#line 1523
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1521
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1522
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1523
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1524
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1525
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1526
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1527
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 1528
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1529
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1530
  testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Year End Results\' details screen for \'W2 Filings\'_State tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1529)]
+                "mytagP1Tax"}, SourceLine=1532)]
         public virtual void VerifyYearEndResultsDetailsScreenForW2Filings_StateTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Year End Results\' details screen for \'W2 Filings\'_State tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1530
+#line 1533
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1531
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1532
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1533
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1534
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1535
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1536
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1537
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1538
- testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1539
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1540
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1541
+ testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1542
  testRunner.Then("Click on any number link for W2Filings in State tab under Year End Results sectio" +
                     "n", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1540
+#line 1543
  testRunner.Then("Verify Year End Results screen for W2Filings_State tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1541
+#line 1544
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -4117,42 +4117,42 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'W2 Filings\'_State " +
             "tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1543)]
+                "mytagP1Tax"}, SourceLine=1546)]
         public virtual void VerifyExcelDownloadIconInYearEndResultsScreenForW2Filings_StateTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'W2 Filings\'_State " +
                     "tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1544
+#line 1547
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1545
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1546
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1547
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1548
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1549
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1550
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1551
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1552
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1553
- testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1554
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1555
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1556
+ testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1557
  testRunner.Then("Click on any number link for W2Filings in State tab under Year End Results sectio" +
                     "n", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1555
+#line 1558
  testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1556
+#line 1559
  testRunner.Then("Verify \'YearEndResults_W2Filings_State\' sheet after downloading \'End Results Deta" +
                     "il Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1557
+#line 1560
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -4160,68 +4160,68 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the Data under \'Local\' tab for \'Year End Results\' section as per the selec" +
             "ted values in drop-downs- \'Tax\' section", new string[] {
-                "mytagP1Tax"}, SourceLine=1559)]
+                "mytagP1Tax"}, SourceLine=1562)]
         public virtual void VerifyTheDataUnderLocalTabForYearEndResultsSectionAsPerTheSelectedValuesInDrop_Downs_TaxSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the Data under \'Local\' tab for \'Year End Results\' section as per the selec" +
                     "ted values in drop-downs- \'Tax\' section", null, new string[] {
                         "mytagP1Tax"});
-#line 1560
+#line 1563
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1561
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1562
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1563
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1564
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1565
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1566
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1567
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1568
- testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1569
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1570
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1571
+ testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1572
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify  \'Year End Results\' details for \'Payments\'_State tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1571)]
+                "mytagP1Tax"}, SourceLine=1574)]
         public virtual void VerifyYearEndResultsDetailsForPayments_StateTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify  \'Year End Results\' details for \'Payments\'_State tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1572
+#line 1575
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1573
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1574
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1575
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1576
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1577
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1578
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1579
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1580
- testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1581
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1582
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1583
+ testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1584
  testRunner.Then("Click on any number link for Payments in State tab under Year End Results section" +
                     "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1582
+#line 1585
  testRunner.Then("Verify Year End Results screen for Payments_State tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1583
+#line 1586
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -4229,77 +4229,77 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Year End Results\' details screen for \'Payments\'_" +
             " State tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1585)]
+                "mytagP1Tax"}, SourceLine=1588)]
         public virtual void VerifyExcelDownloadIconInYearEndResultsDetailsScreenForPayments_StateTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Year End Results\' details screen for \'Payments\'_" +
                     " State tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1586
+#line 1589
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1587
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1588
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1589
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1590
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1591
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1592
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1593
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1594
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1595
- testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1596
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1597
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1598
+ testRunner.Then("Click on State tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1599
  testRunner.Then("Click on any number link for Payments in State tab under Year End Results section" +
                     "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1597
+#line 1600
  testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1598
+#line 1601
  testRunner.Then("Verify \'YearEndResults_Payments_State\' sheet after downloading \'End Results Detai" +
                     "l Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1599
+#line 1602
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Year End Results\' details screen for \'Filings\'_Local tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1601)]
+                "mytagP1Tax"}, SourceLine=1604)]
         public virtual void VerifyYearEndResultsDetailsScreenForFilings_LocalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Year End Results\' details screen for \'Filings\'_Local tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1602
+#line 1605
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1603
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1604
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1605
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1606
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1607
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1608
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1609
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1610
- testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1611
- testRunner.Then("Click on any number link for Filings in Local tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1612
- testRunner.Then("Verify Year End Results screen for Filings_Local tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1613
+ testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1614
+ testRunner.Then("Click on any number link for Filings in Local tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1615
+ testRunner.Then("Verify Year End Results screen for Filings_Local tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1616
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -4307,77 +4307,77 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'Filings\'_Local tab" +
             "", new string[] {
-                "mytagP1Tax"}, SourceLine=1616)]
+                "mytagP1Tax"}, SourceLine=1619)]
         public virtual void VerifyExcelDownloadIconInYearEndResultsScreenForFilings_LocalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'Filings\'_Local tab" +
                     "", null, new string[] {
                         "mytagP1Tax"});
-#line 1617
+#line 1620
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1618
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1619
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1620
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1621
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1622
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1623
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1624
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1625
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1626
- testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1627
- testRunner.Then("Click on any number link for Filings in Local tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1628
- testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1629
+ testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1630
+ testRunner.Then("Click on any number link for Filings in Local tab under Year End Results section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1631
+ testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1632
  testRunner.Then("Verify \'YearEndResults_Filings_Local\' sheet after downloading \'End Results Detail" +
                     " Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1630
+#line 1633
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Year End Results\' details screen for \'W2 Filings\'_Local tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1632)]
+                "mytagP1Tax"}, SourceLine=1635)]
         public virtual void VerifyYearEndResultsDetailsScreenForW2Filings_LocalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Year End Results\' details screen for \'W2 Filings\'_Local tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1633
+#line 1636
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1634
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1635
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1636
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1637
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1638
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1639
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1640
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1641
- testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1642
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1643
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1644
+ testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1645
  testRunner.Then("Click on any number link for W2Filings in Local tab under Year End Results sectio" +
                     "n", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1643
+#line 1646
  testRunner.Then("Verify Year End Results screen for W2Filings_Local tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1644
+#line 1647
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -4385,78 +4385,78 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'W2 Filings\'_Local " +
             "tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1646)]
+                "mytagP1Tax"}, SourceLine=1649)]
         public virtual void VerifyExcelDownloadIconInYearEndResultsScreenForW2Filings_LocalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Year End Results\' screen for \'W2 Filings\'_Local " +
                     "tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1647
+#line 1650
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1648
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1649
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1650
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1651
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1652
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1653
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1654
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1655
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1656
- testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1657
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1658
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1659
+ testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1660
  testRunner.Then("Click on any number link for W2Filings in Local tab under Year End Results sectio" +
                     "n", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1658
+#line 1661
  testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1659
+#line 1662
  testRunner.Then("Verify \'YearEndResults_W2Filings_Local\' sheet after downloading \'End Results Deta" +
                     "il Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1660
+#line 1663
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Year End Results\' details screen for \'Payments\'_Local tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1662)]
+                "mytagP1Tax"}, SourceLine=1665)]
         public virtual void VerifyYearEndResultsDetailsScreenForPayments_LocalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Year End Results\' details screen for \'Payments\'_Local tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1663
+#line 1666
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1664
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1665
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1666
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1667
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1668
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1669
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1670
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1671
- testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1672
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1673
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1674
+ testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1675
  testRunner.Then("Click on any number link for Payments in Local tab under Year End Results section" +
                     "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1673
+#line 1676
  testRunner.Then("Verify Year End Results screen for Payments_Local tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1674
+#line 1677
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -4464,42 +4464,42 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Excel Download\' icon in \'Year End Results\'  details screen for \'Payments\'" +
             "_ Local tab", new string[] {
-                "mytagP1Tax"}, SourceLine=1676)]
+                "mytagP1Tax"}, SourceLine=1679)]
         public virtual void VerifyExcelDownloadIconInYearEndResultsDetailsScreenForPayments_LocalTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Excel Download\' icon in \'Year End Results\'  details screen for \'Payments\'" +
                     "_ Local tab", null, new string[] {
                         "mytagP1Tax"});
-#line 1677
+#line 1680
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 1678
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 1679
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1680
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1681
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1682
- testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1683
- testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1684
- testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1685
- testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Set location for downloaded \'End Results Detail Export\' sheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 1686
- testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on Ellipses icon under Tax section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 1687
+ testRunner.Then("Landed in Tax page and verified", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1688
+ testRunner.Then("Select any year from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1689
+ testRunner.Then("Click on Local tab under Year End Results section and verify data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 1690
  testRunner.Then("Click on any number link for Payments in Local tab under Year End Results section" +
                     "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1688
+#line 1691
  testRunner.Then("Click on Excel download icon under Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1689
+#line 1692
  testRunner.Then("Verify \'YearEndResults_Payments_Local\' sheet after downloading \'End Results Detai" +
                     "l Export\' in Tax Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 1690
+#line 1693
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
