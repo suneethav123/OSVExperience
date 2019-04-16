@@ -352,6 +352,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Salesforce.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\TaxExDataValidation.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TaxExDataValidation.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\Tax.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -376,8 +381,10 @@
     <Compile Include="Pages\PageParts\SalesforceHomePage.cs" />
     <Compile Include="Pages\PageParts\SalesforceLoginPage.cs" />
     <Compile Include="Pages\PageParts\OneAtmosLoginPage.cs" />
+    <Compile Include="Pages\PageParts\TaxExDataValidationPage.cs" />
     <Compile Include="Steps\LoginHomeMyAccountTaxSteps.cs" />
     <Compile Include="Steps\SalesforceSteps.cs" />
+    <Compile Include="Steps\TaxExDataValidationSteps.cs" />
     <Compile Include="Steps\TreasurySteps.cs" />
     <Compile Include="TestBase.cs" />
     <Compile Include="Base\BaseClass.cs" />
@@ -440,6 +447,10 @@
     <None Include="Features\Salesforce.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Salesforce.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\TaxExDataValidation.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>TaxExDataValidation.feature.cs</LastGenOutput>
     </None>
     <None Include="Features\Tax.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

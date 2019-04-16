@@ -11,6 +11,7 @@ namespace OneAtmos.Pages.PageConstants
     {
         //My Account Page - UI Elements Locators
         //Invoice tab Locators
+        public static By InvoicingTab = By.XPath("//a[text()='Invoicing']");
         public static By Invoice_Number = By.XPath("//a[text()='Invoice Number']");
         public static By From_Calendar_Invoicing = By.XPath("(//div[@class='form-element']/input)[1]");
         public static By To_Calendar_Invoicing = By.XPath("(//div[@class='form-element']/input)[2]");

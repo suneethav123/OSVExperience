@@ -1,0 +1,381 @@
+﻿2019-04-16T13:45:18.6689588+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-16T13:45:18.6719591+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-16T13:45:18.7539673+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-16T13:45:18.7539673+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-16T13:45:18.7539673+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-16T13:45:28.8179736+05:30;Thread#13;Info;starting test run
+2019-04-16T13:45:28.8229741+05:30;Thread#13;Info;Discovering target: Default
+2019-04-16T13:45:28.8229741+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#3: LoginHomeMyAccountTax - 
+#33: Verify Records in 'Invoicing' Table by selecting From and To Dates - TestAssembly:OneAtmosphere/Feature:LoginHomeMyAccountTax/Scenario:Verify+Records+in+%27Invoicing%27+Table+by+selecting+From+and+To+Dates
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #33 from normal test queue 
+Thread#0:Scheduler: considering testitem #33 for thread 0
+Thread#0:TestItem#33:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#33:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#33:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #33 for thread 0
+Thread#0:Scheduler: Test #33 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #33/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify Records in 'Invoicing' Table by selecting From and To Dates in Feature:LoginHomeMyAccountTax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (1.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (17.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (6.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on My Account Link in Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIClickedOnMyAccountLinkInHomePage() (1.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:And Verify page navigation to Invoicing tab
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIVerifyPageNavigationToInvoicingTab() (5.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '09/30/2019' on Invoicing tab
+Thread#0:T:6/29/2017 12:00:00 AM
+Thread#0:T:9/30/2019 12:00:00 AM
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenSelectFromDateAndToDateOnInvoicingTab("06/29/2017", "09/30/2019") (7.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify Invoicing Dates lies between From Date '06/29/2017' and To Date '09/30/2019'
+Thread#0:T:Records count: of 10, 100 Record(s)
+Thread#0:T:No Of Pages: 10
+Thread#0:T:No Of Records: 100
+Thread#0:T:Date: 3/5/2019 12:00:00 AM
+Thread#0:T:Date: 3/5/2019 12:00:00 AM in row: 1lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 3/10/2019 12:00:00 AM
+Thread#0:T:Date: 3/10/2019 12:00:00 AM in row: 2lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 3/27/2019 12:00:00 AM
+Thread#0:T:Date: 3/27/2019 12:00:00 AM in row: 3lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 4lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 5lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 6lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 7lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 8lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 9lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 10lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 1lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 2lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 3lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM in row: 4lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/30/2019 12:00:00 AM in row: 5lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM in row: 6lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/30/2019 12:00:00 AM in row: 7lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM in row: 8lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/30/2019 12:00:00 AM in row: 9lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM in row: 10lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:error: no such element: Unable to locate element: {"method":"xpath","selector":"//table/tbody/tr[1]/td[4]/span/div/span"}
+Thread#0:T:  (Session info: chrome=73.0.3683.103)
+Thread#0:T:  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#33:Scheduler: reschedule tests for testitem #33
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #33
+Thread#0:Scheduler: considering testitem #33 for thread 0
+Thread#0:TestItem#33:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#33:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#33:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #33 for thread 0
+Thread#0:Scheduler: Test #33 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0:T:An error ocurred:no such element: Unable to locate element: {"method":"xpath","selector":"//table/tbody/tr[1]/td[4]/span/div/span"}
+Thread#0:T:  (Session info: chrome=73.0.3683.103)
+Thread#0:T:  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:T:It was of type:NoSuchElementException
+Thread#0: Test #33/0 is finished on thread #0 as Failed within 64.5414535 seconds
+Thread#0: Test #33/1 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify Records in 'Invoicing' Table by selecting From and To Dates in Feature:LoginHomeMyAccountTax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (17.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (6.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on My Account Link in Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIClickedOnMyAccountLinkInHomePage() (1.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:And Verify page navigation to Invoicing tab
+Thread#0:T:Expected value to be true.
+Thread#0:T:user is not navigated to 'My Account' page ..
+Thread#0:T:Actual Value
+Thread#0:T: : 
+Thread#0:T:false
+Thread#0:T:   at OneAtmos.Pages.PageParts.OneAtmosMyAccount.VerifyInvoicingTab(
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\OneAtmosMyAccount.cs:line 58
+Thread#0:T:   at OneAtmosphere.Steps.LoginHomeMyAccountTaxSteps.ThenIVerifyPageNavigationToInvoicingTab(
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\LoginHomeMyAccountTaxSteps.cs:line 184
+Thread#0:T:   at lambda_method(Closure , IContextManager )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.And(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.LoginHomeMyAccountTaxFeature.VerifyRecordsInInvoicingTableBySelectingFromAndToDates(
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\LoginHomeMyAccountTax.feature:line 357
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:error: Expected value to be true.
+Thread#0:T:user is not navigated to 'My Account' page ..
+Thread#0:T:Actual Value : false
+Thread#0:T:   at OneAtmos.Pages.PageParts.OneAtmosMyAccount.VerifyInvoicingTab() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\OneAtmosMyAccount.cs:line 58
+Thread#0:T:   at OneAtmosphere.Steps.LoginHomeMyAccountTaxSteps.ThenIVerifyPageNavigationToInvoicingTab() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\LoginHomeMyAccountTaxSteps.cs:line 184
+Thread#0:T:   at lambda_method(Closure , IContextManager )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.And(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.LoginHomeMyAccountTaxFeature.VerifyRecordsInInvoicingTableBySelectingFromAndToDates() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\LoginHomeMyAccountTax.feature:line 357
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '09/30/2019' on Invoicing tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Verify Invoicing Dates lies between From Date '06/29/2017' and To Date '09/30/2019'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #33
+Thread#0:Scheduler: considering testitem #33 for thread 0
+Thread#0:TestItem#33:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#33:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#33:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #33 for thread 0
+Thread#0:Scheduler: Test #33 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0:T:An error ocurred:Expected value to be true.
+Thread#0:T:user is not navigated to 'My Account' page ..
+Thread#0:T:Actual Value : false
+Thread#0:T:   at OneAtmos.Pages.PageParts.OneAtmosMyAccount.VerifyInvoicingTab() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\OneAtmosMyAccount.cs:line 58
+Thread#0:T:   at OneAtmosphere.Steps.LoginHomeMyAccountTaxSteps.ThenIVerifyPageNavigationToInvoicingTab() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\LoginHomeMyAccountTaxSteps.cs:line 184
+Thread#0:T:   at lambda_method(Closure , IContextManager )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.And(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.LoginHomeMyAccountTaxFeature.VerifyRecordsInInvoicingTableBySelectingFromAndToDates() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\LoginHomeMyAccountTax.feature:line 357
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:It was of type:AssertionFailureException
+Thread#0: Test #33/1 is finished on thread #0 as Failed within 35.0024999 seconds
+Thread#0: Test #33/2 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify Records in 'Invoicing' Table by selecting From and To Dates in Feature:LoginHomeMyAccountTax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (15.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (7.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on My Account Link in Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIClickedOnMyAccountLinkInHomePage() (1.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:And Verify page navigation to Invoicing tab
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIVerifyPageNavigationToInvoicingTab() (4.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '09/30/2019' on Invoicing tab
+Thread#0:T:6/29/2017 12:00:00 AM
+Thread#0:T:9/30/2019 12:00:00 AM
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenSelectFromDateAndToDateOnInvoicingTab("06/29/2017", "09/30/2019") (7.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify Invoicing Dates lies between From Date '06/29/2017' and To Date '09/30/2019'
+Thread#0:T:Records count: of 10, 100 Record(s)
+Thread#0:T:No Of Pages: 10
+Thread#0:T:No Of Records: 100
+Thread#0:T:Date: 3/5/2019 12:00:00 AM
+Thread#0:T:Date: 3/5/2019 12:00:00 AM in row: 1lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 3/10/2019 12:00:00 AM
+Thread#0:T:Date: 3/10/2019 12:00:00 AM in row: 2lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 3/27/2019 12:00:00 AM
+Thread#0:T:Date: 3/27/2019 12:00:00 AM in row: 3lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 4lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 5lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 6lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 7lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 8lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 9lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 10lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 1lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 2lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM
+Thread#0:T:Date: 1/2/2019 12:00:00 AM in row: 3lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM in row: 4lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/30/2019 12:00:00 AM in row: 5lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM in row: 6lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/30/2019 12:00:00 AM in row: 7lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM in row: 8lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/30/2019 12:00:00 AM
+Thread#0:T:Date: 1/30/2019 12:00:00 AM in row: 9lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM
+Thread#0:T:Date: 4/20/2019 12:00:00 AM in row: 10lies between 6/29/2017 12:00:00 AM & 9/30/2019 12:00:00 AM
+Thread#0:T:error: no such element: Unable to locate element: {"method":"xpath","selector":"//table/tbody/tr[1]/td[4]/span/div/span"}
+Thread#0:T:  (Session info: chrome=73.0.3683.103)
+Thread#0:T:  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:An error ocurred:no such element: Unable to locate element: {"method":"xpath","selector":"//table/tbody/tr[1]/td[4]/span/div/span"}
+Thread#0:T:  (Session info: chrome=73.0.3683.103)
+Thread#0:T:  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:T:It was of type:NoSuchElementException
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\OSVAtmosphereVSTS\OSVExperience\Automation_Report\OutPut\Log\log_16-04-2019.log
+Thread#0: Test #33/2 is finished on thread #0 as Failed within 60.4770471 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-16T13:48:09.3140216+05:30;Thread#13;Info;test run finished
+2019-04-16T13:48:09.3150217+05:30;Thread#13;Info;publishing test results
+2019-04-16T13:48:09.3200222+05:30;Thread#13;Info;test results published
+2019-04-16T13:48:09.3200222+05:30;Thread#13;Info;generating reports
+2019-04-16T13:48:09.3270229+05:30;Thread#13;Info;creating 1 report(s)
+2019-04-16T13:48:09.3270229+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-04-16T13:48:10.3821284+05:30;Thread#13;Info;reports generated
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-04-16T13:48:10.3861288+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-16T13:48:10.3861288+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-16T134518.html'
+2019-04-16T13:48:10.3941296+05:30;VSTestExecutionThread;Info;Log file: file:///D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-16T134518.log

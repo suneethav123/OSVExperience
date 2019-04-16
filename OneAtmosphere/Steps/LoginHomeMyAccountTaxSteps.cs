@@ -70,7 +70,8 @@ namespace OneAtmosphere.Steps
         public void ThenVerifiedUIElementsOfLoginPage()
         {
             _oneAtmosLoginPage.VerifyUIofLoginPage();
-        }
+        }    
+
 
         //Enter username and password , login into OneAtmos site
         [Then(@"Enter username and password and login into OneAtmos site")]
@@ -90,8 +91,15 @@ namespace OneAtmosphere.Steps
            // _oneAtmosLoginPage.acceptAlert();
         }
 
+        [Then(@"Enter (.*) and (.*) and login")]
+        public void ThenEnterAndAndLoginIntoOneAtmosSite(string username, string password)
+        {
+            _oneAtmosHomePage = _oneAtmosLoginPage.LoginIntoOneAtmos(username, password);
+            ScenarioContext.Current.Add("oneAtmosHomePage", _oneAtmosHomePage);
+        }
+
         //Enter username and password , login into OSVAtmos site
-         [Then(@"Enter username and password and login into OSVAtmos site")]
+        [Then(@"Enter username and password and login into OSVAtmos site")]
          public void ThenEnterUsernameAndPasswordAndLoginIntoOSVAtmosSite()
          {            
              //String oneAtmosHomePage;

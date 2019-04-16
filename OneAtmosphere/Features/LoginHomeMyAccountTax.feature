@@ -9,14 +9,17 @@ Scenario: Verification of UI elements of Login page
 	Then Quit browser
 
 @mytagP1
-Scenario: Login and Logout verification in OneAtmos site
+Scenario Outline: Login and Logout verification in OneAtmos site
 	Given Open browser 'chrome'
 	Then  Navigate to url
-	Then  Enter username and password and login into OneAtmos site
+	Then  Enter <username> and <password> and login
 	Given Landed on OneAtmos Home Page
 	Then  Logout from application
 	Then  Verify the logout
 	Then  Quit browser
+Examples:
+	| username                | password      |
+	| testatmosuser@gmail.com | Second@1234!  |
  
 @mytagP2@P3
 Scenario: Verify error message with valid username and empty password

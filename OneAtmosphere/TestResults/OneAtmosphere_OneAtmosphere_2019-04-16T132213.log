@@ -1,0 +1,99 @@
+﻿2019-04-16T13:22:13.3164140+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-16T13:22:13.3204144+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-16T13:22:13.4034227+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-16T13:22:13.4034227+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-16T13:22:13.4034227+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-16T13:22:22.4573280+05:30;Thread#13;Info;starting test run
+2019-04-16T13:22:22.4623285+05:30;Thread#13;Info;Discovering target: Default
+2019-04-16T13:22:22.4633286+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#3: LoginHomeMyAccountTax - 
+#17: Verify Records PerPage drop-down with different values in 'Invoicing' tab - TestAssembly:OneAtmosphere/Feature:LoginHomeMyAccountTax/Scenario:Verify+Records+PerPage+drop-down+with+different+values+in+%27Invoicing%27+tab
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #17 from normal test queue 
+Thread#0:Scheduler: considering testitem #17 for thread 0
+Thread#0:TestItem#17:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#17:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#17:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #17 for thread 0
+Thread#0:Scheduler: Test #17 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #17/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify Records PerPage drop-down with different values in 'Invoicing' tab in Feature:LoginHomeMyAccountTax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (1.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (18.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (7.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on My Account Link in Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIClickedOnMyAccountLinkInHomePage() (1.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify page navigation to Invoicing tab
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIVerifyPageNavigationToInvoicingTab() (5.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '07/31/2019' on Invoicing tab
+Thread#0:T:6/29/2017 12:00:00 AM
+Thread#0:T:7/31/2019 12:00:00 AM
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenSelectFromDateAndToDateOnInvoicingTab("06/29/2017", "07/31/2019") (6.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify Records Per Page drop-down in Invoicing tab with different values
+Thread#0:T:Verified with value 25
+Thread#0:T:Verified with value 50
+Thread#0:T:Verified with value 100
+Thread#0:T:Verified with value 10
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenVerifyRecordsPerPageDrop_DownInInvoicingTabWithDifferentValues() (23.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Quit browser
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIQuitBrowser() (0.1s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\OSVAtmosphereVSTS\OSVExperience\Automation_Report\OutPut\Log\log_16-04-2019.log
+Thread#0: Test #17/0 is finished on thread #0 as Succeeded within 70.3530346 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-16T13:23:33.2564072+05:30;Thread#13;Info;test run finished
+2019-04-16T13:23:33.2564072+05:30;Thread#13;Info;publishing test results
+2019-04-16T13:23:33.2614077+05:30;Thread#13;Info;test results published
+2019-04-16T13:23:33.2614077+05:30;Thread#13;Info;generating reports
+2019-04-16T13:23:33.2664082+05:30;Thread#13;Info;creating 1 report(s)
+2019-04-16T13:23:33.2664082+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-04-16T13:23:34.2935109+05:30;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-04-16T13:23:34.2985114+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-16T13:23:34.2995115+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-16T132213.html'
+2019-04-16T13:23:34.3055121+05:30;VSTestExecutionThread;Info;Log file: file:///D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-16T132213.log

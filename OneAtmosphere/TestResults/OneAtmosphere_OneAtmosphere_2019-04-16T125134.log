@@ -1,0 +1,168 @@
+﻿2019-04-16T12:51:34.4791521+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-16T12:51:34.4821524+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-16T12:51:34.5651607+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-16T12:51:34.5651607+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-16T12:51:34.5661608+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-16T12:51:45.6652706+05:30;Thread#13;Info;starting test run
+2019-04-16T12:51:45.6732714+05:30;Thread#13;Info;Discovering target: Default
+2019-04-16T12:51:45.6742715+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#3: LoginHomeMyAccountTax - 
+#17: Verify Records PerPage drop-down with different values in 'Invoicing' tab - TestAssembly:OneAtmosphere/Feature:LoginHomeMyAccountTax/Scenario:Verify+Records+PerPage+drop-down+with+different+values+in+%27Invoicing%27+tab
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #17 from normal test queue 
+Thread#0:Scheduler: considering testitem #17 for thread 0
+Thread#0:TestItem#17:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#17:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#17:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #17 for thread 0
+Thread#0:Scheduler: Test #17 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #17/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify Records PerPage drop-down with different values in 'Invoicing' tab in Feature:LoginHomeMyAccountTax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (18.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (7.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on My Account Link in Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIClickedOnMyAccountLinkInHomePage() (1.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify page navigation to Invoicing tab
+Thread#0:T:Expected value to be true.
+Thread#0:T:user is not navigated to 'My Account' page ..
+Thread#0:T:Actual Value
+Thread#0:T: : 
+Thread#0:T:false
+Thread#0:T:   at OneAtmos.Pages.PageParts.OneAtmosMyAccount.VerifyInvoicingTab(
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\OneAtmosMyAccount.cs:line 56
+Thread#0:T:   at OneAtmosphere.Steps.LoginHomeMyAccountTaxSteps.ThenIVerifyPageNavigationToInvoicingTab(
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\LoginHomeMyAccountTaxSteps.cs:line 184
+Thread#0:T:   at lambda_method(Closure , IContextManager )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.Then(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.LoginHomeMyAccountTaxFeature.VerifyRecordsPerPageDrop_DownWithDifferentValuesInInvoicingTab(
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\LoginHomeMyAccountTax.feature:line 139
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:error: Expected value to be true.
+Thread#0:T:user is not navigated to 'My Account' page ..
+Thread#0:T:Actual Value : false
+Thread#0:T:   at OneAtmos.Pages.PageParts.OneAtmosMyAccount.VerifyInvoicingTab() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\OneAtmosMyAccount.cs:line 56
+Thread#0:T:   at OneAtmosphere.Steps.LoginHomeMyAccountTaxSteps.ThenIVerifyPageNavigationToInvoicingTab() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\LoginHomeMyAccountTaxSteps.cs:line 184
+Thread#0:T:   at lambda_method(Closure , IContextManager )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.Then(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.LoginHomeMyAccountTaxFeature.VerifyRecordsPerPageDrop_DownWithDifferentValuesInInvoicingTab() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\LoginHomeMyAccountTax.feature:line 139
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '07/31/2019' on Invoicing tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Verify Records Per Page drop-down in Invoicing tab with different values
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#17:Scheduler: reschedule tests for testitem #17
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #17
+Thread#0:Scheduler: considering testitem #17 for thread 0
+Thread#0:TestItem#17:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#17:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#17:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #17 for thread 0
+Thread#0:Scheduler: Test #17 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0:T:An error ocurred:Expected value to be true.
+Thread#0:T:user is not navigated to 'My Account' page ..
+Thread#0:T:Actual Value : false
+Thread#0:T:   at OneAtmos.Pages.PageParts.OneAtmosMyAccount.VerifyInvoicingTab() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\OneAtmosMyAccount.cs:line 56
+Thread#0:T:   at OneAtmosphere.Steps.LoginHomeMyAccountTaxSteps.ThenIVerifyPageNavigationToInvoicingTab() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\LoginHomeMyAccountTaxSteps.cs:line 184
+Thread#0:T:   at lambda_method(Closure , IContextManager )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.Then(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.LoginHomeMyAccountTaxFeature.VerifyRecordsPerPageDrop_DownWithDifferentValuesInInvoicingTab() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\LoginHomeMyAccountTax.feature:line 139
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.Sync

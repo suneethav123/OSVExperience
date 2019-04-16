@@ -52,6 +52,8 @@ namespace OneAtmos.Pages.PageParts
         //Verification of Invoice tab
         public void VerifyInvoicingTab()
         {
+            //SafeSelectDropdown(OneAtmosMyAccountLocators.InvoicingTab,1,10);
+            SafeNormalClick(OneAtmosMyAccountLocators.InvoicingTab, 10);
             bool InvoiceExists = IsElementDisplayed(OneAtmosMyAccountLocators.Invoice_Number, 5);
             Assert.IsTrue(InvoiceExists, "user is not navigated to 'My Account' page ..");
         }

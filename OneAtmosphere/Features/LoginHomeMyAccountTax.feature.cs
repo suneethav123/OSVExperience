@@ -87,12 +87,15 @@ this.ScenarioInitialize(scenarioInfo);
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Login and Logout verification in OneAtmos site", new string[] {
-                "mytagP1"}, SourceLine=11)]
-        public virtual void LoginAndLogoutVerificationInOneAtmosSite()
+        public virtual void LoginAndLogoutVerificationInOneAtmosSite(string username, string password, string[] exampleTags)
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Login and Logout verification in OneAtmos site", null, new string[] {
-                        "mytagP1"});
+            string[] @__tags = new string[] {
+                    "mytagP1"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Login and Logout verification in OneAtmos site", null, @__tags);
 #line 12
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
@@ -101,7 +104,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 14
  testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 15
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then(string.Format("Enter {0} and {1} and login", username, password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 16
  testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 17
@@ -114,170 +117,179 @@ this.ScenarioInitialize(scenarioInfo);
             this.ScenarioCleanup();
         }
         
+        [TechTalk.SpecRun.ScenarioAttribute("Login and Logout verification in OneAtmos site, testatmosuser@gmail.com", new string[] {
+                "mytagP1"}, SourceLine=21)]
+        public virtual void LoginAndLogoutVerificationInOneAtmosSite_TestatmosuserGmail_Com()
+        {
+#line 12
+this.LoginAndLogoutVerificationInOneAtmosSite("testatmosuser@gmail.com", "Second@1234!", ((string[])(null)));
+#line hidden
+        }
+        
         [TechTalk.SpecRun.ScenarioAttribute("Verify error message with valid username and empty password", new string[] {
-                "mytagP2@P3"}, SourceLine=21)]
+                "mytagP2@P3"}, SourceLine=24)]
         public virtual void VerifyErrorMessageWithValidUsernameAndEmptyPassword()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify error message with valid username and empty password", null, new string[] {
                         "mytagP2@P3"});
-#line 22
+#line 25
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 23
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 24
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 25
- testRunner.Then("Enter username and without password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 26
- testRunner.Then("Verify error message", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 27
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 28
+ testRunner.Then("Enter username and without password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 29
+ testRunner.Then("Verify error message", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 30
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Login\' functionality with empty \'Username\' and \'Password\'", new string[] {
-                "mytagP2"}, SourceLine=29)]
+                "mytagP2"}, SourceLine=32)]
         public virtual void VerifyLoginFunctionalityWithEmptyUsernameAndPassword()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Login\' functionality with empty \'Username\' and \'Password\'", null, new string[] {
                         "mytagP2"});
-#line 30
+#line 33
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 31
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 32
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 33
- testRunner.Then("Click on SignIn button with empty UserName and Password", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 34
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 35
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 36
+ testRunner.Then("Click on SignIn button with empty UserName and Password", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 37
  testRunner.Then("Verify error message upon clicking on SignIn button with empty UserName and Passw" +
                     "ord", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 35
+#line 38
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Login\' functionality with empty \'Username\' and valid \'Password\'", new string[] {
-                "mytagP2"}, SourceLine=37)]
+                "mytagP2"}, SourceLine=40)]
         public virtual void VerifyLoginFunctionalityWithEmptyUsernameAndValidPassword()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Login\' functionality with empty \'Username\' and valid \'Password\'", null, new string[] {
                         "mytagP2"});
-#line 38
+#line 41
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 39
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 40
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 41
- testRunner.Then("Click on SignIn button with valid empty Username and valid Password", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 42
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 43
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 44
+ testRunner.Then("Click on SignIn button with valid empty Username and valid Password", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 45
  testRunner.Then("Verify error message upon clicking SignIn button with empty Username and valid Pa" +
                     "ssword", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 43
+#line 46
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Login\' functionality with incorrect \'Username\' and \'Password\'", new string[] {
-                "mytagP2"}, SourceLine=45)]
+                "mytagP2"}, SourceLine=48)]
         public virtual void VerifyLoginFunctionalityWithIncorrectUsernameAndPassword()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Login\' functionality with incorrect \'Username\' and \'Password\'", null, new string[] {
                         "mytagP2"});
-#line 46
+#line 49
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 47
+#line 50
  testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 48
+#line 51
  testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 49
+#line 52
  testRunner.Then("Click on SignIn button with incorrect details such Username as \'testing@zenq.com\'" +
                     " and Password as \'testing\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 50
+#line 53
  testRunner.Then("Verify error message upon clicking on SignIn button with Incorrect UserName and P" +
                     "assword", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 51
+#line 54
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Forgot Your Password?\' link", new string[] {
-                "mytagP2"}, SourceLine=53)]
+                "mytagP2"}, SourceLine=56)]
         public virtual void VerifyForgotYourPasswordLink()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Forgot Your Password?\' link", null, new string[] {
                         "mytagP2"});
-#line 54
+#line 57
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 55
+#line 58
    testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 56
+#line 59
    testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 57
+#line 60
    testRunner.Then("Clicked on Forgot Password link in Login Page and verified whether user is naviga" +
                     "ted to Forgot Password page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 58
+#line 61
    testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Cancel\' link in \'Send Password Email Reset\' popup", new string[] {
-                "mytagP2P3"}, SourceLine=61)]
+                "mytagP2P3"}, SourceLine=64)]
         public virtual void VerifyCancelLinkInSendPasswordEmailResetPopup()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Cancel\' link in \'Send Password Email Reset\' popup", null, new string[] {
                         "mytagP2P3"});
-#line 62
+#line 65
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 63
+#line 66
    testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 64
+#line 67
    testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 65
+#line 68
    testRunner.Then("Clicked on Forgot Password link in Login Page and verified whether user is naviga" +
                     "ted to Forgot Password page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 66
+#line 69
    testRunner.Then("Clicked on Cancel link under Forgot Password Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 67
+#line 70
    testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify page navigation, by clicking on \'My Account\' link", new string[] {
-                "mytagP2P3"}, SourceLine=69)]
+                "mytagP2P3"}, SourceLine=72)]
         public virtual void VerifyPageNavigationByClickingOnMyAccountLink()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify page navigation, by clicking on \'My Account\' link", null, new string[] {
                         "mytagP2P3"});
-#line 70
+#line 73
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 71
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 72
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 73
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 74
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 75
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 76
- testRunner.Then("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 77
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 78
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 79
+ testRunner.Then("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 80
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -285,57 +297,57 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify whether user is navigated to \'Dashboard\' upon clicking on \"OneAtmosphere\" " +
             "logo available at the Page header", new string[] {
-                "mytagP1"}, SourceLine=79)]
+                "mytagP1"}, SourceLine=82)]
         public virtual void VerifyWhetherUserIsNavigatedToDashboardUponClickingOnOneAtmosphereLogoAvailableAtThePageHeader()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify whether user is navigated to \'Dashboard\' upon clicking on \"OneAtmosphere\" " +
                     "logo available at the Page header", null, new string[] {
                         "mytagP1"});
-#line 80
+#line 83
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 81
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 82
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 83
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 84
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 85
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 86
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 87
- testRunner.Then("Clicked on One Atmosphere logo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 88
- testRunner.Then("Verified Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 89
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 90
+ testRunner.Then("Clicked on One Atmosphere logo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 91
+ testRunner.Then("Verified Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 92
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify UI elements under \'Home\' page", new string[] {
-                "mytagP2"}, SourceLine=91)]
+                "mytagP2"}, SourceLine=94)]
         public virtual void VerifyUIElementsUnderHomePage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify UI elements under \'Home\' page", null, new string[] {
                         "mytagP2"});
-#line 92
+#line 95
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 93
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 94
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 95
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 96
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 97
- testRunner.Then("Verified UI elements under Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 98
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 99
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 100
+ testRunner.Then("Verified UI elements under Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 101
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -343,327 +355,327 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify page navigation to Invoice details page and the functionality of \'Back to " +
             "Previous Page\' link  under \'Invoice Details\' page", new string[] {
-                "mytagP2"}, SourceLine=101)]
+                "mytagP2"}, SourceLine=104)]
         public virtual void VerifyPageNavigationToInvoiceDetailsPageAndTheFunctionalityOfBackToPreviousPageLinkUnderInvoiceDetailsPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify page navigation to Invoice details page and the functionality of \'Back to " +
                     "Previous Page\' link  under \'Invoice Details\' page", null, new string[] {
                         "mytagP2"});
-#line 102
+#line 105
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 103
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 104
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 105
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 106
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 107
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 108
- testRunner.Then("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 109
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 110
- testRunner.Then("Clicked on Invoice Number and verify whether navigated to Invoicing Deatils page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 111
- testRunner.Then("Click on Back to previous page link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 112
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 113
+ testRunner.Then("Clicked on Invoice Number and verify whether navigated to Invoicing Deatils page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 114
+ testRunner.Then("Click on Back to previous page link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 115
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify UI elements under Invoicing tab and Invoicing details page", new string[] {
-                "mytagP2"}, SourceLine=114)]
+                "mytagP2"}, SourceLine=117)]
         public virtual void VerifyUIElementsUnderInvoicingTabAndInvoicingDetailsPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify UI elements under Invoicing tab and Invoicing details page", null, new string[] {
                         "mytagP2"});
-#line 115
+#line 118
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 116
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 117
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 118
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 119
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 120
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 121
- testRunner.Then("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 122
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 123
- testRunner.And("Verified UI elements of Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 124
- testRunner.Then("Clicked on Invoice Number and verify whether navigated to Invoicing Deatils page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 125
- testRunner.Then("Verify UI Elements of invoice details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 126
- testRunner.Then("Click on Back to previous page link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And("Verified UI elements of Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 127
+ testRunner.Then("Clicked on Invoice Number and verify whether navigated to Invoicing Deatils page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 128
+ testRunner.Then("Verify UI Elements of invoice details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 129
+ testRunner.Then("Click on Back to previous page link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 130
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify Records PerPage drop-down with different values in \'Invoicing\' tab", new string[] {
-                "mytagP1"}, SourceLine=129)]
+                "mytagP1"}, SourceLine=132)]
         public virtual void VerifyRecordsPerPageDrop_DownWithDifferentValuesInInvoicingTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Records PerPage drop-down with different values in \'Invoicing\' tab", null, new string[] {
                         "mytagP1"});
-#line 130
+#line 133
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 131
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 132
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 133
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 134
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 135
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 136
- testRunner.Then("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 137
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 138
- testRunner.Then("Verify Records Per Page drop-down in Invoicing tab with different values", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 139
+ testRunner.Then("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 140
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 141
+ testRunner.Then("Verify Records Per Page drop-down in Invoicing tab with different values", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 142
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify functionality of Footer buttons in \'Invoicing\' tab", new string[] {
-                "mytagP1"}, SourceLine=141)]
+                "mytagP1"}, SourceLine=144)]
         public virtual void VerifyFunctionalityOfFooterButtonsInInvoicingTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify functionality of Footer buttons in \'Invoicing\' tab", null, new string[] {
                         "mytagP1"});
-#line 142
+#line 145
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 143
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 144
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 145
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 146
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 147
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 148
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 149
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 150
- testRunner.Then("Verified functionality of First,Previous,Next and Last buttons in Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 151
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 152
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 153
+ testRunner.Then("Verified functionality of First,Previous,Next and Last buttons in Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 154
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify UI elements and navigation in ‘Contracts’ tab", new string[] {
-                "mytagP2P3"}, SourceLine=163)]
+                "mytagP2P3"}, SourceLine=166)]
         public virtual void VerifyUIElementsAndNavigationInContractsTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify UI elements and navigation in ‘Contracts’ tab", null, new string[] {
                         "mytagP2P3"});
-#line 164
+#line 167
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 165
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 166
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 167
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 168
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 169
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 170
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 171
- testRunner.Then("Clicked and verified Contracts tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 172
- testRunner.And("Verified UI elements under Contracts tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 173
- testRunner.Then("Clicked on Contract Number under Contracts tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 174
- testRunner.Then("Verified UI elements under Contract Detail page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked and verified Contracts tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 175
- testRunner.Then("Clicked on Back To Previous Page link under Contract Details Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And("Verified UI elements under Contracts tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 176
+ testRunner.Then("Clicked on Contract Number under Contracts tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 177
+ testRunner.Then("Verified UI elements under Contract Detail page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 178
+ testRunner.Then("Clicked on Back To Previous Page link under Contract Details Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 179
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the UI Elements are available in Contract Details page", new string[] {
-                "mytagP2"}, SourceLine=178)]
+                "mytagP2"}, SourceLine=181)]
         public virtual void VerifyTheUIElementsAreAvailableInContractDetailsPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the UI Elements are available in Contract Details page", null, new string[] {
                         "mytagP2"});
-#line 179
+#line 182
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 180
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 181
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 182
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 183
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 184
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 185
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 186
- testRunner.Then("Clicked and verified Contracts tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 187
- testRunner.Then("Clicked on Contract Number under Contracts tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 188
- testRunner.Then("Verified details in Contract Detail page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 189
- testRunner.Then("Clicked on Back To Previous Page link under Contract Details Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked and verified Contracts tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 190
+ testRunner.Then("Clicked on Contract Number under Contracts tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 191
+ testRunner.Then("Verified details in Contract Detail page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 192
+ testRunner.Then("Clicked on Back To Previous Page link under Contract Details Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 193
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify UI elements under \'Documents\' tab in \'My Account\' page", new string[] {
-                "mytagP2P3"}, SourceLine=205)]
+                "mytagP2P3"}, SourceLine=208)]
         public virtual void VerifyUIElementsUnderDocumentsTabInMyAccountPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify UI elements under \'Documents\' tab in \'My Account\' page", null, new string[] {
                         "mytagP2P3"});
-#line 206
+#line 209
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 207
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 208
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 209
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 210
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 211
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 212
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 213
- testRunner.Then("Clicked and verified Documents tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 214
- testRunner.Then("Verified UI elements under Documents tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 215
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 216
+ testRunner.Then("Clicked and verified Documents tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 217
+ testRunner.Then("Verified UI elements under Documents tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 218
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify page navigation, by clicking on \'Documents\' tab", new string[] {
-                "mytagP2"}, SourceLine=217)]
+                "mytagP2"}, SourceLine=220)]
         public virtual void VerifyPageNavigationByClickingOnDocumentsTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify page navigation, by clicking on \'Documents\' tab", null, new string[] {
                         "mytagP2"});
-#line 218
+#line 221
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 219
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 220
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 221
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 222
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 223
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 224
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 225
- testRunner.Then("Clicked and verified Documents tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 226
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 227
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 228
+ testRunner.Then("Clicked and verified Documents tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 229
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify  \'OSV Admin Services Guide\' document", new string[] {
-                "mytagP2"}, SourceLine=228)]
+                "mytagP2"}, SourceLine=231)]
         public virtual void VerifyOSVAdminServicesGuideDocument()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify  \'OSV Admin Services Guide\' document", null, new string[] {
                         "mytagP2"});
-#line 229
+#line 232
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 230
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 231
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 232
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 233
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 234
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 235
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 236
- testRunner.Then("Clicked and verified Documents tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 237
- testRunner.Then("Click on OSV Admin Services Guide and verify it", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 238
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 239
+ testRunner.Then("Clicked and verified Documents tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 240
+ testRunner.Then("Click on OSV Admin Services Guide and verify it", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 241
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify by clicking on \'OSV Admin Services Guide (CANADA)\' document", new string[] {
-                "mytagP2"}, SourceLine=240)]
+                "mytagP2"}, SourceLine=243)]
         public virtual void VerifyByClickingOnOSVAdminServicesGuideCANADADocument()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify by clicking on \'OSV Admin Services Guide (CANADA)\' document", null, new string[] {
                         "mytagP2"});
-#line 241
+#line 244
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 242
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 243
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 244
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 245
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 246
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 247
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 248
- testRunner.Then("Clicked and verified Documents tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 249
- testRunner.Then("Click on OSV Admin Services Guide_CANADA link and verify it", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 250
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 251
+ testRunner.Then("Clicked and verified Documents tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 252
+ testRunner.Then("Click on OSV Admin Services Guide_CANADA link and verify it", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 253
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -671,32 +683,32 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify by clicking on \'Workday Soc1 Report\' in \'Control Documents\' under \'Documen" +
             "ts\' section", new string[] {
-                "mytagP2"}, SourceLine=252)]
+                "mytagP2"}, SourceLine=255)]
         public virtual void VerifyByClickingOnWorkdaySoc1ReportInControlDocumentsUnderDocumentsSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify by clicking on \'Workday Soc1 Report\' in \'Control Documents\' under \'Documen" +
                     "ts\' section", null, new string[] {
                         "mytagP2"});
-#line 253
+#line 256
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 254
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 255
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 256
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 257
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 258
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 259
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 260
- testRunner.Then("Clicked and verified Documents tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 261
- testRunner.Then("Click on Workday SocOne Report link under Control Documents and verify it", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 262
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 263
+ testRunner.Then("Clicked and verified Documents tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 264
+ testRunner.Then("Click on Workday SocOne Report link under Control Documents and verify it", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 265
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -704,32 +716,32 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify by clicking on \'Workday Soc2 Report\' in \'Control Documents\' under \'Documen" +
             "ts\' section", new string[] {
-                "mytagP2"}, SourceLine=264)]
+                "mytagP2"}, SourceLine=267)]
         public virtual void VerifyByClickingOnWorkdaySoc2ReportInControlDocumentsUnderDocumentsSection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify by clicking on \'Workday Soc2 Report\' in \'Control Documents\' under \'Documen" +
                     "ts\' section", null, new string[] {
                         "mytagP2"});
-#line 265
+#line 268
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 266
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 267
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 268
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 269
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 270
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 271
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 272
- testRunner.Then("Clicked and verified Documents tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 273
- testRunner.Then("Click on Workday SocTwo Report link under Control Documents and verify it", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 274
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 275
+ testRunner.Then("Clicked and verified Documents tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 276
+ testRunner.Then("Click on Workday SocTwo Report link under Control Documents and verify it", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 277
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -737,32 +749,32 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verification  of Records per  page drop down in contracts tab with all the option" +
             "s", new string[] {
-                "mytagP1"}, SourceLine=276)]
+                "mytagP1"}, SourceLine=279)]
         public virtual void VerificationOfRecordsPerPageDropDownInContractsTabWithAllTheOptions()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verification  of Records per  page drop down in contracts tab with all the option" +
                     "s", null, new string[] {
                         "mytagP1"});
-#line 277
+#line 280
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 278
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 279
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 280
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 281
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 282
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 283
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 284
- testRunner.Then("Clicked and verified Contracts tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 285
- testRunner.Then("Verified Records Per Page Drop-Down in Contracts tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 286
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 287
+ testRunner.Then("Clicked and verified Contracts tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 288
+ testRunner.Then("Verified Records Per Page Drop-Down in Contracts tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 289
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -770,63 +782,63 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verification of Footer elements under \'Contracts\' tab of My Account page upon cha" +
             "nging the page number from default value 1", new string[] {
-                "mytagP1"}, SourceLine=288)]
+                "mytagP1"}, SourceLine=291)]
         public virtual void VerificationOfFooterElementsUnderContractsTabOfMyAccountPageUponChangingThePageNumberFromDefaultValue1()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verification of Footer elements under \'Contracts\' tab of My Account page upon cha" +
                     "nging the page number from default value 1", null, new string[] {
                         "mytagP1"});
-#line 289
+#line 292
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 290
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 291
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 292
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 293
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 294
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 295
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 296
- testRunner.Then("Clicked and verified Contracts tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 297
- testRunner.Then("Changed Page Number Count textbox value in Contracts", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 298
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 299
+ testRunner.Then("Clicked and verified Contracts tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 300
+ testRunner.Then("Changed Page Number Count textbox value in Contracts", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 301
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify functionality of Footer buttons in \'Contracts\' tab", new string[] {
-                "mytagP1"}, SourceLine=300)]
+                "mytagP1"}, SourceLine=303)]
         public virtual void VerifyFunctionalityOfFooterButtonsInContractsTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify functionality of Footer buttons in \'Contracts\' tab", null, new string[] {
                         "mytagP1"});
-#line 301
+#line 304
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 302
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 303
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 304
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 305
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 306
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 307
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 308
- testRunner.Then("Clicked and verified Contracts tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 309
- testRunner.Then("Verified functionality of First,Previous,Next and Last buttons in Contracts page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 310
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 311
+ testRunner.Then("Clicked and verified Contracts tab in My Account Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 312
+ testRunner.Then("Verified functionality of First,Previous,Next and Last buttons in Contracts page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 313
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -834,157 +846,157 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verification of Footer elements under \'Invoicing\' tab of My Account page upon cha" +
             "nging the page number from default value 1", new string[] {
-                "mytagP1"}, SourceLine=312)]
+                "mytagP1"}, SourceLine=315)]
         public virtual void VerificationOfFooterElementsUnderInvoicingTabOfMyAccountPageUponChangingThePageNumberFromDefaultValue1()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verification of Footer elements under \'Invoicing\' tab of My Account page upon cha" +
                     "nging the page number from default value 1", null, new string[] {
                         "mytagP1"});
-#line 313
+#line 316
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 314
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 315
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 316
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 317
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 318
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 319
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 320
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 321
- testRunner.Then("Changed Page Number Count textbox value", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 322
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 323
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'07/31/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 324
+ testRunner.Then("Changed Page Number Count textbox value", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 325
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'From Calendar\' date is advanced to \'To Calendar\' date in \'Invoicing\'", new string[] {
-                "mytagP1"}, SourceLine=324)]
+                "mytagP1"}, SourceLine=327)]
         public virtual void VerifyFromCalendarDateIsAdvancedToToCalendarDateInInvoicing()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'From Calendar\' date is advanced to \'To Calendar\' date in \'Invoicing\'", null, new string[] {
                         "mytagP1"});
-#line 325
+#line 328
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 326
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 327
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 328
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 329
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 330
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 331
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 332
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'05/01/2017\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 333
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 334
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 335
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'05/01/2017\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 336
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Today\' link in both \'From\' and \'To\' calendars in \'Invoicing\' tab", new string[] {
-                "mytagP1"}, SourceLine=335)]
+                "mytagP1"}, SourceLine=338)]
         public virtual void VerifyTodayLinkInBothFromAndToCalendarsInInvoicingTab()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Today\' link in both \'From\' and \'To\' calendars in \'Invoicing\' tab", null, new string[] {
                         "mytagP1"});
-#line 336
+#line 339
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 337
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 338
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 339
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 340
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 341
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 342
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 343
- testRunner.Then("Verified Today link in From calendar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 344
- testRunner.Then("Verified Today link in To calendar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 345
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 346
+ testRunner.Then("Verified Today link in From calendar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 347
+ testRunner.Then("Verified Today link in To calendar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 348
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify Records in \'Invoicing\' Table by selecting From and To Dates", new string[] {
-                "mytagP1"}, SourceLine=347)]
+                "mytagP1"}, SourceLine=350)]
         public virtual void VerifyRecordsInInvoicingTableBySelectingFromAndToDates()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Records in \'Invoicing\' Table by selecting From and To Dates", null, new string[] {
                         "mytagP1"});
-#line 348
+#line 351
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 349
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 350
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 351
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 352
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 353
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 354
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 355
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'09/30/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 356
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 357
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 358
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'09/30/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 359
  testRunner.Then("Verify Invoicing Dates lies between From Date \'06/29/2017\' and To Date \'09/30/201" +
                     "9\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 357
+#line 360
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Total Amount Due\' and \'Past Amount Due\' values in \'Invoicing\'", new string[] {
-                "mytagP1"}, SourceLine=359)]
+                "mytagP1"}, SourceLine=362)]
         public virtual void VerifyTotalAmountDueAndPastAmountDueValuesInInvoicing()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Total Amount Due\' and \'Past Amount Due\' values in \'Invoicing\'", null, new string[] {
                         "mytagP1"});
-#line 360
+#line 363
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 361
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 362
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 363
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 364
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 365
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 366
- testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 367
- testRunner.Then("Select From Date \'06/29/2017\' And To Date \'09/30/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 368
- testRunner.Then("Verify Total Amount Due in Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 369
- testRunner.Then("Verify Past Due Amount in invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 370
+ testRunner.Then("Select From Date \'06/29/2017\' And To Date \'09/30/2019\' on Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 371
+ testRunner.Then("Verify Total Amount Due in Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 372
+ testRunner.Then("Verify Past Due Amount in invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 373
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -992,28 +1004,28 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify user is navigated  to \'Not Fully Funded\' page when clicked on \'Balance\' se" +
             "ctor of \'payroll collection\' pie chart  present in  Treasury section", new string[] {
-                "mytagP2"}, SourceLine=372)]
+                "mytagP2"}, SourceLine=375)]
         public virtual void VerifyUserIsNavigatedToNotFullyFundedPageWhenClickedOnBalanceSectorOfPayrollCollectionPieChartPresentInTreasurySection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify user is navigated  to \'Not Fully Funded\' page when clicked on \'Balance\' se" +
                     "ctor of \'payroll collection\' pie chart  present in  Treasury section", null, new string[] {
                         "mytagP2"});
-#line 373
+#line 376
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 374
-    testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 375
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 376
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 377
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+    testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 378
- testRunner.Then("Click on Pie chart of Payroll Collection in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 379
- testRunner.Then("Verify whether the user is navigated to NotFullyFunded page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 380
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 381
+ testRunner.Then("Click on Pie chart of Payroll Collection in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 382
+ testRunner.Then("Verify whether the user is navigated to NotFullyFunded page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 383
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -1021,28 +1033,28 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify user is navigated  to \'Not Fully Funded\' page when clicked on \'Balance\' se" +
             "ctor of \'Tax Collection\' pie chart  present in  Treasury section", new string[] {
-                "mytagP2"}, SourceLine=382)]
+                "mytagP2"}, SourceLine=385)]
         public virtual void VerifyUserIsNavigatedToNotFullyFundedPageWhenClickedOnBalanceSectorOfTaxCollectionPieChartPresentInTreasurySection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify user is navigated  to \'Not Fully Funded\' page when clicked on \'Balance\' se" +
                     "ctor of \'Tax Collection\' pie chart  present in  Treasury section", null, new string[] {
                         "mytagP2"});
-#line 383
+#line 386
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 384
-    testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 385
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 386
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 387
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+    testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 388
- testRunner.Then("Click on Pie chart of Tax Collection in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 389
- testRunner.Then("Verify whether the user is navigated to NotFullyFunded page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 390
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 391
+ testRunner.Then("Click on Pie chart of Tax Collection in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 392
+ testRunner.Then("Verify whether the user is navigated to NotFullyFunded page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 393
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -1050,86 +1062,86 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify user is navigated  to \'Not Fully Funded\' page when clicked on \'Balance\' se" +
             "ctor of \'Garn Collection\' pie chart  present in  Treasury section", new string[] {
-                "mytagP2"}, SourceLine=392)]
+                "mytagP2"}, SourceLine=395)]
         public virtual void VerifyUserIsNavigatedToNotFullyFundedPageWhenClickedOnBalanceSectorOfGarnCollectionPieChartPresentInTreasurySection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify user is navigated  to \'Not Fully Funded\' page when clicked on \'Balance\' se" +
                     "ctor of \'Garn Collection\' pie chart  present in  Treasury section", null, new string[] {
                         "mytagP2"});
-#line 393
+#line 396
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 394
-    testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 395
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 396
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 397
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+    testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 398
- testRunner.Then("Click on Pie chart of Garn Collection in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 399
- testRunner.Then("Verify whether the user is navigated to NotFullyFunded page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 400
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 401
+ testRunner.Then("Click on Pie chart of Garn Collection in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 402
+ testRunner.Then("Verify whether the user is navigated to NotFullyFunded page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 403
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify \'Fully funded\' link navigates to Fully Funded section of treasury page", new string[] {
-                "mytagP2"}, SourceLine=402)]
+                "mytagP2"}, SourceLine=405)]
         public virtual void VerifyFullyFundedLinkNavigatesToFullyFundedSectionOfTreasuryPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify \'Fully funded\' link navigates to Fully Funded section of treasury page", null, new string[] {
                         "mytagP2"});
-#line 403
+#line 406
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 404
-    testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 405
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 406
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 407
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+    testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 408
- testRunner.Then("Click on Fully Funded link in Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 409
- testRunner.Then("Verify whether the user is navigated to Fully Funded page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 410
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 411
+ testRunner.Then("Click on Fully Funded link in Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 412
+ testRunner.Then("Verify whether the user is navigated to Fully Funded page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 413
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify the functionality of header elements in Dashboard page", new string[] {
-                "mytagP2"}, SourceLine=412)]
+                "mytagP2"}, SourceLine=415)]
         public virtual void VerifyTheFunctionalityOfHeaderElementsInDashboardPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify the functionality of header elements in Dashboard page", null, new string[] {
                         "mytagP2"});
-#line 413
+#line 416
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 414
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 415
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 416
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 417
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 418
- testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 419
- testRunner.Then("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 420
- testRunner.Then("Clicked on One Atmosphere logo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 421
- testRunner.Given("Click on User Account dropdown in Home Page and Verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Then("Clicked on My Account Link in Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 422
+ testRunner.Then("Verify page navigation to Invoicing tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 423
+ testRunner.Then("Clicked on One Atmosphere logo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 424
+ testRunner.Given("Click on User Account dropdown in Home Page and Verify results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 425
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -1137,26 +1149,26 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Verify user is navigated  to \'Treasury Page\' when clicked on \'ellipsis menu\' pres" +
             "ent at top of Treasury section", new string[] {
-                "mytagP2"}, SourceLine=424)]
+                "mytagP2"}, SourceLine=427)]
         public virtual void VerifyUserIsNavigatedToTreasuryPageWhenClickedOnEllipsisMenuPresentAtTopOfTreasurySection()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify user is navigated  to \'Treasury Page\' when clicked on \'ellipsis menu\' pres" +
                     "ent at top of Treasury section", null, new string[] {
                         "mytagP2"});
-#line 425
+#line 428
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 426
- testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 427
- testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 428
- testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 429
- testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Open browser \'chrome\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 430
- testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Navigate to url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 431
+ testRunner.Then("Enter username and password and login into OneAtmos site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 432
+ testRunner.Given("Landed on OneAtmos Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 433
+ testRunner.Then("Click on Ellipses Menu available at Treasury section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 434
  testRunner.Then("Quit browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

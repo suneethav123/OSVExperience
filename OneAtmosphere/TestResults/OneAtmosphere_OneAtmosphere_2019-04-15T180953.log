@@ -1,0 +1,208 @@
+﻿2019-04-15T18:09:52.9232036+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-15T18:09:52.9272040+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-15T18:09:53.0162129+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-15T18:09:53.0162129+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-15T18:09:53.0162129+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-15T18:10:02.1201232+05:30;Thread#13;Info;starting test run
+2019-04-15T18:10:02.1251237+05:30;Thread#13;Info;Discovering target: Default
+2019-04-15T18:10:02.1261238+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#52: Tax - 
+#56: Verify'Filter' icon and 'Select Company' wizard elements are functional in 'Tax' page - TestAssembly:OneAtmosphere/Feature:Tax/Scenario:Verify%27Filter%27+icon+and+%27Select+Company%27+wizard+elements+are+functional+in+%27Tax%27+page
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #56 from normal test queue 
+Thread#0:Scheduler: considering testitem #56 for thread 0
+Thread#0:TestItem#56:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#56:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#56:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #56 for thread 0
+Thread#0:Scheduler: Test #56 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #56/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify'Filter' icon and 'Select Company' wizard elements are functional in 'Tax' page in Feature:Tax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (1.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (8.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OSVAtmos site
+Thread#0:T:UserName: zenatmos1@gmail.com
+Thread#0:T:Password: Second@123!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenEnterUsernameAndPasswordAndLoginIntoOSVAtmosSite() (6.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on Ellipses icon under Tax section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickedOnEllipsesIconUnderTaxSection() (3.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Landed in Tax page and verified
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenLandedInTaxPageAndVerified() (0.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on Filter icon
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickedOnFilterIcon() (3.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verified Select company wizard is displayed upon clicked on Filter icon
+Thread#0:T:error:   'Select Company' wizard is not displayed upon clicking on 'Filter'icon in Tax page
+Thread#0:T:  Expected: True
+Thread#0:T:  But was:  False
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Verify all companies should be selected when SELECT ALL checkbox is selected
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Verified whether all companies are in deselected state if Select All checkbox is unchecked
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#56:Scheduler: reschedule tests for testitem #56
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #56
+Thread#0:Scheduler: considering testitem #56 for thread 0
+Thread#0:TestItem#56:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#56:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#56:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #56 for thread 0
+Thread#0:Scheduler: Test #56 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0:T:An error ocurred:  'Select Company' wizard is not displayed upon clicking on 'Filter'icon in Tax page
+Thread#0:T:  Expected: True
+Thread#0:T:  But was:  False
+Thread#0:T:It was of type:AssertionException
+Thread#0: Test #56/0 is finished on thread #0 as Failed within 28.0538051 seconds
+Thread#0: Test #56/1 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify'Filter' icon and 'Select Company' wizard elements are functional in 'Tax' page in Feature:Tax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (5.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OSVAtmos site
+Thread#0:T:UserName: zenatmos1@gmail.com
+Thread#0:T:Password: Second@123!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenEnterUsernameAndPasswordAndLoginIntoOSVAtmosSite() (8.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on Ellipses icon under Tax section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickedOnEllipsesIconUnderTaxSection() (2.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Landed in Tax page and verified
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenLandedInTaxPageAndVerified() (1.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on Filter icon
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickedOnFilterIcon() (3.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verified Select company wizard is displayed upon clicked on Filter icon
+Thread#0:T:error:   'Select Company' wizard is not displayed upon clicking on 'Filter'icon in Tax page
+Thread#0:T:  Expected: True
+Thread#0:T:  But was:  False
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Verify all companies should be selected when SELECT ALL checkbox is selected
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Verified whether all companies are in deselected state if Select All checkbox is unchecked
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #56
+Thread#0:Scheduler: considering testitem #56 for thread 0
+Thread#0:TestItem#56:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#56:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#56:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #56 for thread 0
+Thread#0:Scheduler: Test #56 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0:T:An error ocurred:  'Select Company' wizard is not displayed upon clicking on 'Filter'icon in Tax page
+Thread#0:T:  Expected: True
+Thread#0:T:  But was:  False
+Thread#0:T:It was of type:AssertionException
+Thread#0: Test #56/1 is finished on thread #0 as Failed within 25.2565254 seconds
+Thread#0: Test #56/2 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify'Filter' icon and 'Select Company' wizard elements are functional in 'Tax' page in Feature:Tax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (7.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OSVAtmos site
+Thread#0:T:UserName: zenatmos1@gmail.com
+Thread#0:T:Password: Second@123!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenEnterUsernameAndPasswordAndLoginIntoOSVAtmosSite() (7.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on Ellipses icon under Tax section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickedOnEllipsesIconUnderTaxSection() (3.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Landed in Tax page and verified
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenLandedInTaxPageAndVerified() (0.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on Filter icon
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickedOnFilterIcon() (3.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verified Select company wizard is displayed upon clicked on Filter icon
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenVerifiedSelectCompanyWizardIsDisplayedUponClickedOnFilterIcon() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify all companies should be selected when SELECT ALL checkbox is selected
+Thread#0:T:error: no such element: Unable to locate element: {"method":"xpath","selector":"//div/div[1]/div[3]/div/div/div[2]/div[2]/div/div/div/input"}
+Thread#0:T:  (Session info: chrome=73.0.3683.103)
+Thread#0:T:  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Verified whether all companies are in deselected state if Select All checkbox is unchecked
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:An error ocurred:no such element: Unable to locate element: {"method":"xpath","selector":"//div/div[1]/div[3]/div/div/div[2]/div[2]/div/div/div/input"}
+Thread#0:T:  (Session info: chrome=73.0.3683.103)
+Thread#0:T:  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:T:It was of type:NoSuchElementException
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\OSVAtmosphereVSTS\OSVExperience\Automation_Report\OutPut\Log\log_15-04-2019.log
+Thread#0: Test #56/2 is finished on thread #0 as Failed within 24.7534751 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-15T18:11:20.6729777+05:30;Thread#13;Info;test run finished
+2019-04-15T18:11:20.6739778+05:30;Thread#13;Info;publishing test results
+2019-04-15T18:11:20.6779782+05:30;Thread#13;Info;test results published
+2019-04-15T18:11:20.6779782+05:30;Thread#13;Info;generating reports
+2019-04-15T18:11:20.6829787+05:30;Thread#13;Info;creating 1 report(s)
+2019-04-15T18:11:20.6839788+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-04-15T18:11:21.7580862+05:30;Thread#13;Info;reports generated
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-04-15T18:11:21.7610865+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-15T18:11:21.7610865+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-15T180953.html'
+2019-04-15T18:11:21.7780882+05:30;VSTestExecutionThread;Info;Log file: file:///D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-15T180953.log

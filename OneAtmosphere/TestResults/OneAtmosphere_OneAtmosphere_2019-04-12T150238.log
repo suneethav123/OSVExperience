@@ -1,0 +1,201 @@
+﻿2019-04-12T15:02:38.6748428+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-12T15:02:38.6788432+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-12T15:02:38.7568510+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-12T15:02:38.7568510+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-12T15:02:38.7578511+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-12T15:02:43.8623615+05:30;Thread#13;Info;starting test run
+2019-04-12T15:02:43.8693622+05:30;Thread#13;Info;Discovering target: Default
+2019-04-12T15:02:43.8693622+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#173: Treasury - 
+#184: Verify "First","Previous","Next" &"Past" buttons are Enabled state when user changes page number count other than value '1' - Under 'Fully Funded' tab - TestAssembly:OneAtmosphere/Feature:Treasury/Scenario:Verify+%22First%22%2c%22Previous%22%2c%22Next%22+%26%22Past%22+buttons+are+Enabled+state+when+user+changes+page+number+count+other+than+value+%271%27+-+Under+%27Fully+Funded%27+tab
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #184 from normal test queue 
+Thread#0:Scheduler: considering testitem #184 for thread 0
+Thread#0:TestItem#184:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#184:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#184:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #184 for thread 0
+Thread#0:Scheduler: Test #184 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #184/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify "First","Previous","Next" &"Past" buttons are Enabled state when user changes page number count other than value '1' - Under 'Fully Funded' tab in Feature:Treasury
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (1.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (18.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (7.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Ellipses Menu available at Treasury section
+Thread#0:T:done: TreasurySteps.ThenClickOnEllipsesMenuAvailableAtTreasurySection() (2.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Navigate to Fully Funded Tab
+Thread#0:T:Fully Funded tab Clickedd
+Thread#0:T:done: TreasurySteps.GivenNavigateToFullyFundedTab() (2.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '07/31/2019' on Fully Funded tab
+Thread#0:T:done: TreasurySteps.ThenSelectFromDateAndToDateOnFullyFundedTab("06/29/2017", "07/31/2019") (9.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Change Page Number count and verify state of footer buttons
+Thread#0:T:No Of Pages: 4
+Thread#0:T:error:   First button is not enabled in Treasury page even if by chaging page number
+Thread#0:T:  Expected: True
+Thread#0:T:  But was:  False
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#184:Scheduler: reschedule tests for testitem #184
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #184
+Thread#0:Scheduler: considering testitem #184 for thread 0
+Thread#0:TestItem#184:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#184:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#184:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #184 for thread 0
+Thread#0:Scheduler: Test #184 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0:T:An error ocurred:  First button is not enabled in Treasury page even if by chaging page number
+Thread#0:T:  Expected: True
+Thread#0:T:  But was:  False
+Thread#0:T:It was of type:AssertionException
+Thread#0: Test #184/0 is finished on thread #0 as Failed within 56.4706465 seconds
+Thread#0: Test #184/1 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify "First","Previous","Next" &"Past" buttons are Enabled state when user changes page number count other than value '1' - Under 'Fully Funded' tab in Feature:Treasury
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (18.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (7.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Ellipses Menu available at Treasury section
+Thread#0:T:done: TreasurySteps.ThenClickOnEllipsesMenuAvailableAtTreasurySection() (2.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Navigate to Fully Funded Tab
+Thread#0:T:Fully Funded tab Clickedd
+Thread#0:T:done: TreasurySteps.GivenNavigateToFullyFundedTab() (2.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '07/31/2019' on Fully Funded tab
+Thread#0:T:done: TreasurySteps.ThenSelectFromDateAndToDateOnFullyFundedTab("06/29/2017", "07/31/2019") (13.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Change Page Number count and verify state of footer buttons
+Thread#0:T:No Of Pages: 4
+Thread#0:T:error:   First button is not enabled in Treasury page even if by chaging page number
+Thread#0:T:  Expected: True
+Thread#0:T:  But was:  False
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #184
+Thread#0:Scheduler: considering testitem #184 for thread 0
+Thread#0:TestItem#184:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#184:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#184:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #184 for thread 0
+Thread#0:Scheduler: Test #184 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0:T:An error ocurred:  First button is not enabled in Treasury page even if by chaging page number
+Thread#0:T:  Expected: True
+Thread#0:T:  But was:  False
+Thread#0:T:It was of type:AssertionException
+Thread#0: Test #184/1 is finished on thread #0 as Failed within 55.695569 seconds
+Thread#0: Test #184/2 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify "First","Previous","Next" &"Past" buttons are Enabled state when user changes page number count other than value '1' - Under 'Fully Funded' tab in Feature:Treasury
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (10.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (7.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Ellipses Menu available at Treasury section
+Thread#0:T:done: TreasurySteps.ThenClickOnEllipsesMenuAvailableAtTreasurySection() (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Navigate to Fully Funded Tab
+Thread#0:T:Fully Funded tab Clickedd
+Thread#0:T:done: TreasurySteps.GivenNavigateToFullyFundedTab() (3.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Select From Date '06/29/2017' And To Date '07/31/2019' on Fully Funded tab
+Thread#0:T:done: TreasurySteps.ThenSelectFromDateAndToDateOnFullyFundedTab("06/29/2017", "07/31/2019") (11.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Change Page Number count and verify state of footer buttons
+Thread#0:T:No Of Pages: 4
+Thread#0:T:error:   First button is not enabled in Treasury page even if by chaging page number
+Thread#0:T:  Expected: True
+Thread#0:T:  But was:  False
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:An error ocurred:  First button is not enabled in Treasury page even if by chaging page number
+Thread#0:T:  Expected: True
+Thread#0:T:  But was:  False
+Thread#0:T:It was of type:AssertionException
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\OSVAtmosphereVSTS\OSVExperience\Automation_Report\OutPut\Log\log_12-04-2019.log
+Thread#0: Test #184/2 is finished on thread #0 as Failed within 45.8765872 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-12T15:05:22.3812118+05:30;Thread#13;Info;test run finished
+2019-04-12T15:05:22.3812118+05:30;Thread#13;Info;publishing test results
+2019-04-12T15:05:22.3882125+05:30;Thread#13;Info;test results published
+2019-04-12T15:05:22.3882125+05:30;Thread#13;Info;generating reports
+2019-04-12T15:05:22.3962133+05:30;Thread#13;Info;creating 1 report(s)
+2019-04-12T15:05:22.3962133+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-04-12T15:05:23.6893426+05:30;Thread#13;Info;reports generated
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-04-12T15:05:23.6953432+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-12T15:05:23.6953432+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-12T150238.html'
+2019-04-12T15:05:23.7073444+05:30;VSTestExecutionThread;Info;Log file: file:///D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-12T150238.log
