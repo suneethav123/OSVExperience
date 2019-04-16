@@ -83,11 +83,15 @@ this.ScenarioInitialize(scenarioInfo);
                         "username",
                         "password"});
             table1.AddRow(new string[] {
-                        "https://test.taxex.net/app/",
-                        "rupesh.barnawal@zenq.com",
-                        "Zenq@1234"});
+                        "https://dev.taxex.net/app/",
+                        "sridevi.pediredla@zenq.com",
+                        "Zenq@12345"});
 #line 6
  testRunner.Then("Navigate to url and enter username and password", ((string)(null)), table1, "Then ");
+#line 9
+ testRunner.Then("Navigate to Process > Import screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 10
+ testRunner.Then("Import Xml into application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

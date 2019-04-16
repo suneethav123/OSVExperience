@@ -44,6 +44,7 @@ namespace SeleniumAutomation.Utilities
 
         }
 
+        //Returns .. \\OSVExperience\OneAtmosphere folder path ...
         public string GetProjectLocation()
         {
            /* string sDirectory = Environment.CurrentDirectory;
@@ -57,26 +58,12 @@ namespace SeleniumAutomation.Utilities
             string sDir = Directory.GetParent(System.AppDomain.CurrentDomain.BaseDirectory).Parent.FullName;
             Console.WriteLine("Full project path (Batch Execution):=>>>>>>>" + sDir);
             log.Info("path is:=>" + sDir);
-            return sDir;
+            return sDir;           
+        }
 
-        /* 
-            //If run through NUnit ..
-            if (sDirectory.EndsWith("OneAtmosphere"))
-            {
-                Console.WriteLine("Full project path (NUnit Execution):=>>>>>>>" + sDirectory);
-                log.Info("path is:=>" + sDirectory);
-                return sDirectory;
-            }
-            //If run through batch file ..
-            else
-            {
-                string sDir = Directory.GetParent(System.AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.FullName;
-                Console.WriteLine("Full project path (Batch Execution):=>>>>>>>" + sDir);
-                log.Info("path is:=>" + sDir);
-                return sDir;
-            }
-            */
-            
+        public string GetResourcesFolder()
+        {
+            return GetProjectLocation() + @"\Resources\";
         }
 
         public string GetTestDataLocation()

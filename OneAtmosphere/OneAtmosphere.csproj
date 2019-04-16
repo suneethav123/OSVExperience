@@ -370,6 +370,7 @@
     <Compile Include="Pages\PageConstants\OneAtmosMyAccountLocators.cs" />
     <Compile Include="Pages\PageConstants\OneAtmosTaxPageLocators.cs" />
     <Compile Include="Pages\PageConstants\SalesforceLocators.cs" />
+    <Compile Include="Pages\PageConstants\TaxExDataValidationPageLocators.cs" />
     <Compile Include="Pages\PageParts\OneAtmosMyAccount.cs" />
     <Compile Include="Pages\PageParts\OneAtmosTaxPage.cs" />
     <Compile Include="Pages\PageConstants\OneAtmosHomePageLocators.cs" />

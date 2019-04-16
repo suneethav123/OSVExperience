@@ -8,6 +8,7 @@ using System.Text;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 using OneAtmosphere.Pages.PageParts;
+using SeleniumAutomation.Utilities;
 
 namespace OneAtmosphere.Steps
 {
@@ -16,9 +17,14 @@ namespace OneAtmosphere.Steps
     {
         //private readonly ScenarioContext context;
         public TaxExDataValidationPage _taxExDataValidationPage = null;
+        AutomationUtilities _autoutilities = new AutomationUtilities();
         ILog log = LogManager.GetLogger("TaxExDataValidationSteps");
         IWebDriver driver = (IWebDriver)ScenarioContext.Current["driver"];
         public string url { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
+        public string Resources_Path;
+        public string FileNameToImport = "DataValidationForPowerOfAttorney";
         [Then(@"Navigate to url and enter username and password")]
         public void ThenNavigateToUrlAndEnterUsernameAndPassword(Table table)
         {
@@ -29,6 +35,26 @@ namespace OneAtmosphere.Steps
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             driver.Manage().Window.Maximize();
             _taxExDataValidationPage = new TaxExDataValidationPage(driver);
+            _taxExDataValidationPage.EnterUserNameAndPasswordForTaxEx(credentials.username, credentials.password);
+            _taxExDataValidationPage.ClickOnSignInButton();
+        }
+
+        [Then(@"Navigate to Process > Import screen")]
+        public void ThenNavigateToProcessImportScreen()
+        {
+            _taxExDataValidationPage.ClickProcessImport();
+        }
+
+        [Then(@"Import Xml into application")]
+        public string ThenImportXmlIntoApplication()
+        {
+            bool IsImportSuccess = false;
+            Resources_Path = _autoutilities.GetResourcesFolder();
+            _taxExDataValidationPage.ImportTheXml(Resources_Path, FileNameToImport);
+            _taxExDataValidationPage.ClickOnImportButton();
+            IsImportSuccess = _taxExDataValidationPage.VerifyImportSuccess();
+            _taxExDataValidationPage.ClickOnOkButton();
+            return "Pass";
         }
 
     }

@@ -1,0 +1,73 @@
+﻿2019-04-16T14:50:20.1628139+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-16T14:50:20.1668143+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-16T14:50:20.2518228+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-16T14:50:20.2518228+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-16T14:50:20.2518228+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-16T14:50:27.3385314+05:30;Thread#13;Info;starting test run
+2019-04-16T14:50:27.3475323+05:30;Thread#13;Info;Discovering target: Default
+2019-04-16T14:50:27.3475323+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#52: TaxExDataValidation - 
+#53: Data Validation for Missing Power of Attorney - TestAssembly:OneAtmosphere/Feature:TaxExDataValidation/Scenario:Data+Validation+for+Missing+Power+of+Attorney
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #53 from normal test queue 
+Thread#0:Scheduler: considering testitem #53 for thread 0
+Thread#0:TestItem#53:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#53:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#53:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #53 for thread 0
+Thread#0:Scheduler: Test #53 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #53/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Data Validation for Missing Power of Attorney in Feature:TaxExDataValidation
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (1.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url and enter username and password
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | url                        | username                   | password   |
+Thread#0:B:  | https://dev.taxex.net/app/ | sridevi.pediredla@zenq.com | Zenq@12345 |
+Thread#0:T:Url is https://dev.taxex.net/app/
+Thread#0:T:done: TaxExDataValidationSteps.ThenNavigateToUrlAndEnterUsernameAndPassword(<table>) (9.4s)
+Thread#0:T:TestResult : OK
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\OSVAtmosphereVSTS\OSVExperience\Automation_Report\OutPut\Log\log_16-04-2019.log
+Thread#0: Test #53/0 is finished on thread #0 as Succeeded within 14.5104509 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-16T14:50:42.3330307+05:30;Thread#13;Info;test run finished
+2019-04-16T14:50:42.3340308+05:30;Thread#13;Info;publishing test results
+2019-04-16T14:50:42.3390313+05:30;Thread#13;Info;test results published
+2019-04-16T14:50:42.3390313+05:30;Thread#13;Info;generating reports
+2019-04-16T14:50:42.3450319+05:30;Thread#13;Info;creating 1 report(s)
+2019-04-16T14:50:42.3450319+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-04-16T14:50:43.3951369+05:30;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-04-16T14:50:43.3981372+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-16T14:50:43.3981372+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-16T145020.html'
+2019-04-16T14:50:43.4071381+05:30;VSTestExecutionThread;Info;Log file: file:///D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-16T145020.log
