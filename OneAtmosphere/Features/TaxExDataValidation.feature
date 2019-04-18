@@ -8,4 +8,5 @@ Scenario: Data Validation for Missing Power of Attorney
 	| https://dev.taxex.net/app/  |sridevi.pediredla@zenq.com  | Zenq@12345  |
 	Then Navigate to Process > Import screen
 	Then Import Xml into application
+	Then Navigate to Company > Tax > Power of Attorney > Pending screen and filter with company name
 

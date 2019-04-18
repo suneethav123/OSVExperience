@@ -385,5 +385,13 @@ namespace OneAtmos.Pages.PageParts
             SafeNormalClick(SalesforceLocators.NMT_Current_Date_Link, 10);
             waitForTime(2);
         }
+
+        public void ClickOnUserAdmin()
+        {
+            waitForTime(1);
+            WaitForPageToLoad();
+            SafeNormalClick(SalesforceLocators.UserAdmin, 10);
+            waitForTime(1);
+        }
     }
 }

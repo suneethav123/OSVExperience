@@ -21,7 +21,8 @@ namespace OneAtmosphere.Steps
         public SalesforceLoginPage _salesforcelogin = null;
         public SalesforceHomePage _salesforcehomepage = null;
         IWebDriver driver = (IWebDriver)ScenarioContext.Current["driver"];
-
+       
+        //OneAtmosHomePage _oneAtmosHomePage = (OneAtmosHomePage)(ScenarioContext.Current["oneAtmosHomePage"]);
         [Then(@"Navigate To SalesForce Url")]
         public void ThenINavigateToSalesForceUrl()
         {
@@ -31,6 +32,7 @@ namespace OneAtmosphere.Steps
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             driver.Manage().Window.Maximize();
             _salesforcelogin = new SalesforceLoginPage(driver);
+            //_salesforcehomepage = new SalesforceHomePage(driver);
 
         }
 
@@ -152,6 +154,19 @@ namespace OneAtmosphere.Steps
         public void ThenDeleteCreatedTransactionInSalesforce()
         {
             _salesforcehomepage.DeleteTransaction();
+        }
+
+        [Then(@"Click on User Admin")]
+        public void ThenClickOnUserAdmin()
+        {
+            _salesforcehomepage = new SalesforceHomePage(driver);
+            _salesforcehomepage.ClickOnUserAdmin();
+        }
+
+        [Then(@"Landed on User Administration page")]
+        public void ThenLandedOnUserAdministrationPage()
+        {
+            //_salesforcehomepage.VerifyUserAdminis
         }
 
     }

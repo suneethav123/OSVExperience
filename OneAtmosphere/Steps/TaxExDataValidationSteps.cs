@@ -9,6 +9,8 @@ using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 using OneAtmosphere.Pages.PageParts;
 using SeleniumAutomation.Utilities;
+using OneAtmosphere.Utilities.Generic;
+using System.Xml;
 
 namespace OneAtmosphere.Steps
 {
@@ -56,6 +58,21 @@ namespace OneAtmosphere.Steps
             _taxExDataValidationPage.ClickOnOkButton();
             return "Pass";
         }
+        
+        [Then(@"Navigate to Company > Tax > Power of Attorney > Pending screen and filter with company name")]
+        public void ThenNavigateToCompanyTaxPowerOfAttorneyPendingScreenAndFilterWithCompanyName()
+        {
+            _taxExDataValidationPage.ClickCompanyTaxPowerOfAttorneyPending();
+            _taxExDataValidationPage.ClickOnBasicSearch();
+            Resources_Path = _autoutilities.GetResourcesFolder();
+            //string XmlPath = _autoutilities.GetFilePathInDir(folPath, XmlName, "");
+            //Console.WriteLine("XML Path" + XmlPath);
+            //XmlDocument doc = new XmlDocument();
+            //doc.Load(XmlPath);
+            //var cname = doc.GetElementsByTagName("Company")[0].Attributes[2].Value;
+            //Console.WriteLine("Company Name:" + cname);
+        }
+
 
     }
 }

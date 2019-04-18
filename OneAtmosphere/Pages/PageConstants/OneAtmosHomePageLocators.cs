@@ -13,11 +13,11 @@ namespace OneAtmos.Pages.PageConstants
         //UI objects from the OneAtmos Home Page
         public static By MYACCOUNT_LINK = By.XPath("//span[text()='ACCOUNT']");
         //public static By MYACCOUNT_LINK = By.XPath("//span[text()='MY ACCOUNT']");
-        public static By UserDropdown = By.XPath("//i[@class='fa fa-chevron-down dropdownIcon']");
+        public static By UserDropdown = By.XPath("(//i[@class='fa fa-chevron-down dropdownIcon'])[2]");
         public static By Logout_Link = By.XPath("//a[@title='LOGOUT']");
         public static By MyProfile_Link = By.XPath("//a[text()='MY PROFILE']");
         public static By ChangePassword_Link = By.XPath("//a[text()='CHANGE PASSWORD']");
-        public static By OneAtmosphere_Logo = By.XPath("//img[@title='Home']");
+        public static By OneAtmosphere_Logo = By.XPath("//img[@title='OSVAtmosphere']");
         public static By User_Dropdown = By.XPath("//i[@class='fa fa-chevron-down dropdownIcon']");
       
         public static By Tax_Worklet = By.XPath("//div[contains(@class, 'cAtmos_Tax_HomeWorklet')]");

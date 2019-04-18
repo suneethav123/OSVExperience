@@ -20,5 +20,11 @@ namespace OneAtmosphere.Pages.PageConstants
         public static By ImportButton = By.Id("ImportButton");
         public static By ImportSuccess = By.XPath(".//*[@id='DialogPlaceholder']/table[1]/tbody/tr/td/b");
         public static By OkButton = By.XPath("html/body/div[6]/div[3]/div/button");
+        public static By CompanyTab = By.XPath(".//*[@id='MainNavMenu']/li[2]/span[text()='Company']");
+        public static By CompanyTaxTab = By.XPath(".//*[@id='MainNavMenu']/li[2]//span[text()='Tax']");
+        public static By PowerOfAttorneyTab = By.XPath(".//*[@id='MainNavMenu']//span[text()='Power of Attorney']");
+        public static By PowerOfAttorneyPendingTab = By.XPath(".//*[@id='MainNavMenu']//li[4]//a[text()='Pending']");
+        public static By PendingCompanyPowerOfAttorneyPage = By.XPath(".//*[@id='BreadCrumbContainer']//a[text()='Pending Company Power Of Attorney']");
+        public static By BasicSearch = By.XPath(".//*[@id='Basic-Search-FieldSet']/legend[text()='Basic']");
     }
 }

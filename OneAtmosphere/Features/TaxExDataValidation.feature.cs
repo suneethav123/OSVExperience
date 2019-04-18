@@ -92,6 +92,9 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Then("Navigate to Process > Import screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 10
  testRunner.Then("Import Xml into application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 11
+ testRunner.Then("Navigate to Company > Tax > Power of Attorney > Pending screen and filter with co" +
+                    "mpany name", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

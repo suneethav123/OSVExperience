@@ -64,6 +64,9 @@ namespace OneAtmos.Pages.PageConstants
         public static By NMT_Current_Date_Link = By.XPath("(//span[@class='dateFormat'])[1]");
         public static By Profile_Icon = By.XPath("//button[contains(@class,'oneUserProfileCardTrigger')]");
         public static By SwitchToSalesforceLink_ProfileIcon = By.XPath("//a[text()='Switch to Salesforce Classic']");
+
+        // new scripts locators
+        public static By UserAdmin = By.XPath("//span[text()='USER ADMIN']");
     }
 }
 

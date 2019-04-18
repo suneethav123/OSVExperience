@@ -1,0 +1,561 @@
+﻿2019-04-18T14:42:23.3588458+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-18T14:42:23.3618461+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-18T14:42:23.4448544+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-18T14:42:23.4448544+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-18T14:42:23.4458545+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-18T14:42:37.5752673+05:30;Thread#13;Info;starting test run
+2019-04-18T14:42:37.5802678+05:30;Thread#13;Info;Discovering target: Default
+2019-04-18T14:42:37.5812679+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#41: Salesforce - 
+#42: Verify that assigning 'My Account' permission to a demo user is accessible - TestAssembly:OneAtmosphere/Feature:Salesforce/Scenario:Verify+that+assigning+%27My+Account%27+permission+to+a+demo+user+is+accessible
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #42 from normal test queue 
+Thread#0:Scheduler: considering testitem #42 for thread 0
+Thread#0:TestItem#42:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#42:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#42:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #42 for thread 0
+Thread#0:Scheduler: Test #42 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #42/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify that assigning 'My Account' permission to a demo user is accessible in Feature:Salesforce
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (4.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate To SalesForce Url
+Thread#0:T:SalesForce URL: https://osv--qaprodcopy.cs24.my.salesforce.com/
+Thread#0:T:done: SalesforceOperationsSteps.ThenINavigateToSalesForceUrl() (30.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Login into Salesforce with valid credentials
+Thread#0:T:UserName: lakshmisravani.allarapu@zenq.qaprodcopy
+Thread#0:T:Password: Sravani@1826!
+Thread#0:T:done: SalesforceOperationsSteps.ThenLoginIntoSalesforceWithValidCredentials() (33.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Remove 'MyAccount' permission from Demo user
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Screenshot: file:///D:/OSVAtmosphereVSTS/OSVExperience/Automation_Report/OutPut/screenshots/error_Verify_that_assigning_'My_Account'_permission_to_a_demo_user_is_accessible_20190418144422.png
+Thread#0:T:An assertion failed.
+Thread#0:T:Unable to perform action: zenatmos1@gmail.com on [By.XPath: //input[@id='phSearchInput']] . Please follow the below reason. 
+Thread#0:T:Element - By.XPath: //input[@id='phSearchInput'] was not found within time 30 seconds
+Thread#0:T: Please refer to the above [Screenshot] for more information...
+Thread#0:T:   at SeleniumAutomation.Selenium.UA.SafeSendKeys(By locator, String key, Int32 TimeOutInSeconds, String element_name
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Utilities\Generic\UA.cs:line 1560
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigateToUserDetailPage(String UserName
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 83
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigatingtoPermissionPage(String UserName
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 76
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.RemovePermission(String Permission, String UserName
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 97
+Thread#0:T:   at OneAtmosphere.Steps.SalesforceOperationsSteps.ThenRemovePermissionFromDemoUser(String Permission
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\SalesforceSteps.cs:line 63
+Thread#0:T:   at lambda_method(Closure , IContextManager , String )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.Then(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.SalesforceFeature.VerifyThatAssigningMyAccountPermissionToADemoUserIsAccessible(
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\Salesforce.feature:line 9
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:error: An assertion failed.
+Thread#0:T:Unable to perform action: zenatmos1@gmail.com on [By.XPath: //input[@id='phSearchInput']] . Please follow the below reason. 
+Thread#0:T:Element - By.XPath: //input[@id='phSearchInput'] was not found within time 30 seconds
+Thread#0:T: Please refer to the above [Screenshot] for more information...
+Thread#0:T:   at SeleniumAutomation.Selenium.UA.SafeSendKeys(By locator, String key, Int32 TimeOutInSeconds, String element_name) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Utilities\Generic\UA.cs:line 1560
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigateToUserDetailPage(String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 83
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigatingtoPermissionPage(String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 76
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.RemovePermission(String Permission, String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 97
+Thread#0:T:   at OneAtmosphere.Steps.SalesforceOperationsSteps.ThenRemovePermissionFromDemoUser(String Permission) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\SalesforceSteps.cs:line 63
+Thread#0:T:   at lambda_method(Closure , IContextManager , String )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.Then(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.SalesforceFeature.VerifyThatAssigningMyAccountPermissionToADemoUserIsAccessible() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\Salesforce.feature:line 9
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:TestResult : TestError
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Navigate to url
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Enter username and password and login into OSVAtmos site
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Given Verify MyAccount in OneAtmos after removing permission
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Assign 'MyAccount' permission to Demo User
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Logout from Salesforce
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Given Verify MyAccount in OneAtmos after assigning permission
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Logout from application
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Verify the logout
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#42:Scheduler: reschedule tests for testitem #42
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #42
+Thread#0:Scheduler: considering testitem #42 for thread 0
+Thread#0:TestItem#42:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#42:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#42:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #42 for thread 0
+Thread#0:Scheduler: Test #42 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0:T:An error ocurred:An assertion failed.
+Thread#0:T:Unable to perform action: zenatmos1@gmail.com on [By.XPath: //input[@id='phSearchInput']] . Please follow the below reason. 
+Thread#0:T:Element - By.XPath: //input[@id='phSearchInput'] was not found within time 30 seconds
+Thread#0:T: Please refer to the above [Screenshot] for more information...
+Thread#0:T:   at SeleniumAutomation.Selenium.UA.SafeSendKeys(By locator, String key, Int32 TimeOutInSeconds, String element_name) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Utilities\Generic\UA.cs:line 1560
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigateToUserDetailPage(String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 83
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigatingtoPermissionPage(String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 76
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.RemovePermission(String Permission, String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 97
+Thread#0:T:   at OneAtmosphere.Steps.SalesforceOperationsSteps.ThenRemovePermissionFromDemoUser(String Permission) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\SalesforceSteps.cs:line 63
+Thread#0:T:   at lambda_method(Closure , IContextManager , String )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.Then(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.SalesforceFeature.VerifyThatAssigningMyAccountPermissionToADemoUserIsAccessible() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\Salesforce.feature:line 9
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:It was of type:AssertionFailureException
+Thread#0: Test #42/0 is finished on thread #0 as Failed within 105.3485338 seconds
+Thread#0: Test #42/1 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify that assigning 'My Account' permission to a demo user is accessible in Feature:Salesforce
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate To SalesForce Url
+Thread#0:T:SalesForce URL: https://osv--qaprodcopy.cs24.my.salesforce.com/
+Thread#0:T:done: SalesforceOperationsSteps.ThenINavigateToSalesForceUrl() (25.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Login into Salesforce with valid credentials
+Thread#0:T:UserName: lakshmisravani.allarapu@zenq.qaprodcopy
+Thread#0:T:Password: Sravani@1826!
+Thread#0:T:done: SalesforceOperationsSteps.ThenLoginIntoSalesforceWithValidCredentials() (79.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Remove 'MyAccount' permission from Demo user
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Screenshot: file:///D:/OSVAtmosphereVSTS/OSVExperience/Automation_Report/OutPut/screenshots/error_Verify_that_assigning_'My_Account'_permission_to_a_demo_user_is_accessible_20190418144641.png
+Thread#0:T:An assertion failed.
+Thread#0:T:Unable to perform action: zenatmos1@gmail.com on [By.XPath: //input[@id='phSearchInput']] . Please follow the below reason. 
+Thread#0:T:Element - By.XPath: //input[@id='phSearchInput'] was not found within time 30 seconds
+Thread#0:T: Please refer to the above [Screenshot] for more information...
+Thread#0:T:   at SeleniumAutomation.Selenium.UA.SafeSendKeys(By locator, String key, Int32 TimeOutInSeconds, String element_name
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Utilities\Generic\UA.cs:line 1560
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigateToUserDetailPage(String UserName
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 83
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigatingtoPermissionPage(String UserName
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 76
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.RemovePermission(String Permission, String UserName
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 97
+Thread#0:T:   at OneAtmosphere.Steps.SalesforceOperationsSteps.ThenRemovePermissionFromDemoUser(String Permission
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\SalesforceSteps.cs:line 63
+Thread#0:T:   at lambda_method(Closure , IContextManager , String )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.Then(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.SalesforceFeature.VerifyThatAssigningMyAccountPermissionToADemoUserIsAccessible(
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\Salesforce.feature:line 9
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:error: An assertion failed.
+Thread#0:T:Unable to perform action: zenatmos1@gmail.com on [By.XPath: //input[@id='phSearchInput']] . Please follow the below reason. 
+Thread#0:T:Element - By.XPath: //input[@id='phSearchInput'] was not found within time 30 seconds
+Thread#0:T: Please refer to the above [Screenshot] for more information...
+Thread#0:T:   at SeleniumAutomation.Selenium.UA.SafeSendKeys(By locator, String key, Int32 TimeOutInSeconds, String element_name) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Utilities\Generic\UA.cs:line 1560
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigateToUserDetailPage(String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 83
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigatingtoPermissionPage(String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 76
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.RemovePermission(String Permission, String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 97
+Thread#0:T:   at OneAtmosphere.Steps.SalesforceOperationsSteps.ThenRemovePermissionFromDemoUser(String Permission) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\SalesforceSteps.cs:line 63
+Thread#0:T:   at lambda_method(Closure , IContextManager , String )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.Then(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.SalesforceFeature.VerifyThatAssigningMyAccountPermissionToADemoUserIsAccessible() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\Salesforce.feature:line 9
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:TestResult : TestError
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Navigate to url
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Enter username and password and login into OSVAtmos site
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Given Verify MyAccount in OneAtmos after removing permission
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Assign 'MyAccount' permission to Demo User
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Logout from Salesforce
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Given Verify MyAccount in OneAtmos after assigning permission
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Logout from application
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Verify the logout
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #42
+Thread#0:Scheduler: considering testitem #42 for thread 0
+Thread#0:TestItem#42:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#42:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#42:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #42 for thread 0
+Thread#0:Scheduler: Test #42 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0:T:An error ocurred:An assertion failed.
+Thread#0:T:Unable to perform action: zenatmos1@gmail.com on [By.XPath: //input[@id='phSearchInput']] . Please follow the below reason. 
+Thread#0:T:Element - By.XPath: //input[@id='phSearchInput'] was not found within time 30 seconds
+Thread#0:T: Please refer to the above [Screenshot] for more information...
+Thread#0:T:   at SeleniumAutomation.Selenium.UA.SafeSendKeys(By locator, String key, Int32 TimeOutInSeconds, String element_name) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Utilities\Generic\UA.cs:line 1560
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigateToUserDetailPage(String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 83
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigatingtoPermissionPage(String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 76
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.RemovePermission(String Permission, String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 97
+Thread#0:T:   at OneAtmosphere.Steps.SalesforceOperationsSteps.ThenRemovePermissionFromDemoUser(String Permission) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\SalesforceSteps.cs:line 63
+Thread#0:T:   at lambda_method(Closure , IContextManager , String )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.Then(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.SalesforceFeature.VerifyThatAssigningMyAccountPermissionToADemoUserIsAccessible() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\Salesforce.feature:line 9
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:It was of type:AssertionFailureException
+Thread#0: Test #42/1 is finished on thread #0 as Failed within 139.3629349 seconds
+Thread#0: Test #42/2 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify that assigning 'My Account' permission to a demo user is accessible in Feature:Salesforce
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate To SalesForce Url
+Thread#0:T:SalesForce URL: https://osv--qaprodcopy.cs24.my.salesforce.com/
+Thread#0:T:done: SalesforceOperationsSteps.ThenINavigateToSalesForceUrl() (29.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Login into Salesforce with valid credentials
+Thread#0:T:UserName: lakshmisravani.allarapu@zenq.qaprodcopy
+Thread#0:T:Password: Sravani@1826!
+Thread#0:T:done: SalesforceOperationsSteps.ThenLoginIntoSalesforceWithValidCredentials() (31.6s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Remove 'MyAccount' permission from Demo user
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Screenshot: file:///D:/OSVAtmosphereVSTS/OSVExperience/Automation_Report/OutPut/screenshots/error_Verify_that_assigning_'My_Account'_permission_to_a_demo_user_is_accessible_20190418144816.png
+Thread#0:T:An assertion failed.
+Thread#0:T:Unable to perform action: zenatmos1@gmail.com on [By.XPath: //input[@id='phSearchInput']] . Please follow the below reason. 
+Thread#0:T:Element - By.XPath: //input[@id='phSearchInput'] was not found within time 30 seconds
+Thread#0:T: Please refer to the above [Screenshot] for more information...
+Thread#0:T:   at SeleniumAutomation.Selenium.UA.SafeSendKeys(By locator, String key, Int32 TimeOutInSeconds, String element_name
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Utilities\Generic\UA.cs:line 1560
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigateToUserDetailPage(String UserName
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 83
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigatingtoPermissionPage(String UserName
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 76
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.RemovePermission(String Permission, String UserName
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 97
+Thread#0:T:   at OneAtmosphere.Steps.SalesforceOperationsSteps.ThenRemovePermissionFromDemoUser(String Permission
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\SalesforceSteps.cs:line 63
+Thread#0:T:   at lambda_method(Closure , IContextManager , String )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.Then(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.SalesforceFeature.VerifyThatAssigningMyAccountPermissionToADemoUserIsAccessible(
+Thread#0:T:) in 
+Thread#0:T:D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\Salesforce.feature:line 9
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:error: An assertion failed.
+Thread#0:T:Unable to perform action: zenatmos1@gmail.com on [By.XPath: //input[@id='phSearchInput']] . Please follow the below reason. 
+Thread#0:T:Element - By.XPath: //input[@id='phSearchInput'] was not found within time 30 seconds
+Thread#0:T: Please refer to the above [Screenshot] for more information...
+Thread#0:T:   at SeleniumAutomation.Selenium.UA.SafeSendKeys(By locator, String key, Int32 TimeOutInSeconds, String element_name) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Utilities\Generic\UA.cs:line 1560
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigateToUserDetailPage(String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 83
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigatingtoPermissionPage(String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 76
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.RemovePermission(String Permission, String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 97
+Thread#0:T:   at OneAtmosphere.Steps.SalesforceOperationsSteps.ThenRemovePermissionFromDemoUser(String Permission) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\SalesforceSteps.cs:line 63
+Thread#0:T:   at lambda_method(Closure , IContextManager , String )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.Then(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.SalesforceFeature.VerifyThatAssigningMyAccountPermissionToADemoUserIsAccessible() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\Salesforce.feature:line 9
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:TestResult : TestError
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Navigate to url
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Enter username and password and login into OSVAtmos site
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Given Verify MyAccount in OneAtmos after removing permission
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Assign 'MyAccount' permission to Demo User
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Logout from Salesforce
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Given Verify MyAccount in OneAtmos after assigning permission
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Logout from application
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Verify the logout
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:An error ocurred:An assertion failed.
+Thread#0:T:Unable to perform action: zenatmos1@gmail.com on [By.XPath: //input[@id='phSearchInput']] . Please follow the below reason. 
+Thread#0:T:Element - By.XPath: //input[@id='phSearchInput'] was not found within time 30 seconds
+Thread#0:T: Please refer to the above [Screenshot] for more information...
+Thread#0:T:   at SeleniumAutomation.Selenium.UA.SafeSendKeys(By locator, String key, Int32 TimeOutInSeconds, String element_name) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Utilities\Generic\UA.cs:line 1560
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigateToUserDetailPage(String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 83
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.NavigatingtoPermissionPage(String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 76
+Thread#0:T:   at OneAtmos.Pages.PageParts.SalesforceHomePage.RemovePermission(String Permission, String UserName) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Pages\PageParts\SalesforceHomePage.cs:line 97
+Thread#0:T:   at OneAtmosphere.Steps.SalesforceOperationsSteps.ThenRemovePermissionFromDemoUser(String Permission) in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Steps\SalesforceSteps.cs:line 63
+Thread#0:T:   at lambda_method(Closure , IContextManager , String )
+Thread#0:T:   at System.Delegate.DynamicInvokeImpl(Object[] args)
+Thread#0:T:   at System.Delegate.DynamicInvoke(Object[] args)
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Step(StepDefinitionKeyword stepDefinitionKeyword, String keyword, String text, String multilineTextArg, Table tableArg)
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.Then(String text, String multilineTextArg, Table tableArg, String keyword)
+Thread#0:T:   at OneAtmosphere.Features.SalesforceFeature.VerifyThatAssigningMyAccountPermissionToADemoUserIsAccessible() in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\Features\Salesforce.feature:line 9
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.InvokeInstance(MethodInfo methodInfo, Object instance)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage& smuggledMrm)
+Thread#0:T:   at System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+Thread#0:T:   at System.Threading.Thread.CompleteCrossContextCallback(InternalCrossContextDelegate ftnToCall, Object[] args)
+Thread#0:T:It was of type:AssertionFailureException
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\OSVAtmosphereVSTS\OSVExperience\Automation_Report\OutPut\Log\log_18-04-2019.log
+Thread#0: Test #42/2 is finished on thread #0 as Failed within 94.749474 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-18T14:48:17.6292693+05:30;Thread#13;Info;test run finished
+2019-04-18T14:48:17.6292693+05:30;Thread#13;Info;publishing test results
+2019-04-18T14:48:17.6342698+05:30;Thread#13;Info;test results published
+2019-04-18T14:48:17.6342698+05:30;Thread#13;Info;generating reports
+2019-04-18T14:48:17.6762740+05:30;Thread#13;Info;creating 1 report(s)
+2019-04-18T14:48:17.6762740+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-04-18T14:48:19.3324396+05:30;Thread#13;Info;reports generated
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-04-18T14:48:19.3374401+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-18T14:48:19.3384402+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-18T144223.html'
+2019-04-18T14:48:19.3484412+05:30;VSTestExecutionThread;Info;Log file: file:///D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-18T144223.log

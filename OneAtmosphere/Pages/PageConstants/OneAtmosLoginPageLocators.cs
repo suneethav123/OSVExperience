@@ -18,7 +18,7 @@ namespace OneAtmos.Pages.PageConstants
         public static By Cancel_Link_Forgot_Password = By.XPath("//a[text()='Cancel']");
         public static By PasswordReset_Text_ForgotPasswordPage = By.XPath("//span[text()='PASSWORD RESET']");
         public static By Invalid_Error_MSG = By.XPath("//div[@class='error']/div");
-        public static By WelcomeAtmos_Text = By.XPath("//b[contains(text(),'Welcome to OSV Atmosphere')]");
+        public static By WelcomeAtmos_Text = By.XPath("//b[contains(text(),'Welcome To OSVAtmosphere')]");
         public static By OSVEmp_ClickHere_Link = By.XPath("//a[text()='OSV Employee? Click Here']");
 
 

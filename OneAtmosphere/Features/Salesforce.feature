@@ -2,21 +2,29 @@
 	
 
 @mytagP1
-Scenario: Verify that assigning 'My Account' permission to a demo user is accessible 
-	Given Open browser 'chrome'
-	Then  Navigate To SalesForce Url 
-	Then  Login into Salesforce with valid credentials
-	Then  Remove 'MyAccount' permission from Demo user
-	Given Open browser 'chrome'
-	Then  Navigate to url
+Scenario: Verify that assigning 'My Account' permission to a demo user is accessible
+    Given Open browser 'chrome'
+	Then  Navigate to url 
 	Then  Enter username and password and login into OSVAtmos site
-	Given Verify MyAccount in OneAtmos after removing permission
-	Then  Assign 'MyAccount' permission to Demo User
-	Then  Logout from Salesforce
-	Given Verify MyAccount in OneAtmos after assigning permission
-	Then  Logout from application
-	Then  Verify the logout
-	Then  Quit browser
+	Then  Click on User Admin
+	Then  Landed on User Administration page
+
+
+#Scenario: Verify that assigning 'My Account' permission to a demo user is accessible 
+#	Given Open browser 'chrome'
+#	Then  Navigate To SalesForce Url 
+#	Then  Login into Salesforce with valid credentials
+#	Then  Remove 'MyAccount' permission from Demo user
+#	Given Open browser 'chrome'
+#	Then  Navigate to url
+#	Then  Enter username and password and login into OSVAtmos site
+#	Given Verify MyAccount in OneAtmos after removing permission
+#	Then  Assign 'MyAccount' permission to Demo User
+#	Then  Logout from Salesforce
+#	Given Verify MyAccount in OneAtmos after assigning permission
+#	Then  Logout from application
+#	Then  Verify the logout
+#	Then  Quit browser
 
 @mytagP1
 Scenario: Verify that assigning 'Treasury Access' permission to a demo user is accessible 

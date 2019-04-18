@@ -1,0 +1,57 @@
+﻿2019-04-17T10:59:46.2068814+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-17T10:59:46.2108818+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-17T10:59:46.2968904+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-17T10:59:46.2978905+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-17T10:59:46.2978905+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-17T10:59:56.3798986+05:30;Thread#13;Info;starting test run
+2019-04-17T10:59:56.3868993+05:30;Thread#13;Info;Discovering target: Default
+2019-04-17T10:59:56.3878994+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#52: TaxExDataValidation - 
+#53: Data Validation for Missing Power of Attorney - TestAssembly:OneAtmosphere/Feature:TaxExDataValidation/Scenario:Data+Validation+for+Missing+Power+of+Attorney
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #53 from normal test queue 
+Thread#0:Scheduler: considering testitem #53 for thread 0
+Thread#0:TestItem#53:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#53:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#53:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #53 for thread 0
+Thread#0:Scheduler: Test #53 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #53/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Data Validation for Missing Power of Attorney in Feature:TaxExDataValidation
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (3.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url and enter username and password
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | url                        | username                   | password   |
+Thread#0:B:  | https://dev.taxex.net/app/ | sridevi.pediredla@zenq.com | Zenq@12345 |
+Thread#0:T:Url is https://dev.taxex.net/app/
+Thread#0:T:Username is sridevi.pediredla@zenq.com
+Thread#0:T:Password is Zenq@12345
+Thread#0:T:Navigated to Login Page
+Thread#0:T:done: TaxExDataValidationSteps.ThenNavigateToUrlAndEnterUsernameAndPassword(<table>) (10.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to Process > Import screen
+Thread#0:T:Navigating to Process Import page
+Thread#0:T:done: TaxExDataValidationSteps.ThenNavigateToProcessImportScreen() (12.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Import Xml into application
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:TaxEx xml file Import successful
+Thread#0:T:d

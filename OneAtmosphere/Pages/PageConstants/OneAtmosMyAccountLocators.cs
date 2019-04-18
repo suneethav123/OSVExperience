@@ -61,7 +61,7 @@ namespace OneAtmos.Pages.PageConstants
         public static By Contract_Number_Link = By.XPath(".//*[@id='contracts']//tr[1]/td[1]/span/div/a");
         public static By BackToPreviousPage_Link = By.XPath("//a[@class='backPage']");
         public static By Contract_Detail_Page_ContractText = By.XPath("//lightning-formatted-text [text()='Contract']");
-        public static By OneAtmosphere_Logo = By.XPath("//img[@title='Home']");
+        public static By OneAtmosphere_Logo = By.XPath("//img[@title='OSVAtmosphere']");
         public static By ClientSignedBy_Column_Contracts = By.XPath("//a[@id='CustomerSigned__c']");
         public static By ContractType_Column_Contracts = By.XPath("//a[@id='Type_of_Contract__c']");
         public static By StartDate_Column_Contracts = By.XPath("//a[@id='Contract_Start_Date__c']");

@@ -1,0 +1,226 @@
+﻿2019-04-17T17:16:38.5153369+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-04-17T17:16:38.5193373+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-17T17:16:38.6113465+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-17T17:16:38.6123466+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+2019-04-17T17:16:38.6123466+05:30;VSTestExecutionThread;Info;Profile: OneAtmosphere
+2019-04-17T17:16:49.6864539+05:30;Thread#13;Info;starting test run
+2019-04-17T17:16:49.6914544+05:30;Thread#13;Info;Discovering target: Default
+2019-04-17T17:16:49.6924545+05:30;Thread#13;Info;Discovering tests from assembly: D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\bin\Debug\OneAtmosphere.dll
+Appdomain Disposed
+Test Suite Dump
+#0: OneAtmosphere/OneAtmosphere - 
+#1: Default - 
+#2: OneAtmosphere - 
+#54: Tax - 
+#62: Verify 'Download icon' in 'Missing Power of Attorney' section - TestAssembly:OneAtmosphere/Feature:Tax/Scenario:Verify+%27Download+icon%27+in+%27Missing+Power+of+Attorney%27+section
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #62 from normal test queue 
+Thread#0:Scheduler: considering testitem #62 for thread 0
+Thread#0:TestItem#62:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#62:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#62:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #62 for thread 0
+Thread#0:Scheduler: Test #62 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for OneAtmosphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #62/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: No appender named [ConsoleAppender] could be found.
+Thread#0:T:[ERR]log4net:ERROR XmlHierarchyConfigurator: Appender named [ConsoleAppender] not found.
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Starting Execution of Scenario:=>Verify 'Download icon' in 'Missing Power of Attorney' section in Feature:Tax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (12.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (6.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Set location for downloaded 'Attention Needed Export' sheet
+Thread#0:T:Dtrectory C:\Users\kiranmai.amrutham\Downloads\OSVDownloads created ...
+Thread#0:T:done: TreasurySteps.GivenSetLocationForDownloadedSheet("Attention Needed ...") (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on Ellipses icon under Tax section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickedOnEllipsesIconUnderTaxSection() (3.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Landed in Tax page and verified
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenLandedInTaxPageAndVerified() (0.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Missing Power of Attorney link
+Thread#0:T:Missing Power of Attorney Link exists in Tax Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnMissingPowerOfAttorneyLink() (5.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Excel download icon under Details page
+Thread#0:T:No Of Records: 9
+Thread#0:T:Excel sheet downloaded
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnExcelDownloadIconUnderDetailsPage() (10.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify 'MissingPowerofAttorney' sheet after downloading 'Attention Needed Export' in Tax Page
+Thread#0:T:sourceFile : C:\Users\kiranmai.amrutham\Downloads\Attention Needed Export.xls
+Thread#0:T:destFile : C:\Users\kiranmai.amrutham\Downloads\OSVDownloads\Attention Needed Export.xls
+Thread#0:T:File: Attention Needed Export.xlsmoved from C:\Users\kiranmai.amrutham\Downloadsto C:\Users\kiranmai.amrutham\Downloads\OSVDownloads
+Thread#0:T:File moved to sub directory
+Thread#0:T:File renamed to MissingPowerofAttorney.xls
+Thread#0:T:error: Sorry, we couldn't find C:\Users\ZenQ\Downloads\OSVDownloads\MissingPowerofAttorney.xlsx. Is it possible it was moved, renamed or deleted?
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#62:Scheduler: reschedule tests for testitem #62
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #62
+Thread#0:Scheduler: considering testitem #62 for thread 0
+Thread#0:TestItem#62:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#62:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#62:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #62 for thread 0
+Thread#0:Scheduler: Test #62 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0:T:An error ocurred:Sorry, we couldn't find C:\Users\ZenQ\Downloads\OSVDownloads\MissingPowerofAttorney.xlsx. Is it possible it was moved, renamed or deleted?
+Thread#0:T:It was of type:COMException
+Thread#0: Test #62/0 is finished on thread #0 as Failed within 45.2095205 seconds
+Thread#0: Test #62/1 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify 'Download icon' in 'Missing Power of Attorney' section in Feature:Tax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.1s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (17.4s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (6.9s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Set location for downloaded 'Attention Needed Export' sheet
+Thread#0:T:done: TreasurySteps.GivenSetLocationForDownloadedSheet("Attention Needed ...") (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on Ellipses icon under Tax section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickedOnEllipsesIconUnderTaxSection() (3.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Landed in Tax page and verified
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenLandedInTaxPageAndVerified() (0.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Missing Power of Attorney link
+Thread#0:T:Missing Power of Attorney Link exists in Tax Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnMissingPowerOfAttorneyLink() (6.3s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Excel download icon under Details page
+Thread#0:T:No Of Records: 9
+Thread#0:T:Excel sheet downloaded
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnExcelDownloadIconUnderDetailsPage() (10.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify 'MissingPowerofAttorney' sheet after downloading 'Attention Needed Export' in Tax Page
+Thread#0:T:sourceFile : C:\Users\kiranmai.amrutham\Downloads\Attention Needed Export.xls
+Thread#0:T:destFile : C:\Users\kiranmai.amrutham\Downloads\OSVDownloads\Attention Needed Export.xls
+Thread#0:T:File: Attention Needed Export.xlsmoved from C:\Users\kiranmai.amrutham\Downloadsto C:\Users\kiranmai.amrutham\Downloads\OSVDownloads
+Thread#0:T:File moved to sub directory
+Thread#0:T:File renamed to MissingPowerofAttorney.xls
+Thread#0:T:error: Sorry, we couldn't find C:\Users\ZenQ\Downloads\OSVDownloads\MissingPowerofAttorney.xlsx. Is it possible it was moved, renamed or deleted?
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #62
+Thread#0:Scheduler: considering testitem #62 for thread 0
+Thread#0:TestItem#62:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#62:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#62:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #62 for thread 0
+Thread#0:Scheduler: Test #62 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0:T:An error ocurred:Sorry, we couldn't find C:\Users\ZenQ\Downloads\OSVDownloads\MissingPowerofAttorney.xlsx. Is it possible it was moved, renamed or deleted?
+Thread#0:T:It was of type:COMException
+Thread#0: Test #62/1 is finished on thread #0 as Failed within 48.0718067 seconds
+Thread#0: Test #62/2 is started on thread #0
+Thread#0:T:Starting Execution of Scenario:=>Verify 'Download icon' in 'Missing Power of Attorney' section in Feature:Tax
+Thread#0:B:Given Open browser 'chrome'
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIOpenBrowser("chrome") (2.2s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Navigate to url
+Thread#0:T:URL: https://qaprodcopy-onesourcevirtual.cs24.force.com/osvatmosphere
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenINavigateToUrl() (38.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Enter username and password and login into OneAtmos site
+Thread#0:T:UserName: testatmosuser@gmail.com
+Thread#0:T:Password: Second@1234!
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenIEnterUsernameAndPasswordAndLoginIntoOneAtmosSite() (47.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Landed on OneAtmos Home Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.GivenIAmOnTheOneAtmosHomePage() (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Given Set location for downloaded 'Attention Needed Export' sheet
+Thread#0:T:done: TreasurySteps.GivenSetLocationForDownloadedSheet("Attention Needed ...") (0.0s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Clicked on Ellipses icon under Tax section
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickedOnEllipsesIconUnderTaxSection() (8.8s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Landed in Tax page and verified
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenLandedInTaxPageAndVerified() (0.7s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Missing Power of Attorney link
+Thread#0:T:Missing Power of Attorney Link exists in Tax Page
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnMissingPowerOfAttorneyLink() (6.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Click on Excel download icon under Details page
+Thread#0:T:No Of Records: 9
+Thread#0:T:Excel sheet downloaded
+Thread#0:T:done: LoginHomeMyAccountTaxSteps.ThenClickOnExcelDownloadIconUnderDetailsPage() (10.5s)
+Thread#0:T:TestResult : OK
+Thread#0:B:Then Verify 'MissingPowerofAttorney' sheet after downloading 'Attention Needed Export' in Tax Page
+Thread#0:T:sourceFile : C:\Users\kiranmai.amrutham\Downloads\Attention Needed Export.xls
+Thread#0:T:destFile : C:\Users\kiranmai.amrutham\Downloads\OSVDownloads\Attention Needed Export.xls
+Thread#0:T:File: Attention Needed Export.xlsmoved from C:\Users\kiranmai.amrutham\Downloadsto C:\Users\kiranmai.amrutham\Downloads\OSVDownloads
+Thread#0:T:File moved to sub directory
+Thread#0:T:File renamed to MissingPowerofAttorney.xls
+Thread#0:T:error: Sorry, we couldn't find C:\Users\ZenQ\Downloads\OSVDownloads\MissingPowerofAttorney.xlsx. Is it possible it was moved, renamed or deleted?
+Thread#0:T:TestResult : TestError
+Thread#0:B:Then Quit browser
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:An error ocurred:Sorry, we couldn't find C:\Users\ZenQ\Downloads\OSVDownloads\MissingPowerofAttorney.xlsx. Is it possible it was moved, renamed or deleted?
+Thread#0:T:It was of type:COMException
+Thread#0:T:Full project path (Batch Execution):=>>>>>>>D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere
+Thread#0:T:Refer Log File:=>file:///D:\OSVAtmosphereVSTS\OSVExperience\Automation_Report\OutPut\Log\log_17-04-2019.log
+Thread#0: Test #62/2 is finished on thread #0 as Failed within 115.2005189 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-17T17:20:18.6243456+05:30;Thread#13;Info;test run finished
+2019-04-17T17:20:18.6243456+05:30;Thread#13;Info;publishing test results
+2019-04-17T17:20:18.6293461+05:30;Thread#13;Info;test results published
+2019-04-17T17:20:18.6293461+05:30;Thread#13;Info;generating reports
+2019-04-17T17:20:18.6363468+05:30;Thread#13;Info;creating 1 report(s)
+2019-04-17T17:20:18.6363468+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-04-17T17:20:19.7934625+05:30;Thread#13;Info;reports generated
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-04-17T17:20:19.7964628+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-17T17:20:19.7964628+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-17T171638.html'
+2019-04-17T17:20:19.8044636+05:30;VSTestExecutionThread;Info;Log file: file:///D:\OSVAtmosphereVSTS\OSVExperience\OneAtmosphere\TestResults\OneAtmosphere_OneAtmosphere_2019-04-17T171638.log
