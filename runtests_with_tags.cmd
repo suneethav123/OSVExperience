@@ -32,6 +32,7 @@ SpecRun run %Relativepath%%PathToRunnerProfile% "/baseFolder:%FullPathToDll%" /o
 
 popd
 
+
 set PathToReportFile=Automation_Report\SpecRun_Report\Report_%Date%.html
 set AbsolutePathToReportFile=%Relativepath%%PathToReportFile%
 pause
