@@ -1,3 +1,3 @@
-# OSVAtmosQAAutomation
+# TddQAAutomation
 
-OSV Atmos QA Automation
+TDD QA Automation
